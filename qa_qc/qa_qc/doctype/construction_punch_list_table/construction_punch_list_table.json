@@ -1,0 +1,128 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-12-27 22:09:33.565103",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "item",
+  "initiator",
+  "initiator_name",
+  "column_break_4",
+  "discipline_remedial_works",
+  "tag_no_remedial_works",
+  "target_date_remedial_works",
+  "section_break_8",
+  "a",
+  "b",
+  "date_contractor",
+  "sign_contractor",
+  "img",
+  "column_break_14",
+  "date_initiator",
+  "sign_initiator",
+  "img_initiator"
+ ],
+ "fields": [
+  {
+   "fieldname": "item",
+   "fieldtype": "Link",
+   "label": "Item",
+   "options": "Item"
+  },
+  {
+   "fieldname": "initiator",
+   "fieldtype": "Link",
+   "label": "Initiator",
+   "options": "Employee"
+  },
+  {
+   "fetch_from": "initiator.employee_name",
+   "fieldname": "initiator_name",
+   "fieldtype": "Data",
+   "label": "Initiator Name"
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "discipline_remedial_works",
+   "fieldtype": "Data",
+   "label": "Discipline (Remedial Works)"
+  },
+  {
+   "fieldname": "tag_no_remedial_works",
+   "fieldtype": "Data",
+   "label": "Tag No (Remedial Works)"
+  },
+  {
+   "fieldname": "target_date_remedial_works",
+   "fieldtype": "Date",
+   "label": "Target Date (Remedial Works)"
+  },
+  {
+   "fieldname": "section_break_8",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "a",
+   "fieldtype": "Data",
+   "label": "A"
+  },
+  {
+   "fieldname": "b",
+   "fieldtype": "Data",
+   "label": "B"
+  },
+  {
+   "fieldname": "date_contractor",
+   "fieldtype": "Date",
+   "label": "Date (Contractor)"
+  },
+  {
+   "fieldname": "sign_contractor",
+   "fieldtype": "Attach",
+   "label": "Sign (Contractor)"
+  },
+  {
+   "fetch_from": "sign_contractor",
+   "fieldname": "img",
+   "fieldtype": "Image",
+   "label": "Img",
+   "options": "sign_contractor"
+  },
+  {
+   "fieldname": "column_break_14",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "date_initiator",
+   "fieldtype": "Date",
+   "label": "Date (Initiator)"
+  },
+  {
+   "fieldname": "sign_initiator",
+   "fieldtype": "Attach",
+   "label": "Sign (Initiator)"
+  },
+  {
+   "fieldname": "img_initiator",
+   "fieldtype": "Image",
+   "label": "Img (Initiator)",
+   "options": "sign_initiator"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-12-27 22:47:18.226707",
+ "modified_by": "Administrator",
+ "module": "Qa Qc",
+ "name": "Construction Punch List Table",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

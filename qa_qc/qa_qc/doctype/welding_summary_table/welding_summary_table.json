@@ -1,0 +1,297 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-09-25 20:28:42.073034",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "line_details",
+  "line_manboard_drawing_num",
+  "stw_num",
+  "material_traceability_section",
+  "material_1",
+  "material_2",
+  "heal_num_1",
+  "column_break_8",
+  "heal_num_2",
+  "shopt_field",
+  "joint_detail_section",
+  "joint_num",
+  "joint_type",
+  "dea",
+  "column_break_15",
+  "sch",
+  "wps_no",
+  "weld_detail_section",
+  "welder_id",
+  "fit_up_date",
+  "column_break_21",
+  "weld_report_num",
+  "weld_date",
+  "ndt_details_section",
+  "rt",
+  "rt_report_num",
+  "rt_date",
+  "rt_acc_reject",
+  "column_break_29",
+  "ut_report_num",
+  "ut_report_date",
+  "mpsdpi_report_num",
+  "mpsdpi_report_date",
+  "pwht_section",
+  "pwht_report",
+  "column_break_36",
+  "pwht_date",
+  "hardness_section",
+  "hardness_report",
+  "column_break_40",
+  "hardness_date",
+  "ferrite_and_pmi_section",
+  "data_41",
+  "column_break_44",
+  "pmi_report",
+  "section_break_43",
+  "remarks"
+ ],
+ "fields": [
+  {
+   "fieldname": "line_details",
+   "fieldtype": "Section Break",
+   "label": "Line Details"
+  },
+  {
+   "fieldname": "line_manboard_drawing_num",
+   "fieldtype": "Data",
+   "label": "Line Manboard Drawing Num"
+  },
+  {
+   "fieldname": "stw_num",
+   "fieldtype": "Data",
+   "label": "Sht Num"
+  },
+  {
+   "fieldname": "material_traceability_section",
+   "fieldtype": "Section Break",
+   "label": "Material Traceability"
+  },
+  {
+   "fieldname": "material_1",
+   "fieldtype": "Data",
+   "label": "Material 1"
+  },
+  {
+   "fieldname": "material_2",
+   "fieldtype": "Data",
+   "label": "Material 2"
+  },
+  {
+   "fieldname": "heal_num_1",
+   "fieldtype": "Data",
+   "label": "Heal Num 1"
+  },
+  {
+   "fieldname": "column_break_8",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "heal_num_2",
+   "fieldtype": "Data",
+   "label": "Heal Num 2"
+  },
+  {
+   "fieldname": "shopt_field",
+   "fieldtype": "Data",
+   "label": "Shopt Field"
+  },
+  {
+   "fieldname": "joint_detail_section",
+   "fieldtype": "Section Break",
+   "label": "Joint Detail"
+  },
+  {
+   "fieldname": "joint_num",
+   "fieldtype": "Data",
+   "label": "Joint Num"
+  },
+  {
+   "fieldname": "joint_type",
+   "fieldtype": "Data",
+   "label": "Joint Type"
+  },
+  {
+   "fieldname": "dea",
+   "fieldtype": "Data",
+   "label": "DIA"
+  },
+  {
+   "fieldname": "column_break_15",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "sch",
+   "fieldtype": "Data",
+   "label": "UTG/THICK"
+  },
+  {
+   "fieldname": "wps_no",
+   "fieldtype": "Data",
+   "label": "WPS No"
+  },
+  {
+   "fieldname": "weld_detail_section",
+   "fieldtype": "Section Break",
+   "label": "Weld Detail"
+  },
+  {
+   "fieldname": "welder_id",
+   "fieldtype": "Data",
+   "label": "Welder ID"
+  },
+  {
+   "fieldname": "fit_up_date",
+   "fieldtype": "Date",
+   "label": "Fit Up Date"
+  },
+  {
+   "fieldname": "column_break_21",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "weld_report_num",
+   "fieldtype": "Data",
+   "label": "Weld Report Num"
+  },
+  {
+   "fieldname": "weld_date",
+   "fieldtype": "Date",
+   "label": "Weld Date"
+  },
+  {
+   "fieldname": "ndt_details_section",
+   "fieldtype": "Section Break",
+   "label": "NDT Details"
+  },
+  {
+   "fieldname": "rt",
+   "fieldtype": "Data",
+   "label": "RT%"
+  },
+  {
+   "fieldname": "rt_report_num",
+   "fieldtype": "Data",
+   "label": "RT Report Num"
+  },
+  {
+   "fieldname": "rt_date",
+   "fieldtype": "Date",
+   "label": "RT Date"
+  },
+  {
+   "fieldname": "rt_acc_reject",
+   "fieldtype": "Data",
+   "label": "RT ACC Reject"
+  },
+  {
+   "fieldname": "column_break_29",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "ut_report_num",
+   "fieldtype": "Data",
+   "label": "UT Report Num"
+  },
+  {
+   "fieldname": "ut_report_date",
+   "fieldtype": "Date",
+   "label": "UT Report Date"
+  },
+  {
+   "fieldname": "mpsdpi_report_num",
+   "fieldtype": "Data",
+   "label": "MPI/DPI Report Num"
+  },
+  {
+   "fieldname": "mpsdpi_report_date",
+   "fieldtype": "Date",
+   "label": "MPI/DPI Report Date"
+  },
+  {
+   "fieldname": "pwht_section",
+   "fieldtype": "Section Break",
+   "label": "PWHT"
+  },
+  {
+   "fieldname": "pwht_report",
+   "fieldtype": "Data",
+   "label": "PWHT Report"
+  },
+  {
+   "fieldname": "pwht_date",
+   "fieldtype": "Date",
+   "label": "PWHT Date"
+  },
+  {
+   "fieldname": "hardness_section",
+   "fieldtype": "Section Break",
+   "label": "Hardness"
+  },
+  {
+   "fieldname": "hardness_report",
+   "fieldtype": "Data",
+   "label": "Hardness Report"
+  },
+  {
+   "fieldname": "hardness_date",
+   "fieldtype": "Date",
+   "label": "Hardness Date"
+  },
+  {
+   "fieldname": "ferrite_and_pmi_section",
+   "fieldtype": "Section Break",
+   "label": "Ferrite and PMI"
+  },
+  {
+   "fieldname": "data_41",
+   "fieldtype": "Data",
+   "label": "Ferrite Report"
+  },
+  {
+   "fieldname": "pmi_report",
+   "fieldtype": "Data",
+   "label": "PMI Report"
+  },
+  {
+   "fieldname": "section_break_43",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Text",
+   "label": "Remarks"
+  },
+  {
+   "fieldname": "column_break_36",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_40",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_44",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-12-05 16:18:39.619973",
+ "modified_by": "Administrator",
+ "module": "Qa Qc",
+ "name": "Welding Summary Table",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

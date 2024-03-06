@@ -1,0 +1,35 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-11-24 20:29:01.584349",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "document__attachment",
+  "attach"
+ ],
+ "fields": [
+  {
+   "fieldname": "document__attachment",
+   "fieldtype": "Data",
+   "label": "Document / Attachment"
+  },
+  {
+   "fieldname": "attach",
+   "fieldtype": "Attach",
+   "label": "Attach"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-11-24 20:29:01.584349",
+ "modified_by": "Administrator",
+ "module": "Qa Qc",
+ "name": "Technical Query Table",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

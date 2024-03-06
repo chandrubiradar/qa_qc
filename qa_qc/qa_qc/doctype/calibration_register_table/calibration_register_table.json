@@ -1,0 +1,77 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-02-13 17:20:07.584156",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "equipment",
+  "description",
+  "serial_no",
+  "company_ref_no_of_equipment",
+  "certificate_no",
+  "date_of_inspection",
+  "date_of_next_inspection",
+  "certified_by",
+  "remarks"
+ ],
+ "fields": [
+  {
+   "fieldname": "equipment",
+   "fieldtype": "Data",
+   "label": "Equipment"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Data",
+   "label": "Description"
+  },
+  {
+   "fieldname": "serial_no",
+   "fieldtype": "Data",
+   "label": "Serial No."
+  },
+  {
+   "fieldname": "company_ref_no_of_equipment",
+   "fieldtype": "Data",
+   "label": "Company Ref. No. of Equipment"
+  },
+  {
+   "fieldname": "certificate_no",
+   "fieldtype": "Data",
+   "label": "Certificate no."
+  },
+  {
+   "fieldname": "date_of_inspection",
+   "fieldtype": "Date",
+   "label": "Date of Inspection"
+  },
+  {
+   "fieldname": "date_of_next_inspection",
+   "fieldtype": "Date",
+   "label": "Date of Next Inspection"
+  },
+  {
+   "fieldname": "certified_by",
+   "fieldtype": "Data",
+   "label": "Certified By"
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Data",
+   "label": "Remarks"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-02-13 17:20:07.584156",
+ "modified_by": "Administrator",
+ "module": "Qa Qc",
+ "name": "Calibration Register Table",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

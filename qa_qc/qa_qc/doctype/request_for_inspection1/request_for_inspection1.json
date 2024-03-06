@@ -1,0 +1,46 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-11-07 21:40:20.597409",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "data_1",
+  "mgcsb_construction",
+  "mgcsb_quality",
+  "bsp"
+ ],
+ "fields": [
+  {
+   "fieldname": "data_1",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "mgcsb_construction",
+   "fieldtype": "Data",
+   "label": "MGCSB Construction"
+  },
+  {
+   "fieldname": "mgcsb_quality",
+   "fieldtype": "Data",
+   "label": "MGCSB Quality"
+  },
+  {
+   "fieldname": "bsp",
+   "fieldtype": "Data",
+   "label": "BSP"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-11-07 21:40:32.798450",
+ "modified_by": "Administrator",
+ "module": "Qa Qc",
+ "name": "Request for inspection1",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

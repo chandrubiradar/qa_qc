@@ -1,0 +1,53 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-02-13 18:38:28.365051",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "standard_readingnm",
+  "standard_corrected_reading",
+  "test_readingmeannm",
+  "deviationnm",
+  "deviation_allowednm"
+ ],
+ "fields": [
+  {
+   "fieldname": "standard_readingnm",
+   "fieldtype": "Data",
+   "label": "Standard Reading(Nm)"
+  },
+  {
+   "fieldname": "standard_corrected_reading",
+   "fieldtype": "Data",
+   "label": "Standard Corrected Reading"
+  },
+  {
+   "fieldname": "test_readingmeannm",
+   "fieldtype": "Data",
+   "label": "Test Reading(Mean)(Nm)"
+  },
+  {
+   "fieldname": "deviationnm",
+   "fieldtype": "Data",
+   "label": "Deviation(Nm)"
+  },
+  {
+   "fieldname": "deviation_allowednm",
+   "fieldtype": "Data",
+   "label": "Deviation Allowed(Nm)"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-02-13 18:38:28.365051",
+ "modified_by": "Administrator",
+ "module": "Qa Qc",
+ "name": "Calibration Data Table",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

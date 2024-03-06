@@ -1,0 +1,240 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "Pre Pressure test safety checklist-.####",
+ "creation": "2023-12-26 17:49:56.530651",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "report_no",
+  "client",
+  "project",
+  "contract_no",
+  "job_no",
+  "date",
+  "specification",
+  "column_break_8",
+  "acceptance_criteria",
+  "test_procedure",
+  "system",
+  "location",
+  "drawing_number",
+  "line_number_equipment_no",
+  "test_medium",
+  "corrosion_inhibitor",
+  "section_break_17",
+  "table_17",
+  "section_break_19",
+  "performed_by_mgcsb_column",
+  "id21",
+  "n21",
+  "signature",
+  "image_24",
+  "d23",
+  "inspected_by__mgcsb_column",
+  "id27",
+  "name1",
+  "s26",
+  "image_30",
+  "d27",
+  "witnessinspectedreviewed_by_column",
+  "small_text_33"
+ ],
+ "fields": [
+  {
+   "fieldname": "report_no",
+   "fieldtype": "Data",
+   "label": "Report No"
+  },
+  {
+   "fieldname": "client",
+   "fieldtype": "Data",
+   "label": "Client"
+  },
+  {
+   "fieldname": "project",
+   "fieldtype": "Data",
+   "label": "Project"
+  },
+  {
+   "fieldname": "contract_no",
+   "fieldtype": "Data",
+   "label": "Contract No"
+  },
+  {
+   "fieldname": "job_no",
+   "fieldtype": "Data",
+   "label": "Job No"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "specification",
+   "fieldtype": "Data",
+   "label": "Specification"
+  },
+  {
+   "fieldname": "column_break_8",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "acceptance_criteria",
+   "fieldtype": "Data",
+   "label": "Acceptance Criteria"
+  },
+  {
+   "fieldname": "test_procedure",
+   "fieldtype": "Data",
+   "label": "Test procedure"
+  },
+  {
+   "fieldname": "system",
+   "fieldtype": "Data",
+   "label": "System"
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Link",
+   "label": "Location",
+   "options": "Mashhor Area"
+  },
+  {
+   "fieldname": "drawing_number",
+   "fieldtype": "Data",
+   "label": "Drawing Number"
+  },
+  {
+   "fieldname": "line_number_equipment_no",
+   "fieldtype": "Data",
+   "label": "Line Number Equipment No"
+  },
+  {
+   "fieldname": "test_medium",
+   "fieldtype": "Data",
+   "label": "Test Medium"
+  },
+  {
+   "fieldname": "corrosion_inhibitor",
+   "fieldtype": "Data",
+   "label": "Corrosion Inhibitor"
+  },
+  {
+   "fieldname": "table_17",
+   "fieldtype": "Table",
+   "options": "Pre pressure test safety child table"
+  },
+  {
+   "fieldname": "section_break_17",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_19",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "performed_by_mgcsb_column",
+   "fieldtype": "Column Break",
+   "label": "Performed by (MGCSB)"
+  },
+  {
+   "depends_on": "eval:doc.id21",
+   "fetch_from": "id21.employee_name",
+   "fieldname": "n21",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "signature",
+   "fieldtype": "Attach",
+   "label": "signature"
+  },
+  {
+   "fieldname": "d23",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "inspected_by__mgcsb_column",
+   "fieldtype": "Column Break",
+   "label": "Inspected By  (MGCSB)"
+  },
+  {
+   "depends_on": "eval:doc.id27",
+   "fetch_from": "id27.employee_name",
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "s26",
+   "fieldtype": "Attach",
+   "label": "Signature"
+  },
+  {
+   "fieldname": "d27",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "witnessinspectedreviewed_by_column",
+   "fieldtype": "Column Break",
+   "label": "Witness/inspected/Reviewed By "
+  },
+  {
+   "fieldname": "id21",
+   "fieldtype": "Link",
+   "label": "ID",
+   "options": "Employee"
+  },
+  {
+   "depends_on": "eval:doc.signature",
+   "fieldname": "image_24",
+   "fieldtype": "Image",
+   "options": "signature"
+  },
+  {
+   "fieldname": "id27",
+   "fieldtype": "Link",
+   "label": "ID",
+   "options": "Employee"
+  },
+  {
+   "depends_on": "eval:doc.s26",
+   "fieldname": "image_30",
+   "fieldtype": "Image",
+   "options": "s26"
+  },
+  {
+   "fieldname": "small_text_33",
+   "fieldtype": "Small Text"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-01-03 22:05:24.244622",
+ "modified_by": "Administrator",
+ "module": "Qa Qc",
+ "name": "Pre Pressure test safety checklist",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

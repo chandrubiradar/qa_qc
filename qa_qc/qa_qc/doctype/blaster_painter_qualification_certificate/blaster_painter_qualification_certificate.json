@@ -1,0 +1,309 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-02-10 20:00:02.541141",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "certificate_no",
+  "employees_namecontractor",
+  "stamp_no",
+  "column_break_4",
+  "name_of_painterblaster",
+  "position",
+  "date_of_test",
+  "painting_conditions_section",
+  "wet_bulb_temp",
+  "relative_humidity",
+  "dry_bulb_temp",
+  "dew_point_temp",
+  "column_break_13",
+  "st_steel_temperature",
+  "profile",
+  "microns",
+  "test_details_and_results_section",
+  "table_18",
+  "remarks",
+  "blasting_conditions_section",
+  "wet_bulb_temp2",
+  "relative_humidity2",
+  "dry_bulb_temp2",
+  "dew_point_temp2",
+  "column_break_25",
+  "steel_temp",
+  "abrasive_garnet",
+  "air_pressure",
+  "nozzle_size",
+  "section_break_30",
+  "table_31",
+  "section_break_32",
+  "column_break_33",
+  "prepared_by",
+  "name1",
+  "signature1",
+  "date1",
+  "column_break_38",
+  "reviwed_by",
+  "name2",
+  "signature2",
+  "date2",
+  "column_break_43",
+  "certified_by",
+  "name3",
+  "signature3",
+  "date3"
+ ],
+ "fields": [
+  {
+   "fieldname": "certificate_no",
+   "fieldtype": "Data",
+   "label": "Certificate No."
+  },
+  {
+   "fieldname": "employees_namecontractor",
+   "fieldtype": "Data",
+   "label": "Employee's Name/Contractor"
+  },
+  {
+   "fieldname": "position",
+   "fieldtype": "Data",
+   "label": "Position"
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "name_of_painterblaster",
+   "fieldtype": "Data",
+   "label": "Name of Painter/Blaster"
+  },
+  {
+   "fieldname": "stamp_no",
+   "fieldtype": "Data",
+   "label": "Stamp No."
+  },
+  {
+   "fieldname": "date_of_test",
+   "fieldtype": "Date",
+   "label": "Date of Test"
+  },
+  {
+   "fieldname": "painting_conditions_section",
+   "fieldtype": "Section Break",
+   "label": "Painting Conditions"
+  },
+  {
+   "fieldname": "wet_bulb_temp",
+   "fieldtype": "Data",
+   "label": "Wet Bulb Temp."
+  },
+  {
+   "fieldname": "relative_humidity",
+   "fieldtype": "Data",
+   "label": "Relative Humidity"
+  },
+  {
+   "fieldname": "dry_bulb_temp",
+   "fieldtype": "Data",
+   "label": "Dry Bulb Temp."
+  },
+  {
+   "fieldname": "dew_point_temp",
+   "fieldtype": "Data",
+   "label": "Dew Point Temp."
+  },
+  {
+   "fieldname": "column_break_13",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "st_steel_temperature",
+   "fieldtype": "Data",
+   "label": "ST-Steel Temperature"
+  },
+  {
+   "fieldname": "profile",
+   "fieldtype": "Data",
+   "label": "Profile"
+  },
+  {
+   "fieldname": "microns",
+   "fieldtype": "Data",
+   "label": "Microns"
+  },
+  {
+   "fieldname": "test_details_and_results_section",
+   "fieldtype": "Section Break",
+   "label": "Test Details and Results"
+  },
+  {
+   "fieldname": "table_18",
+   "fieldtype": "Table",
+   "options": "Blaster_Painter Qualification Table"
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Small Text",
+   "label": "Remarks"
+  },
+  {
+   "fieldname": "blasting_conditions_section",
+   "fieldtype": "Section Break",
+   "label": "Blasting Conditions"
+  },
+  {
+   "fieldname": "wet_bulb_temp2",
+   "fieldtype": "Data",
+   "label": "Wet Bulb Temp."
+  },
+  {
+   "fieldname": "relative_humidity2",
+   "fieldtype": "Data",
+   "label": "Relative Humidity"
+  },
+  {
+   "fieldname": "dry_bulb_temp2",
+   "fieldtype": "Data",
+   "label": "Dry Bulb Temp."
+  },
+  {
+   "fieldname": "dew_point_temp2",
+   "fieldtype": "Data",
+   "label": "Dew point Temp."
+  },
+  {
+   "fieldname": "column_break_25",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "steel_temp",
+   "fieldtype": "Data",
+   "label": "Steel Temp."
+  },
+  {
+   "fieldname": "abrasive_garnet",
+   "fieldtype": "Data",
+   "label": "Abrasive Garnet"
+  },
+  {
+   "fieldname": "air_pressure",
+   "fieldtype": "Data",
+   "label": "Air Pressure"
+  },
+  {
+   "fieldname": "nozzle_size",
+   "fieldtype": "Data",
+   "label": "Nozzle Size"
+  },
+  {
+   "fieldname": "section_break_30",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "table_31",
+   "fieldtype": "Table",
+   "options": "Blaster_Painter Qualification Table2"
+  },
+  {
+   "fieldname": "section_break_32",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "prepared_by",
+   "fieldtype": "Data",
+   "label": "Prepared By:"
+  },
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "signature1",
+   "fieldtype": "Attach",
+   "label": "Signature"
+  },
+  {
+   "fieldname": "date1",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "reviwed_by",
+   "fieldtype": "Data",
+   "label": "Reviewed By:"
+  },
+  {
+   "fieldname": "name2",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "signature2",
+   "fieldtype": "Attach",
+   "label": "Signature"
+  },
+  {
+   "fieldname": "date2",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "certified_by",
+   "fieldtype": "Data",
+   "label": "Certified By:"
+  },
+  {
+   "fieldname": "name3",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "signature3",
+   "fieldtype": "Attach",
+   "label": "Signature"
+  },
+  {
+   "fieldname": "date3",
+   "fieldtype": "Data",
+   "label": "Date"
+  },
+  {
+   "fieldname": "column_break_33",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_38",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_43",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-02-10 21:14:27.656758",
+ "modified_by": "Administrator",
+ "module": "Qa Qc",
+ "name": "Blaster_Painter Qualification Certificate",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

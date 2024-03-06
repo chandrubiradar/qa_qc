@@ -1,0 +1,623 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "RFI.####",
+ "creation": "2023-11-08 19:35:19.040887",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "client__location",
+  "l2",
+  "location_name",
+  "project_name",
+  "discipline",
+  "civil",
+  "mechanical",
+  "electrical",
+  "survey",
+  "instru",
+  "others1",
+  "column_break_11",
+  "contractor",
+  "contractor_no",
+  "request_no",
+  "won",
+  "activity",
+  "section_break_11",
+  "submitted_byconstruction",
+  "n25",
+  "designation",
+  "column_break_12",
+  "date33",
+  "tim6",
+  "section_break_16",
+  "received_by_qaqc",
+  "name1",
+  "d",
+  "column_break_18",
+  "date",
+  "time",
+  "section_break_20",
+  "confirmed_by_bsp_qaqc",
+  "n34",
+  "d35",
+  "section_break_22",
+  "date_23",
+  "t25",
+  "section_break_26",
+  "work_permit_required",
+  "yes",
+  "no",
+  "column_break_16",
+  "project_quality_plan",
+  "hold_point",
+  "witness_point",
+  "section_break_29",
+  "request_for_inspection_and_approval",
+  "column_break_31",
+  "enclosures",
+  "check_list",
+  "related_drawings",
+  "others",
+  "column_break_36",
+  "location",
+  "column_break_37",
+  "specref",
+  "column_break_39",
+  "dwg_no",
+  "section_break_42",
+  "planned_datetime_of_inspection",
+  "small_text_42",
+  "column_break_43",
+  "actual_datetime_inspected",
+  "engineering_certificate_action_code_for_item_checked",
+  "text_57",
+  "small_text_46",
+  "section_break_47",
+  "table_48",
+  "section_break_49",
+  "remarks",
+  "small_text_51",
+  "section_break_54",
+  "mgcsb_construction_column",
+  "id57",
+  "name56",
+  "date57",
+  "signature1",
+  "image_59",
+  "mgcsb_quality_column",
+  "id63",
+  "name61",
+  "date62",
+  "signature2",
+  "image_64",
+  "bsp_column",
+  "id",
+  "name66",
+  "date67",
+  "signature3",
+  "image_69"
+ ],
+ "fields": [
+  {
+   "fetch_from": "activity.contract",
+   "fieldname": "client__location",
+   "fieldtype": "Link",
+   "label": "Client ",
+   "options": "Contract"
+  },
+  {
+   "fetch_from": "activity.mashhor_area",
+   "fieldname": "l2",
+   "fieldtype": "Link",
+   "label": "Location",
+   "options": "Mashhor Area"
+  },
+  {
+   "depends_on": "eval:doc.l2 == \"OTHERS-OTHERS\"",
+   "fieldname": "location_name",
+   "fieldtype": "Data",
+   "label": "Location Name"
+  },
+  {
+   "fetch_from": "activity.contract",
+   "fieldname": "project_name",
+   "fieldtype": "Link",
+   "label": "Project Name",
+   "options": "Contract"
+  },
+  {
+   "fetch_from": "activity.task_department",
+   "fieldname": "discipline",
+   "fieldtype": "Data",
+   "label": "Discipline"
+  },
+  {
+   "default": "0",
+   "fieldname": "civil",
+   "fieldtype": "Check",
+   "label": "civil"
+  },
+  {
+   "default": "0",
+   "fieldname": "mechanical",
+   "fieldtype": "Check",
+   "label": "Mechanical"
+  },
+  {
+   "default": "0",
+   "fieldname": "electrical",
+   "fieldtype": "Check",
+   "label": "Electrical"
+  },
+  {
+   "default": "0",
+   "fieldname": "survey",
+   "fieldtype": "Check",
+   "label": "Survey"
+  },
+  {
+   "default": "0",
+   "fieldname": "instru",
+   "fieldtype": "Check",
+   "label": "Instru"
+  },
+  {
+   "default": "0",
+   "fieldname": "others1",
+   "fieldtype": "Check",
+   "label": "Others"
+  },
+  {
+   "fieldname": "column_break_11",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "MGCSB",
+   "fieldname": "contractor",
+   "fieldtype": "Data",
+   "label": "Contractor"
+  },
+  {
+   "fieldname": "contractor_no",
+   "fieldtype": "Data",
+   "label": "Contract No"
+  },
+  {
+   "fieldname": "request_no",
+   "fieldtype": "Data",
+   "label": "Request No"
+  },
+  {
+   "fetch_from": "activity.project",
+   "fieldname": "won",
+   "fieldtype": "Link",
+   "label": "WON",
+   "options": "Project"
+  },
+  {
+   "fieldname": "activity",
+   "fieldtype": "Link",
+   "label": "Activity",
+   "options": "Task"
+  },
+  {
+   "fieldname": "section_break_11",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "submitted_byconstruction",
+   "fieldtype": "Link",
+   "label": "Submitted By(Construction)",
+   "options": "User"
+  },
+  {
+   "fieldname": "column_break_12",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "activity.completed_on",
+   "fieldname": "date33",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "tim6",
+   "fieldtype": "Time",
+   "label": "Time"
+  },
+  {
+   "fieldname": "section_break_16",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "received_by_qaqc",
+   "fieldtype": "Link",
+   "label": "Received By (QA/QC)",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "column_break_18",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "time",
+   "fieldtype": "Time",
+   "label": "Time"
+  },
+  {
+   "fieldname": "section_break_20",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "confirmed_by_bsp_qaqc",
+   "fieldtype": "Link",
+   "label": "Confirmed By (BSP QA/QC)",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "section_break_22",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "date_23",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "t25",
+   "fieldtype": "Time",
+   "label": "Time"
+  },
+  {
+   "fieldname": "section_break_26",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "work_permit_required",
+   "fieldtype": "HTML",
+   "label": "Work Permit Required",
+   "options": "Work Permit Required"
+  },
+  {
+   "default": "0",
+   "fieldname": "yes",
+   "fieldtype": "Check",
+   "label": "Yes"
+  },
+  {
+   "default": "0",
+   "fieldname": "no",
+   "fieldtype": "Check",
+   "label": "No"
+  },
+  {
+   "fieldname": "column_break_16",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "project_quality_plan",
+   "fieldtype": "HTML",
+   "label": "Project Quality Plan",
+   "options": "Project Quality Plan"
+  },
+  {
+   "default": "0",
+   "fieldname": "hold_point",
+   "fieldtype": "Check",
+   "label": "Hold Point"
+  },
+  {
+   "default": "0",
+   "fieldname": "witness_point",
+   "fieldtype": "Check",
+   "label": "Witness point"
+  },
+  {
+   "fieldname": "section_break_29",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "request_for_inspection_and_approval",
+   "fieldtype": "Small Text",
+   "label": "Request for inspection and Approval"
+  },
+  {
+   "fieldname": "column_break_31",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "enclosures",
+   "fieldtype": "HTML",
+   "label": "Enclosures",
+   "options": "Enclosures"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_list",
+   "fieldtype": "Check",
+   "label": "Check list"
+  },
+  {
+   "default": "0",
+   "fieldname": "related_drawings",
+   "fieldtype": "Check",
+   "label": "Related drawings"
+  },
+  {
+   "default": "0",
+   "fieldname": "others",
+   "fieldtype": "Check",
+   "label": "others"
+  },
+  {
+   "fieldname": "column_break_36",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Link",
+   "label": "Location",
+   "options": "Mashhor Area"
+  },
+  {
+   "fieldname": "column_break_37",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "specref",
+   "fieldtype": "Data",
+   "label": "Spec.Ref"
+  },
+  {
+   "fieldname": "column_break_39",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dwg_no",
+   "fieldtype": "Data",
+   "label": "DWG. No"
+  },
+  {
+   "fieldname": "section_break_42",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "planned_datetime_of_inspection",
+   "fieldtype": "Datetime",
+   "label": "Planned Date/Time of Inspection"
+  },
+  {
+   "fieldname": "small_text_42",
+   "fieldtype": "HTML",
+   "options": "THE MGCSB CONSTRUCTION TEAM REQUESTS INSPECTION OF THE FOLLOWING MATERIALS AND CERTIFIES THAT ALL ITEMS HAVE BEEN AS PER SPECIFICATIONS"
+  },
+  {
+   "fieldname": "column_break_43",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "actual_datetime_inspected",
+   "fieldtype": "Datetime",
+   "label": "Actual Date/Time Inspected"
+  },
+  {
+   "fieldname": "engineering_certificate_action_code_for_item_checked",
+   "fieldtype": "HTML",
+   "label": "Engineering Certificate Action Code For Item Checked",
+   "options": "Engineering Certificate Action Code For Item Checked"
+  },
+  {
+   "fieldname": "text_57",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "small_text_46",
+   "fieldtype": "HTML",
+   "options": "A - ACCEPTED AS INSPECTED\nB - RE-INSPECTION REQUIRED, SEE REMARKS\nC - REJECTED, SEE MARKS"
+  },
+  {
+   "fieldname": "section_break_47",
+   "fieldtype": "Section Break"
+  },
+  {
+   "columns": 5,
+   "fieldname": "table_48",
+   "fieldtype": "Table",
+   "options": "Request for inspection table"
+  },
+  {
+   "fieldname": "section_break_49",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Small Text",
+   "label": "Remarks"
+  },
+  {
+   "fieldname": "small_text_51",
+   "fieldtype": "HTML",
+   "options": "Acceptance does not relieve the contractor from his responsibility and liability conceming compliance with contract requirement "
+  },
+  {
+   "fieldname": "section_break_54",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "mgcsb_construction_column",
+   "fieldtype": "Column Break",
+   "label": "MGCSB Construction"
+  },
+  {
+   "fieldname": "id57",
+   "fieldtype": "Link",
+   "label": "ID",
+   "options": "Employee"
+  },
+  {
+   "depends_on": "eval:doc.id57",
+   "fetch_from": "id57.employee_name",
+   "fieldname": "name56",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "date57",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "signature1",
+   "fieldtype": "Attach",
+   "label": "Signature"
+  },
+  {
+   "depends_on": "eval:doc.signature1",
+   "fieldname": "image_59",
+   "fieldtype": "Image",
+   "options": "signature1"
+  },
+  {
+   "fieldname": "mgcsb_quality_column",
+   "fieldtype": "Column Break",
+   "label": "MGCSB Quality"
+  },
+  {
+   "fieldname": "id63",
+   "fieldtype": "Link",
+   "label": "ID",
+   "options": "Employee"
+  },
+  {
+   "depends_on": "eval:doc.id63",
+   "fetch_from": "id63.employee_name",
+   "fieldname": "name61",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "date62",
+   "fieldtype": "Date",
+   "label": "date"
+  },
+  {
+   "fieldname": "signature2",
+   "fieldtype": "Attach",
+   "label": "Signature"
+  },
+  {
+   "depends_on": "eval:doc.signature2",
+   "fieldname": "image_64",
+   "fieldtype": "Image",
+   "options": "signature2"
+  },
+  {
+   "fieldname": "bsp_column",
+   "fieldtype": "Column Break",
+   "label": "BSP"
+  },
+  {
+   "fieldname": "id",
+   "fieldtype": "Link",
+   "hidden": 1,
+   "label": "ID",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "name66",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "date67",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "signature3",
+   "fieldtype": "Attach",
+   "label": "Signature"
+  },
+  {
+   "depends_on": "eval:doc.signature3",
+   "fieldname": "image_69",
+   "fieldtype": "Image",
+   "options": "signature3"
+  },
+  {
+   "fetch_from": "submitted_byconstruction.username",
+   "fieldname": "designation",
+   "fieldtype": "Data",
+   "label": "Designation"
+  },
+  {
+   "fetch_from": "submitted_byconstruction.full_name",
+   "fieldname": "n25",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fetch_from": "received_by_qaqc.employee_name",
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Name"
+  },
+  {
+   "fetch_from": "received_by_qaqc.designation",
+   "fieldname": "d",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Designation"
+  },
+  {
+   "fetch_from": "confirmed_by_bsp_qaqc.employee_name",
+   "fieldname": "n34",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Name"
+  },
+  {
+   "fetch_from": "confirmed_by_bsp_qaqc.designation",
+   "fieldname": "d35",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Designation"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [
+  {
+   "link_doctype": "QC Inspection Requirement Sheet",
+   "link_fieldname": "rfi"
+  }
+ ],
+ "modified": "2023-12-05 15:30:47.631813",
+ "modified_by": "Administrator",
+ "module": "Qa Qc",
+ "name": "Request For Inspection Old",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

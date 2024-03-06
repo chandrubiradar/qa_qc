@@ -1,0 +1,47 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-02-13 13:37:47.124732",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "sl_no",
+  "description",
+  "date_cleared",
+  "cleared_byname_and_signature"
+ ],
+ "fields": [
+  {
+   "fieldname": "sl_no",
+   "fieldtype": "Data",
+   "label": "Sl. No."
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Data",
+   "label": "Description"
+  },
+  {
+   "fieldname": "date_cleared",
+   "fieldtype": "Date",
+   "label": "Date Cleared"
+  },
+  {
+   "fieldname": "cleared_byname_and_signature",
+   "fieldtype": "Data",
+   "label": "Cleared by(Name and Signature)"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-02-13 13:45:05.872248",
+ "modified_by": "Administrator",
+ "module": "Qa Qc",
+ "name": "Pressure Test Clearance Table",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

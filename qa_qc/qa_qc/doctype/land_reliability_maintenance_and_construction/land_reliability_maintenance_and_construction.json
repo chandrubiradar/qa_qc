@@ -1,0 +1,432 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-12-28 14:56:05.270897",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "page",
+  "system_no",
+  "mgcsb_contract_no",
+  "testpack_no",
+  "column_break_5",
+  "drawing_no",
+  "rev",
+  "equipment_no",
+  "location",
+  "foundation_completion_section",
+  "html_11",
+  "section_break_12",
+  "formwork_removed",
+  "html_14",
+  "html_15",
+  "html_16",
+  "html_17",
+  "html_18",
+  "html_19",
+  "html_20",
+  "html_21",
+  "html_22",
+  "html_23",
+  "yes_column",
+  "check_14",
+  "check_26",
+  "check_27",
+  "check_28",
+  "check_29",
+  "check_30",
+  "check_31",
+  "check_32",
+  "check_33",
+  "check_34",
+  "check_35",
+  "na_column",
+  "check_16",
+  "check_38",
+  "check_39",
+  "check_40",
+  "check_41",
+  "check_42",
+  "check_43",
+  "check_44",
+  "check_45",
+  "check_46",
+  "check_47",
+  "no_column",
+  "check_18",
+  "check_50",
+  "check_51",
+  "check_52",
+  "check_53",
+  "check_54",
+  "check_55",
+  "check_56",
+  "check_57",
+  "check_58",
+  "check_59",
+  "section_break_60",
+  "table_61",
+  "2_foundation_acceptance",
+  "3_remarks_no_remarks",
+  "section_break_64",
+  "name1",
+  "table_65"
+ ],
+ "fields": [
+  {
+   "fieldname": "page",
+   "fieldtype": "Data",
+   "label": "Page"
+  },
+  {
+   "fieldname": "system_no",
+   "fieldtype": "Data",
+   "label": "System No"
+  },
+  {
+   "fieldname": "mgcsb_contract_no",
+   "fieldtype": "Data",
+   "label": "MGCSB Contract No"
+  },
+  {
+   "fieldname": "testpack_no",
+   "fieldtype": "Data",
+   "label": "Testpack No"
+  },
+  {
+   "fieldname": "drawing_no",
+   "fieldtype": "Data",
+   "label": "Drawing No"
+  },
+  {
+   "fieldname": "rev",
+   "fieldtype": "Data",
+   "label": "Rev"
+  },
+  {
+   "fieldname": "equipment_no",
+   "fieldtype": "Data",
+   "label": "Equipment No"
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Link",
+   "label": "Location",
+   "options": "Mashhor Area"
+  },
+  {
+   "fieldname": "column_break_5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "foundation_completion_section",
+   "fieldtype": "Section Break",
+   "label": "Foundation Completion"
+  },
+  {
+   "fieldname": "html_11",
+   "fieldtype": "HTML",
+   "options": "The above Equipment / Item No foundation base is complete and the following inspections have been carried out"
+  },
+  {
+   "fieldname": "formwork_removed",
+   "fieldtype": "HTML",
+   "options": "Formwork Removed"
+  },
+  {
+   "fieldname": "yes_column",
+   "fieldtype": "Column Break",
+   "label": "YES"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_14",
+   "fieldtype": "Check"
+  },
+  {
+   "fieldname": "na_column",
+   "fieldtype": "Column Break",
+   "label": "N/A"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_16",
+   "fieldtype": "Check"
+  },
+  {
+   "fieldname": "no_column",
+   "fieldtype": "Column Break",
+   "label": "NO"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_18",
+   "fieldtype": "Check"
+  },
+  {
+   "fieldname": "section_break_12",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "html_14",
+   "fieldtype": "HTML",
+   "options": "Final location and elevation verified"
+  },
+  {
+   "fieldname": "html_15",
+   "fieldtype": "HTML",
+   "options": "Overall concrete finish acceptable"
+  },
+  {
+   "fieldname": "html_16",
+   "fieldtype": "HTML",
+   "options": "Pedestal top surface prepared for grout"
+  },
+  {
+   "fieldname": "html_17",
+   "fieldtype": "HTML",
+   "options": "Anchor bolt centre lines and size verified"
+  },
+  {
+   "fieldname": "html_18",
+   "fieldtype": "HTML",
+   "options": "Anchor bolts are straight, threads clean and sleeves clear"
+  },
+  {
+   "fieldname": "html_19",
+   "fieldtype": "HTML",
+   "options": "Anchor bolts projection correct"
+  },
+  {
+   "fieldname": "html_20",
+   "fieldtype": "HTML",
+   "options": "Other embedded items checked"
+  },
+  {
+   "fieldname": "html_21",
+   "fieldtype": "HTML",
+   "options": "Centre lines of base are marked and identified"
+  },
+  {
+   "fieldname": "html_22",
+   "fieldtype": "HTML",
+   "options": "Waterproofing/painting"
+  },
+  {
+   "fieldname": "html_23",
+   "fieldtype": "HTML",
+   "options": "Backfilling and compaction"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_26",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_27",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_28",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_29",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_30",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_31",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_32",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_33",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_34",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_35",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_38",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_39",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_40",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_41",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_42",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_43",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_44",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_45",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_46",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_47",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_50",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_51",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_52",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_53",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_54",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_55",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_56",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_57",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_58",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_59",
+   "fieldtype": "Check"
+  },
+  {
+   "fieldname": "section_break_60",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "table_61",
+   "fieldtype": "Table",
+   "options": "LAND RELIABILITY Table"
+  },
+  {
+   "fieldname": "2_foundation_acceptance",
+   "fieldtype": "Text",
+   "label": "2. Foundation Acceptance"
+  },
+  {
+   "fieldname": "3_remarks_no_remarks",
+   "fieldtype": "Text",
+   "in_list_view": 1,
+   "label": "3. Remarks/ No Remarks",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_64",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "table_65",
+   "fieldtype": "Table",
+   "options": "LAND RELIABILITY Table1"
+  },
+  {
+   "default": "8fd35be311",
+   "fieldname": "name1",
+   "fieldtype": "Link",
+   "label": "Name1",
+   "options": "LAND RELIABILITY Template"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-12-28 18:09:09.492783",
+ "modified_by": "Administrator",
+ "module": "Qa Qc",
+ "name": "LAND RELIABILITY MAINTENANCE AND CONSTRUCTION",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

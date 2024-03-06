@@ -1,0 +1,260 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "UMP-.####",
+ "creation": "2023-12-29 18:49:08.835309",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "system_no",
+  "test_pack_no",
+  "line_no",
+  "column_break_4",
+  "mgcsb_contract_no",
+  "area",
+  "drawing_no",
+  "rev",
+  "section_break_9",
+  "underground_metallic_template",
+  "table_11",
+  "section_break_12",
+  "remarks__no_remarks_delete_as_applicable",
+  "data_14",
+  "sub_contractor_column",
+  "c16",
+  "s17",
+  "image_18",
+  "id19",
+  "n19",
+  "d20",
+  "main_contractor_column",
+  "c22",
+  "s23",
+  "image_24",
+  "id26",
+  "n25",
+  "d26",
+  "company_representative_column",
+  "c28",
+  "s29",
+  "image_30",
+  "id33",
+  "n31",
+  "d32"
+ ],
+ "fields": [
+  {
+   "fieldname": "system_no",
+   "fieldtype": "Data",
+   "label": "System No"
+  },
+  {
+   "fieldname": "test_pack_no",
+   "fieldtype": "Data",
+   "label": "Test Pack No"
+  },
+  {
+   "fieldname": "line_no",
+   "fieldtype": "Data",
+   "label": "Line No"
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "mgcsb_contract_no",
+   "fieldtype": "Data",
+   "label": "MGCSB Contract No"
+  },
+  {
+   "fieldname": "area",
+   "fieldtype": "Data",
+   "label": "Area"
+  },
+  {
+   "fieldname": "drawing_no",
+   "fieldtype": "Data",
+   "label": "Drawing No"
+  },
+  {
+   "fieldname": "rev",
+   "fieldtype": "Data",
+   "label": "Rev"
+  },
+  {
+   "fieldname": "section_break_9",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "4618390436",
+   "fieldname": "underground_metallic_template",
+   "fieldtype": "Link",
+   "hidden": 1,
+   "label": "UNDERGROUND METALLIC Template",
+   "options": "UNDERGROUND METALLIC Template"
+  },
+  {
+   "fieldname": "table_11",
+   "fieldtype": "Table",
+   "options": "UNDERGROUND METALLIC child table"
+  },
+  {
+   "fieldname": "section_break_12",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "remarks__no_remarks_delete_as_applicable",
+   "fieldtype": "Small Text",
+   "label": "Remarks / No Remarks (Delete as applicable)"
+  },
+  {
+   "fieldname": "data_14",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "sub_contractor_column",
+   "fieldtype": "Column Break",
+   "label": "Sub Contractor"
+  },
+  {
+   "fieldname": "c16",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "Company"
+  },
+  {
+   "fieldname": "s17",
+   "fieldtype": "Attach",
+   "label": "Signature"
+  },
+  {
+   "depends_on": "eval:doc.s17",
+   "fieldname": "image_18",
+   "fieldtype": "Image",
+   "options": "s17"
+  },
+  {
+   "depends_on": "eval:doc.id19",
+   "fetch_from": "id19.employee_name",
+   "fieldname": "n19",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "d20",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "main_contractor_column",
+   "fieldtype": "Column Break",
+   "label": "Main Contractor"
+  },
+  {
+   "fieldname": "c22",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "Company"
+  },
+  {
+   "fieldname": "s23",
+   "fieldtype": "Attach",
+   "label": "Signature"
+  },
+  {
+   "depends_on": "eval:doc.s23",
+   "fieldname": "image_24",
+   "fieldtype": "Image",
+   "options": "s23"
+  },
+  {
+   "depends_on": "eval:doc.id26",
+   "fetch_from": "id26.employee_name",
+   "fieldname": "n25",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "d26",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "company_representative_column",
+   "fieldtype": "Column Break",
+   "label": "Company Representative"
+  },
+  {
+   "fieldname": "c28",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "Company"
+  },
+  {
+   "fieldname": "s29",
+   "fieldtype": "Attach",
+   "label": "Signature"
+  },
+  {
+   "depends_on": "eval:doc.s29",
+   "fieldname": "image_30",
+   "fieldtype": "Image",
+   "options": "s29"
+  },
+  {
+   "depends_on": "eval:doc.id33",
+   "fetch_from": "id33.employee_name",
+   "fieldname": "n31",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "d32",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "id19",
+   "fieldtype": "Link",
+   "label": "ID",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "id26",
+   "fieldtype": "Link",
+   "label": "ID",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "id33",
+   "fieldtype": "Link",
+   "label": "ID",
+   "options": "Employee"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-01-02 21:46:28.800763",
+ "modified_by": "Administrator",
+ "module": "Qa Qc",
+ "name": "UNDERGROUND METALLIC PIPING CHECK LIST",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

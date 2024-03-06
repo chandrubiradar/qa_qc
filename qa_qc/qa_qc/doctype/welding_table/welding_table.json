@@ -1,0 +1,77 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-02-10 18:12:10.674803",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "layer_numbers",
+  "processes",
+  "class",
+  "dia_mm",
+  "polaritycurrent",
+  "amp_rangecurrent",
+  "voltage_range",
+  "travel_speedmmmin",
+  "heat_inputkjmm"
+ ],
+ "fields": [
+  {
+   "fieldname": "layer_numbers",
+   "fieldtype": "Data",
+   "label": "Layer Number(s)"
+  },
+  {
+   "fieldname": "processes",
+   "fieldtype": "Data",
+   "label": "Processes"
+  },
+  {
+   "fieldname": "class",
+   "fieldtype": "Data",
+   "label": "Class(Filler Metal)"
+  },
+  {
+   "fieldname": "dia_mm",
+   "fieldtype": "Data",
+   "label": "Dia. (mm)(Filler Metal)"
+  },
+  {
+   "fieldname": "polaritycurrent",
+   "fieldtype": "Data",
+   "label": "Polarity(Current)"
+  },
+  {
+   "fieldname": "amp_rangecurrent",
+   "fieldtype": "Data",
+   "label": "Amp. Range(Current)"
+  },
+  {
+   "fieldname": "voltage_range",
+   "fieldtype": "Data",
+   "label": "Voltage Range"
+  },
+  {
+   "fieldname": "travel_speedmmmin",
+   "fieldtype": "Data",
+   "label": "Travel Speed(mm/min)"
+  },
+  {
+   "fieldname": "heat_inputkjmm",
+   "fieldtype": "Data",
+   "label": "Heat Input(KJ/mm)"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-02-10 18:21:55.190588",
+ "modified_by": "Administrator",
+ "module": "Qa Qc",
+ "name": "Welding Table",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

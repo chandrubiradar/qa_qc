@@ -1,0 +1,280 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "MCCS-.####",
+ "creation": "2023-12-28 21:11:55.499386",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "contract_no",
+  "tag_no",
+  "equipment_description",
+  "location",
+  "data_sheet",
+  "drawing_reference",
+  "cct_no",
+  "area_classification",
+  "fed_from",
+  "ga_block_drawing_no",
+  "column_break_7",
+  "rating",
+  "amps",
+  "distribution_schedule",
+  "rev",
+  "record_starter_information",
+  "switch_board",
+  "circuit",
+  "manufacturer",
+  "section_break_13",
+  "mccs_template",
+  "table_15",
+  "section_break_16",
+  "completed_by_column",
+  "id27",
+  "print_name",
+  "signature",
+  "image_26",
+  "date",
+  "c21",
+  "accepted_by_column",
+  "id34",
+  "p24",
+  "s23",
+  "image_32",
+  "d25",
+  "company",
+  "column_break_27",
+  "comments__remarks"
+ ],
+ "fields": [
+  {
+   "fieldname": "contract_no",
+   "fieldtype": "Data",
+   "label": "Contract No"
+  },
+  {
+   "fieldname": "tag_no",
+   "fieldtype": "Data",
+   "label": "Tag No"
+  },
+  {
+   "fieldname": "equipment_description",
+   "fieldtype": "Data",
+   "label": "Equipment Description"
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Link",
+   "label": "Location",
+   "options": "Mashhor Area"
+  },
+  {
+   "fieldname": "data_sheet",
+   "fieldtype": "Data",
+   "label": "Data Sheet"
+  },
+  {
+   "fieldname": "drawing_reference",
+   "fieldtype": "Data",
+   "label": "Drawing Reference "
+  },
+  {
+   "fieldname": "cct_no",
+   "fieldtype": "Data",
+   "label": "SLD Dwg Number "
+  },
+  {
+   "fieldname": "column_break_7",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "area_classification",
+   "fieldtype": "Data",
+   "label": "Area Classification"
+  },
+  {
+   "fieldname": "fed_from",
+   "fieldtype": "Data",
+   "label": "Fed From"
+  },
+  {
+   "fieldname": "ga_block_drawing_no",
+   "fieldtype": "Data",
+   "label": "GA Block Drawing No"
+  },
+  {
+   "fieldname": "rating",
+   "fieldtype": "Data",
+   "label": "Rating"
+  },
+  {
+   "fieldname": "amps",
+   "fieldtype": "Data",
+   "label": "Amps"
+  },
+  {
+   "fieldname": "distribution_schedule",
+   "fieldtype": "Data",
+   "label": "Distribution Schedule "
+  },
+  {
+   "fieldname": "rev",
+   "fieldtype": "Data",
+   "label": "Rev"
+  },
+  {
+   "fieldname": "section_break_13",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "table_15",
+   "fieldtype": "Table",
+   "options": "MCCLT Child Table"
+  },
+  {
+   "fieldname": "section_break_16",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "completed_by_column",
+   "fieldtype": "Column Break",
+   "label": "Completed by"
+  },
+  {
+   "fieldname": "signature",
+   "fieldtype": "Attach",
+   "label": "Signature"
+  },
+  {
+   "depends_on": "eval:doc.id27",
+   "fetch_from": "id27.employee_name",
+   "fieldname": "print_name",
+   "fieldtype": "Data",
+   "label": "Print Name"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "c21",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "Company"
+  },
+  {
+   "fieldname": "accepted_by_column",
+   "fieldtype": "Column Break",
+   "label": "Accepted By"
+  },
+  {
+   "fieldname": "s23",
+   "fieldtype": "Attach",
+   "label": "Signature"
+  },
+  {
+   "depends_on": "eval:doc.id34",
+   "fetch_from": "id34.employee_name",
+   "fieldname": "p24",
+   "fieldtype": "Data",
+   "label": "Print Name"
+  },
+  {
+   "fieldname": "d25",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "Company"
+  },
+  {
+   "fieldname": "column_break_27",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "comments__remarks",
+   "fieldtype": "Small Text",
+   "label": "Comments / Remarks "
+  },
+  {
+   "fieldname": "record_starter_information",
+   "fieldtype": "Data",
+   "label": "Record starter Information"
+  },
+  {
+   "fieldname": "switch_board",
+   "fieldtype": "Data",
+   "label": "Switch Board"
+  },
+  {
+   "fieldname": "circuit",
+   "fieldtype": "Data",
+   "label": "Circuit"
+  },
+  {
+   "fieldname": "manufacturer",
+   "fieldtype": "Data",
+   "label": "Manufacturer "
+  },
+  {
+   "default": "MCCS",
+   "fieldname": "mccs_template",
+   "fieldtype": "Link",
+   "hidden": 1,
+   "label": "MCCS Template",
+   "options": "MCCS Template"
+  },
+  {
+   "depends_on": "eval:doc.signature",
+   "fieldname": "image_26",
+   "fieldtype": "Image",
+   "options": "signature"
+  },
+  {
+   "depends_on": "eval:doc.s23",
+   "fieldname": "image_32",
+   "fieldtype": "Image",
+   "options": "s23"
+  },
+  {
+   "fieldname": "id27",
+   "fieldtype": "Link",
+   "label": "ID",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "id34",
+   "fieldtype": "Link",
+   "label": "ID",
+   "options": "Employee"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-01-11 17:02:21.706625",
+ "modified_by": "Administrator",
+ "module": "Qa Qc",
+ "name": "Mechanical Completion Contractor Starter Fused Switch",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

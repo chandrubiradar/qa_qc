@@ -1,0 +1,186 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:qoc_no",
+ "creation": "2023-10-12 21:19:31.577578",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "qoc_no",
+  "project_title",
+  "raised_by",
+  "won_no",
+  "column_break_4",
+  "location",
+  "date_raised",
+  "name_7",
+  "section_break_8",
+  "what_did_you_observe",
+  "what",
+  "what_detail",
+  "why",
+  "findings",
+  "column_break_12",
+  "risks",
+  "conversation",
+  "remedy_description",
+  "status",
+  "target_close",
+  "actual_close",
+  "action_party",
+  "name_22"
+ ],
+ "fields": [
+  {
+   "fieldname": "qoc_no",
+   "fieldtype": "Data",
+   "label": "QOC No.",
+   "unique": 1
+  },
+  {
+   "fieldname": "project_title",
+   "fieldtype": "Link",
+   "label": "Project Title",
+   "options": "Contract"
+  },
+  {
+   "fieldname": "raised_by",
+   "fieldtype": "Link",
+   "label": "Raised By",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Link",
+   "label": "Location",
+   "options": "Mashhor Area"
+  },
+  {
+   "fieldname": "date_raised",
+   "fieldtype": "Date",
+   "label": "Date Raised"
+  },
+  {
+   "depends_on": "eval:doc.raised_by",
+   "fetch_from": "raised_by.employee_name",
+   "fieldname": "name_7",
+   "fieldtype": "Data",
+   "label": "Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_8",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "what_did_you_observe",
+   "fieldtype": "Small Text",
+   "label": "What did you observe?"
+  },
+  {
+   "fieldname": "what",
+   "fieldtype": "Data",
+   "label": "What"
+  },
+  {
+   "fieldname": "what_detail",
+   "fieldtype": "Small Text",
+   "label": "What Detail"
+  },
+  {
+   "fieldname": "column_break_12",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "why",
+   "fieldtype": "Small Text",
+   "label": "Why"
+  },
+  {
+   "fieldname": "findings",
+   "fieldtype": "Small Text",
+   "label": "What is/are the findings"
+  },
+  {
+   "fieldname": "risks",
+   "fieldtype": "Small Text",
+   "label": "What is/are the potential quality non-compliance consequences/risks"
+  },
+  {
+   "default": "0",
+   "fieldname": "conversation",
+   "fieldtype": "Check",
+   "label": "Did a conversation take place?"
+  },
+  {
+   "fieldname": "remedy_description",
+   "fieldtype": "Small Text",
+   "label": "Was there an agreed remedial/correction or preventive action? If so, describe"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Has this been closed or open",
+   "options": "\nOpen\nClosed"
+  },
+  {
+   "depends_on": "eval:doc.status == 'Open'",
+   "fieldname": "target_close",
+   "fieldtype": "Date",
+   "label": "Target Close-Out Date"
+  },
+  {
+   "depends_on": "eval:doc.status == 'Closed'",
+   "fieldname": "actual_close",
+   "fieldtype": "Date",
+   "label": "Actual Close-Out Target Date"
+  },
+  {
+   "fieldname": "action_party",
+   "fieldtype": "Link",
+   "label": "Action Party",
+   "options": "Employee"
+  },
+  {
+   "fetch_from": "action_party.employee_name",
+   "fieldname": "name_22",
+   "fieldtype": "Data",
+   "label": "Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "won_no",
+   "fieldtype": "Link",
+   "label": "Won No",
+   "options": "Project"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-11-30 14:10:57.462628",
+ "modified_by": "Administrator",
+ "module": "Qa Qc",
+ "name": "Quality Observation Card",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

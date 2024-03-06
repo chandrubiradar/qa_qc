@@ -1,0 +1,432 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:MAR-{mar_doc_no}-{####}",
+ "creation": "2023-12-29 16:08:40.302558",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "mar_doc_no",
+  "column_break_2",
+  "date",
+  "column_break_4",
+  "rev",
+  "document_issued_for_section",
+  "issued_for_approval_ifa",
+  "issued_for_purchase",
+  "contract_description",
+  "column_break_10",
+  "re_issueed_for_company",
+  "reissued_for_purchase",
+  "material_description",
+  "section_break_14",
+  "material_table",
+  "section_break_16",
+  "listed",
+  "not_listed",
+  "proposed",
+  "column_break_17",
+  "contract_specification_details",
+  "location__area_of_use",
+  "technical_details_of_proposed_materials",
+  "column_break_21",
+  "no_specific",
+  "technical_specification",
+  "drg",
+  "section_break_26",
+  "specification_comparison_sheet",
+  "yes",
+  "na",
+  "original_brochure",
+  "yes1",
+  "na1",
+  "column_break_33",
+  "samples_submitted",
+  "yes2",
+  "na2",
+  "other_supporting_documents_attached",
+  "yes3",
+  "na3",
+  "section_break_40",
+  "prepared_by__lcms_column",
+  "signature",
+  "image_45",
+  "id",
+  "name1",
+  "title",
+  "approved_by_bsp_column",
+  "signature2",
+  "image_50",
+  "id1",
+  "name2",
+  "title2",
+  "company_approval__review_codes_section",
+  "rejected",
+  "no_comments",
+  "column_break_52",
+  "comments_as_noted",
+  "info_only",
+  "section_break_59",
+  "company_comments"
+ ],
+ "fields": [
+  {
+   "fieldname": "mar_doc_no",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "MAR Doc. No ",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "rev",
+   "fieldtype": "Data",
+   "label": "Rev"
+  },
+  {
+   "fieldname": "document_issued_for_section",
+   "fieldtype": "Section Break",
+   "label": "DOCUMENT ISSUED FOR"
+  },
+  {
+   "default": "0",
+   "fieldname": "issued_for_approval_ifa",
+   "fieldtype": "Check",
+   "label": "Issued for Approval (IFA)"
+  },
+  {
+   "default": "0",
+   "fieldname": "issued_for_purchase",
+   "fieldtype": "Check",
+   "label": "Issued for Purchase (IFP) (Requisitions, Datasheets)"
+  },
+  {
+   "fieldname": "contract_description",
+   "fieldtype": "Data",
+   "label": "Contract Description"
+  },
+  {
+   "fieldname": "column_break_10",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "re_issueed_for_company",
+   "fieldtype": "Check",
+   "label": "Re-Issued for Company Approval (RFA)"
+  },
+  {
+   "default": "0",
+   "fieldname": "reissued_for_purchase",
+   "fieldtype": "Check",
+   "label": "Re-Issued for Purchase (RFP) (Requisitions, Datasheets)"
+  },
+  {
+   "fieldname": "material_description",
+   "fieldtype": "Data",
+   "label": "Material Description"
+  },
+  {
+   "fieldname": "section_break_14",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "listed",
+   "fieldtype": "Check",
+   "label": "Listed"
+  },
+  {
+   "fieldname": "contract_specification_details",
+   "fieldtype": "Data",
+   "label": "Contract Specification Details"
+  },
+  {
+   "fieldname": "column_break_17",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "not_listed",
+   "fieldtype": "Check",
+   "label": "Not Listed "
+  },
+  {
+   "fieldname": "location__area_of_use",
+   "fieldtype": "Link",
+   "label": "Location / Area of Use",
+   "options": "Mashhor Area"
+  },
+  {
+   "fieldname": "technical_details_of_proposed_materials",
+   "fieldtype": "Data",
+   "label": "Technical Details of Proposed Materials"
+  },
+  {
+   "fieldname": "column_break_21",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "proposed",
+   "fieldtype": "Check",
+   "label": "Proposed "
+  },
+  {
+   "fieldname": "no_specific",
+   "fieldtype": "HTML",
+   "label": "No Specific Vendor List Provided by VSOT",
+   "options": "No Specific Vendor List Provided by VSOT"
+  },
+  {
+   "fieldname": "technical_specification",
+   "fieldtype": "Data",
+   "label": "Technical Specification"
+  },
+  {
+   "fieldname": "drg",
+   "fieldtype": "Data",
+   "label": "DRG"
+  },
+  {
+   "fieldname": "section_break_26",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "specification_comparison_sheet",
+   "fieldtype": "HTML",
+   "label": "Specification Comparison Sheet",
+   "options": "Specification Comparison Sheet"
+  },
+  {
+   "default": "0",
+   "fieldname": "yes",
+   "fieldtype": "Check",
+   "label": "Yes"
+  },
+  {
+   "default": "0",
+   "fieldname": "na",
+   "fieldtype": "Check",
+   "label": "N/A"
+  },
+  {
+   "fieldname": "original_brochure",
+   "fieldtype": "HTML",
+   "label": "Original Brochure",
+   "options": "Original Brochure"
+  },
+  {
+   "default": "0",
+   "fieldname": "yes1",
+   "fieldtype": "Check",
+   "label": "Yes"
+  },
+  {
+   "default": "0",
+   "fieldname": "na1",
+   "fieldtype": "Check",
+   "label": "N/A"
+  },
+  {
+   "fieldname": "column_break_33",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "samples_submitted",
+   "fieldtype": "HTML",
+   "label": "Samples Submitted",
+   "options": "Samples Submitted"
+  },
+  {
+   "default": "0",
+   "fieldname": "yes2",
+   "fieldtype": "Check",
+   "label": "Yes"
+  },
+  {
+   "default": "0",
+   "fieldname": "na2",
+   "fieldtype": "Check",
+   "label": "N/A"
+  },
+  {
+   "fieldname": "other_supporting_documents_attached",
+   "fieldtype": "HTML",
+   "label": "Other Supporting Documents Attached",
+   "options": "Other Supporting Documents Attached"
+  },
+  {
+   "default": "0",
+   "fieldname": "yes3",
+   "fieldtype": "Check",
+   "label": "Yes"
+  },
+  {
+   "default": "0",
+   "fieldname": "na3",
+   "fieldtype": "Check",
+   "label": "N/A"
+  },
+  {
+   "fieldname": "section_break_40",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "prepared_by__lcms_column",
+   "fieldtype": "Column Break",
+   "label": "PREPARED BY ( LCMS)"
+  },
+  {
+   "fieldname": "signature",
+   "fieldtype": "Attach",
+   "label": "Signature"
+  },
+  {
+   "depends_on": "eval:doc.id",
+   "fetch_from": "id.employee_name",
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "title",
+   "fieldtype": "Data",
+   "label": "Title"
+  },
+  {
+   "fieldname": "approved_by_bsp_column",
+   "fieldtype": "Column Break",
+   "label": "APPROVED BY (BSP)"
+  },
+  {
+   "fieldname": "signature2",
+   "fieldtype": "Attach",
+   "label": "Signature"
+  },
+  {
+   "depends_on": "eval:doc.id1",
+   "fetch_from": "id1.employee_name",
+   "fieldname": "name2",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "title2",
+   "fieldtype": "Data",
+   "label": "Title"
+  },
+  {
+   "fieldname": "company_approval__review_codes_section",
+   "fieldtype": "Section Break",
+   "label": "COMPANY APPROVAL / REVIEW CODES"
+  },
+  {
+   "default": "0",
+   "fieldname": "rejected",
+   "fieldtype": "Check",
+   "label": "REJECTED \u2013 Revise and resubmit"
+  },
+  {
+   "default": "0",
+   "fieldname": "no_comments",
+   "fieldtype": "Check",
+   "label": "NO COMMENTS \u2013 Work may proceed"
+  },
+  {
+   "fieldname": "column_break_52",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "comments_as_noted",
+   "fieldtype": "Check",
+   "label": "COMMENTS AS NOTED \u2013 Work may proceed subject to compliance with and incorporation of comments"
+  },
+  {
+   "default": "0",
+   "fieldname": "info_only",
+   "fieldtype": "Check",
+   "label": "INFORMATION ONLY \u2013 Accepted for information only"
+  },
+  {
+   "fieldname": "material_table",
+   "fieldtype": "Table",
+   "label": "Material Table",
+   "options": "MAR table"
+  },
+  {
+   "fieldname": "section_break_16",
+   "fieldtype": "Section Break"
+  },
+  {
+   "depends_on": "eval:doc.signature",
+   "fieldname": "image_45",
+   "fieldtype": "Image",
+   "options": "signature"
+  },
+  {
+   "depends_on": "eval:doc.signature2",
+   "fieldname": "image_50",
+   "fieldtype": "Image",
+   "options": "signature2"
+  },
+  {
+   "fieldname": "section_break_59",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "company_comments",
+   "fieldtype": "Text",
+   "label": "Company Comments"
+  },
+  {
+   "fieldname": "id",
+   "fieldtype": "Link",
+   "label": "Id",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "id1",
+   "fieldtype": "Link",
+   "label": "Id",
+   "options": "Employee"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-01-02 15:21:24.787900",
+ "modified_by": "Administrator",
+ "module": "Qa Qc",
+ "name": "MATERIAL APPROVAL REQUEST",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

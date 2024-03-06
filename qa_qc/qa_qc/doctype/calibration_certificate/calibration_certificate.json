@@ -1,0 +1,253 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-02-13 18:59:58.055579",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "customer_name",
+  "customer_address",
+  "column_break_3",
+  "next_calibration_due_date",
+  "customer_reference",
+  "details_of_instrument_section",
+  "description",
+  "make",
+  "tag_number",
+  "typemodel",
+  "serial_number",
+  "column_break_12",
+  "range",
+  "resolution",
+  "accuracy",
+  "location_of_calibrationtest",
+  "condition_of_the_equipment_on_receipt",
+  "calibration_environments_section",
+  "temperature",
+  "relative_humidity",
+  "table_21",
+  "calibration_data_section",
+  "table_23",
+  "permissible_accuracy_limits_as_per_iso_6789_section",
+  "table_25",
+  "calibration_procedure_number",
+  "section_break_27",
+  "checked_by_column",
+  "signature",
+  "name1",
+  "position",
+  "authorised_signatory_column",
+  "signature2",
+  "name2",
+  "position2",
+  "section_break_36",
+  "remarks"
+ ],
+ "fields": [
+  {
+   "fieldname": "customer_name",
+   "fieldtype": "Data",
+   "label": "Customer Name"
+  },
+  {
+   "fieldname": "customer_address",
+   "fieldtype": "Data",
+   "label": "Customer Address"
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "next_calibration_due_date",
+   "fieldtype": "Data",
+   "label": "Next Calibration Due Date"
+  },
+  {
+   "fieldname": "customer_reference",
+   "fieldtype": "Data",
+   "label": "Customer Reference"
+  },
+  {
+   "fieldname": "details_of_instrument_section",
+   "fieldtype": "Section Break",
+   "label": "Details Of Instrument"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Data",
+   "label": "Description"
+  },
+  {
+   "fieldname": "make",
+   "fieldtype": "Data",
+   "label": "Make"
+  },
+  {
+   "fieldname": "tag_number",
+   "fieldtype": "Data",
+   "label": "Tag Number"
+  },
+  {
+   "fieldname": "typemodel",
+   "fieldtype": "Data",
+   "label": "Type/Model"
+  },
+  {
+   "fieldname": "serial_number",
+   "fieldtype": "Data",
+   "label": "Serial Number"
+  },
+  {
+   "fieldname": "column_break_12",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "range",
+   "fieldtype": "Data",
+   "label": "Range"
+  },
+  {
+   "fieldname": "resolution",
+   "fieldtype": "Data",
+   "label": "Resolution"
+  },
+  {
+   "fieldname": "accuracy",
+   "fieldtype": "Data",
+   "label": "Accuracy"
+  },
+  {
+   "fieldname": "location_of_calibrationtest",
+   "fieldtype": "Data",
+   "label": "Location of Calibration/Test"
+  },
+  {
+   "fieldname": "condition_of_the_equipment_on_receipt",
+   "fieldtype": "Data",
+   "label": "Condition of the Equipment on receipt"
+  },
+  {
+   "fieldname": "calibration_environments_section",
+   "fieldtype": "Section Break",
+   "label": "Calibration Environments"
+  },
+  {
+   "fieldname": "temperature",
+   "fieldtype": "Data",
+   "label": "Temperature"
+  },
+  {
+   "fieldname": "relative_humidity",
+   "fieldtype": "Data",
+   "label": "Relative Humidity"
+  },
+  {
+   "fieldname": "table_21",
+   "fieldtype": "Table",
+   "options": "Calibration Instrument Details"
+  },
+  {
+   "fieldname": "calibration_data_section",
+   "fieldtype": "Section Break",
+   "label": "Calibration Data"
+  },
+  {
+   "fieldname": "table_23",
+   "fieldtype": "Table",
+   "options": "Calibration Data Table"
+  },
+  {
+   "fieldname": "permissible_accuracy_limits_as_per_iso_6789_section",
+   "fieldtype": "Section Break",
+   "label": "Permissible Accuracy Limits As Per ISO 6789"
+  },
+  {
+   "fieldname": "table_25",
+   "fieldtype": "Table",
+   "options": "Calibration Accuracy limits"
+  },
+  {
+   "fieldname": "calibration_procedure_number",
+   "fieldtype": "Data",
+   "label": "Calibration Procedure Number"
+  },
+  {
+   "fieldname": "section_break_27",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "checked_by_column",
+   "fieldtype": "Column Break",
+   "label": "Checked By"
+  },
+  {
+   "fieldname": "signature",
+   "fieldtype": "Attach",
+   "label": "Signature"
+  },
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "position",
+   "fieldtype": "Data",
+   "label": "Position"
+  },
+  {
+   "fieldname": "authorised_signatory_column",
+   "fieldtype": "Column Break",
+   "label": "Authorised Signatory"
+  },
+  {
+   "fieldname": "signature2",
+   "fieldtype": "Attach",
+   "label": "Signature"
+  },
+  {
+   "fieldname": "name2",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "position2",
+   "fieldtype": "Data",
+   "label": "Position"
+  },
+  {
+   "fieldname": "section_break_36",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Small Text",
+   "label": "Remarks"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-02-13 20:06:15.795716",
+ "modified_by": "Administrator",
+ "module": "Qa Qc",
+ "name": "Calibration Certificate",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

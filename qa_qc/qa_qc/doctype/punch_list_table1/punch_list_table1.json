@@ -1,0 +1,53 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-02-13 20:38:50.344973",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "performing_body",
+  "clearance_body",
+  "date",
+  "print_name",
+  "signature"
+ ],
+ "fields": [
+  {
+   "fieldname": "performing_body",
+   "fieldtype": "Data",
+   "label": "Performing Body"
+  },
+  {
+   "fieldname": "clearance_body",
+   "fieldtype": "Data",
+   "label": "Clearance Body"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "print_name",
+   "fieldtype": "Data",
+   "label": "Print Name"
+  },
+  {
+   "fieldname": "signature",
+   "fieldtype": "Attach",
+   "label": "Signature"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-02-13 20:38:50.344973",
+ "modified_by": "Administrator",
+ "module": "Qa Qc",
+ "name": "Punch List Table1",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

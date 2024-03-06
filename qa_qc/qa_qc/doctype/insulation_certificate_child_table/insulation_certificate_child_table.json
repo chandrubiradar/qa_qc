@@ -1,0 +1,53 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-12-26 19:27:40.670696",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "line_no__equipment_nodescription",
+  "final_painting_acceptance_certificate_yes__no",
+  "insulation_type",
+  "insulation_thickness",
+  "installed_as_per_specs_yesno"
+ ],
+ "fields": [
+  {
+   "fieldname": "line_no__equipment_nodescription",
+   "fieldtype": "Data",
+   "label": "Line No / Equipment No/Description"
+  },
+  {
+   "fieldname": "final_painting_acceptance_certificate_yes__no",
+   "fieldtype": "Data",
+   "label": "Final Painting Acceptance Certificate (Yes / No)"
+  },
+  {
+   "fieldname": "insulation_type",
+   "fieldtype": "Data",
+   "label": "Insulation Type"
+  },
+  {
+   "fieldname": "insulation_thickness",
+   "fieldtype": "Data",
+   "label": "Insulation Thickness"
+  },
+  {
+   "fieldname": "installed_as_per_specs_yesno",
+   "fieldtype": "Data",
+   "label": "Installed as per Specs (Yes/No)"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-12-26 19:27:40.670696",
+ "modified_by": "Administrator",
+ "module": "Qa Qc",
+ "name": "Insulation Certificate Child table",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

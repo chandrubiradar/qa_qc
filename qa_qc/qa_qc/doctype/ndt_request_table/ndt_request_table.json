@@ -1,0 +1,148 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-09-22 21:45:27.362113",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "line_no",
+  "joint_no",
+  "joint_type",
+  "size",
+  "thk",
+  "material",
+  "remarks",
+  "cl_br",
+  "wps_no",
+  "welding_process",
+  "welder_no_r",
+  "welder_no_f_c",
+  "testing_method",
+  "dpi",
+  "mpi",
+  "rt",
+  "ut",
+  "utg",
+  "ht",
+  "ft",
+  "pmi"
+ ],
+ "fields": [
+  {
+   "fieldname": "line_no",
+   "fieldtype": "Small Text",
+   "label": "Line No./Drawing No./Description"
+  },
+  {
+   "fieldname": "joint_no",
+   "fieldtype": "Data",
+   "label": "Joint No."
+  },
+  {
+   "fieldname": "joint_type",
+   "fieldtype": "Data",
+   "label": "Joint Type"
+  },
+  {
+   "fieldname": "size",
+   "fieldtype": "Data",
+   "label": "Size(Inch)"
+  },
+  {
+   "fieldname": "thk",
+   "fieldtype": "Data",
+   "label": "Thk(mm)"
+  },
+  {
+   "fieldname": "material",
+   "fieldtype": "Data",
+   "label": "Material"
+  },
+  {
+   "fieldname": "wps_no",
+   "fieldtype": "Data",
+   "label": "WPS No."
+  },
+  {
+   "fieldname": "testing_method",
+   "fieldtype": "HTML",
+   "options": "<b>Testing Method</b>"
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Small Text",
+   "label": "Remarks"
+  },
+  {
+   "fieldname": "cl_br",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dpi",
+   "fieldtype": "Data",
+   "label": "DPI"
+  },
+  {
+   "fieldname": "mpi",
+   "fieldtype": "Data",
+   "label": "MPI"
+  },
+  {
+   "fieldname": "rt",
+   "fieldtype": "Data",
+   "label": "RT"
+  },
+  {
+   "fieldname": "ut",
+   "fieldtype": "Data",
+   "label": "UT"
+  },
+  {
+   "fieldname": "welding_process",
+   "fieldtype": "Data",
+   "label": "Welding Process"
+  },
+  {
+   "fieldname": "welder_no_r",
+   "fieldtype": "Data",
+   "label": "Welder No.(R)"
+  },
+  {
+   "fieldname": "welder_no_f_c",
+   "fieldtype": "Data",
+   "label": "Welder No.(F/C)"
+  },
+  {
+   "fieldname": "utg",
+   "fieldtype": "Data",
+   "label": "UTG"
+  },
+  {
+   "fieldname": "ht",
+   "fieldtype": "Data",
+   "label": "HT"
+  },
+  {
+   "fieldname": "ft",
+   "fieldtype": "Data",
+   "label": "FT"
+  },
+  {
+   "fieldname": "pmi",
+   "fieldtype": "Data",
+   "label": "PMI"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-12-04 19:11:16.027623",
+ "modified_by": "Administrator",
+ "module": "Qa Qc",
+ "name": "NDT Request Table",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

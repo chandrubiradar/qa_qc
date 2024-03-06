@@ -1,0 +1,41 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-12-26 18:26:10.345186",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "iso_drg_numbers",
+  "equipement_no_from",
+  "equipement_no_to"
+ ],
+ "fields": [
+  {
+   "fieldname": "iso_drg_numbers",
+   "fieldtype": "Data",
+   "label": "ISO /DRG Numbers"
+  },
+  {
+   "fieldname": "equipement_no_from",
+   "fieldtype": "Data",
+   "label": "Equipement No (From)"
+  },
+  {
+   "fieldname": "equipement_no_to",
+   "fieldtype": "Data",
+   "label": "Equipement No (To)"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-12-26 18:26:10.345186",
+ "modified_by": "Administrator",
+ "module": "Qa Qc",
+ "name": "Flushing certificate Child table",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

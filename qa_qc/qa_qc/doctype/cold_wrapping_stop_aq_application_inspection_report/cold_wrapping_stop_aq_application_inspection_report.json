@@ -1,0 +1,279 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "fomat:-{project}-####",
+ "creation": "2023-12-26 19:32:58.490250",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "project",
+  "contract",
+  "qc_form_no",
+  "rev",
+  "sh",
+  "date",
+  "section_break_7",
+  "cold_wrapping_stop_application_inspection_report",
+  "drawing_detail",
+  "location",
+  "column_break_8",
+  "report_no",
+  "section_break_12",
+  "environmental_weather_condition",
+  "table_14",
+  "coating_report",
+  "table_16",
+  "section_break_17",
+  "table_18",
+  "notes",
+  "section_break_21",
+  "mgcsb_construction_column",
+  "id23",
+  "n23",
+  "d24",
+  "signature",
+  "image_26",
+  "mgcsb_quality_column",
+  "id27",
+  "n27",
+  "d28",
+  "s29",
+  "image_32",
+  "bsp_column",
+  "id51",
+  "n31",
+  "d32",
+  "s33",
+  "image_38"
+ ],
+ "fields": [
+  {
+   "fieldname": "project",
+   "fieldtype": "Link",
+   "label": "Project",
+   "options": "Project"
+  },
+  {
+   "fieldname": "contract",
+   "fieldtype": "Data",
+   "label": "Contract"
+  },
+  {
+   "fieldname": "qc_form_no",
+   "fieldtype": "Data",
+   "label": "QC Form No"
+  },
+  {
+   "fieldname": "rev",
+   "fieldtype": "Data",
+   "label": "Rev"
+  },
+  {
+   "fieldname": "sh",
+   "fieldtype": "Data",
+   "label": "SH"
+  },
+  {
+   "fieldname": "report_no",
+   "fieldtype": "Data",
+   "label": "Report No"
+  },
+  {
+   "fieldname": "section_break_7",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "cold_wrapping_stop_application_inspection_report",
+   "fieldtype": "Heading",
+   "label": "Cold wrapping STOP AQ Application Inspection Report"
+  },
+  {
+   "fieldname": "drawing_detail",
+   "fieldtype": "Data",
+   "label": "Drawing Detail"
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Link",
+   "label": "Location",
+   "options": "Mashhor Area"
+  },
+  {
+   "fieldname": "column_break_8",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "environmental_weather_condition",
+   "fieldtype": "Heading",
+   "label": "Environmental Weather Condition"
+  },
+  {
+   "fieldname": "section_break_12",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "table_14",
+   "fieldtype": "Table",
+   "options": "Cold Wrapping Stop AQ Application Child Table"
+  },
+  {
+   "fieldname": "coating_report",
+   "fieldtype": "Heading",
+   "label": "Coating Report"
+  },
+  {
+   "fieldname": "table_16",
+   "fieldtype": "Table",
+   "options": "Cold Wrapping Child Table"
+  },
+  {
+   "fieldname": "section_break_17",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "table_18",
+   "fieldtype": "Table",
+   "options": "Cold Wrapping stop AQ Application child table 01"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "notes",
+   "fieldtype": "Data",
+   "label": "Notes"
+  },
+  {
+   "fieldname": "section_break_21",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "mgcsb_construction_column",
+   "fieldtype": "Column Break",
+   "label": "Performed By: (MGCSB)"
+  },
+  {
+   "depends_on": "eval:d0c.id23",
+   "fetch_from": "id23.employee_name",
+   "fieldname": "n23",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "d24",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "signature",
+   "fieldtype": "Attach",
+   "label": "Signature"
+  },
+  {
+   "fieldname": "mgcsb_quality_column",
+   "fieldtype": "Column Break",
+   "label": "Inspected By : (MGCSB)"
+  },
+  {
+   "depends_on": "eval:doc.id27",
+   "fetch_from": "id27.employee_name",
+   "fieldname": "n27",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "d28",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "s29",
+   "fieldtype": "Attach",
+   "label": "Signature"
+  },
+  {
+   "fieldname": "bsp_column",
+   "fieldtype": "Column Break",
+   "label": "Witnessed / Inspected / reviewed By : (BSP)"
+  },
+  {
+   "depends_on": "eval:doc.id51",
+   "fetch_from": "id51.employee_name",
+   "fieldname": "n31",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "d32",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "s33",
+   "fieldtype": "Attach",
+   "label": "Signature"
+  },
+  {
+   "depends_on": "eval:doc.signature",
+   "fieldname": "image_26",
+   "fieldtype": "Image",
+   "options": "signature"
+  },
+  {
+   "fieldname": "id27",
+   "fieldtype": "Link",
+   "label": "ID",
+   "options": "Employee"
+  },
+  {
+   "depends_on": "eval:doc.s29",
+   "fieldname": "image_32",
+   "fieldtype": "Image",
+   "options": "s29"
+  },
+  {
+   "fieldname": "id51",
+   "fieldtype": "Link",
+   "label": "ID",
+   "options": "Employee"
+  },
+  {
+   "depends_on": "eval:doc.s33",
+   "fieldname": "image_38",
+   "fieldtype": "Image",
+   "options": "s33"
+  },
+  {
+   "fieldname": "id23",
+   "fieldtype": "Link",
+   "label": "ID",
+   "options": "Employee"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-01-03 21:53:32.806730",
+ "modified_by": "Administrator",
+ "module": "Qa Qc",
+ "name": "Cold wrapping Stop AQ Application Inspection Report",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

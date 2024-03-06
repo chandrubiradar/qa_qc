@@ -1,0 +1,258 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "PTPC-.####",
+ "creation": "2023-12-05 15:23:28.878498",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "client",
+  "project",
+  "contract_no",
+  "location",
+  "area",
+  "won_noetsr_no",
+  "test_pressure",
+  "column_break_8",
+  "date",
+  "test_pack_no",
+  "qcdp_no",
+  "dwg_no",
+  "line_noequip_no",
+  "line_class",
+  "holding_time",
+  "section_break_16",
+  "remarks_notes",
+  "section_break_18",
+  "prepared_by",
+  "name1",
+  "signature1",
+  "image_21",
+  "date1",
+  "column_break_23",
+  "reviewed_by",
+  "name2",
+  "signature2",
+  "image_26",
+  "date2",
+  "column_break_29",
+  "accepted_by",
+  "name3",
+  "signature3",
+  "image_31",
+  "date3"
+ ],
+ "fields": [
+  {
+   "fieldname": "client",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Client",
+   "options": "Contract",
+   "reqd": 1
+  },
+  {
+   "fieldname": "project",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Project",
+   "options": "Contract",
+   "reqd": 1
+  },
+  {
+   "fieldname": "contract_no",
+   "fieldtype": "Data",
+   "label": "Contract No."
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Link",
+   "label": "Location",
+   "options": "Mashhor Area"
+  },
+  {
+   "fieldname": "area",
+   "fieldtype": "Data",
+   "label": "Area"
+  },
+  {
+   "fieldname": "won_noetsr_no",
+   "fieldtype": "Link",
+   "label": "WON No./ETSR No.",
+   "options": "Project"
+  },
+  {
+   "fieldname": "test_pressure",
+   "fieldtype": "Data",
+   "label": "Test Pressure"
+  },
+  {
+   "fieldname": "column_break_8",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "test_pack_no",
+   "fieldtype": "Data",
+   "label": "Test Pack No."
+  },
+  {
+   "fieldname": "qcdp_no",
+   "fieldtype": "Data",
+   "label": "QCDP No."
+  },
+  {
+   "fieldname": "dwg_no",
+   "fieldtype": "Data",
+   "label": "Dwg No."
+  },
+  {
+   "fieldname": "line_noequip_no",
+   "fieldtype": "Data",
+   "label": "Line No./Equip No."
+  },
+  {
+   "fieldname": "line_class",
+   "fieldtype": "Data",
+   "label": "Line Class"
+  },
+  {
+   "fieldname": "holding_time",
+   "fieldtype": "Data",
+   "label": "Holding Time"
+  },
+  {
+   "fieldname": "section_break_16",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "remarks_notes",
+   "fieldtype": "Text",
+   "label": "Remarks /Notes"
+  },
+  {
+   "fieldname": "prepared_by",
+   "fieldtype": "Link",
+   "label": "Prepared By : MGCSB",
+   "options": "Employee"
+  },
+  {
+   "fetch_from": "prepared_by.employee_name",
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "signature1",
+   "fieldtype": "Attach",
+   "label": "Signature"
+  },
+  {
+   "depends_on": "eval:doc.signature1",
+   "fieldname": "image_21",
+   "fieldtype": "Image",
+   "options": "signature1"
+  },
+  {
+   "fieldname": "date1",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "reviewed_by",
+   "fieldtype": "Link",
+   "label": "Reviewed By : MGCSB",
+   "options": "Employee"
+  },
+  {
+   "fetch_from": "reviewed_by.employee_name",
+   "fieldname": "name2",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "signature2",
+   "fieldtype": "Attach",
+   "label": "Signature"
+  },
+  {
+   "depends_on": "eval:doc.signature2",
+   "fieldname": "image_26",
+   "fieldtype": "Image",
+   "options": "signature2"
+  },
+  {
+   "fieldname": "date2",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "accepted_by",
+   "fieldtype": "Link",
+   "label": "Accepted By : BSP",
+   "options": "Employee"
+  },
+  {
+   "fetch_from": "accepted_by.employee_name",
+   "fieldname": "name3",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "signature3",
+   "fieldtype": "Attach",
+   "label": "Signature"
+  },
+  {
+   "depends_on": "eval:doc.signature3",
+   "fieldname": "image_31",
+   "fieldtype": "Image",
+   "options": "signature3"
+  },
+  {
+   "fieldname": "date3",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "column_break_23",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_29",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_18",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-12-05 15:43:37.373134",
+ "modified_by": "Administrator",
+ "module": "Qa Qc",
+ "name": "Pressure Test Pack Clearance",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

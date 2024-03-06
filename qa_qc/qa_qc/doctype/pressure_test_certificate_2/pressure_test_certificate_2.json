@@ -1,0 +1,281 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-02-14 18:50:11.517052",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "client",
+  "project",
+  "contract_no",
+  "acceptance_criteria",
+  "specification",
+  "insp_procedure",
+  "test_pack_no",
+  "column_break_8",
+  "report_no",
+  "date",
+  "powo_no",
+  "location",
+  "material",
+  "system",
+  "drwg_no__line_no",
+  "section_break_16",
+  "items",
+  "section_break_18",
+  "test",
+  "leak__hydro_test_pack_ref",
+  "test_medium",
+  "required_test_duration",
+  "test_pressure_per_iso__drawings",
+  "test_pressure_at_start",
+  "test_pressure_at_finish",
+  "column_break_25",
+  "outside_weather",
+  "ambient_temp",
+  "corrosion_inhibitor_added",
+  "actual_test_duration",
+  "test_pressure_as_per_line_list",
+  "test_temp_at_start",
+  "test_temp_at_finish",
+  "section_break_33",
+  "table_34",
+  "comments",
+  "section_break_37",
+  "acceptance",
+  "column_break_39",
+  "as_built_test_pressureshow_only_if_different_to_line_list_tp",
+  "section_break_41",
+  "table_42"
+ ],
+ "fields": [
+  {
+   "fieldname": "client",
+   "fieldtype": "Data",
+   "label": "Client"
+  },
+  {
+   "fieldname": "project",
+   "fieldtype": "Data",
+   "label": "Project"
+  },
+  {
+   "fieldname": "contract_no",
+   "fieldtype": "Data",
+   "label": "Contract No."
+  },
+  {
+   "fieldname": "acceptance_criteria",
+   "fieldtype": "Data",
+   "label": "Acceptance Criteria"
+  },
+  {
+   "fieldname": "specification",
+   "fieldtype": "Data",
+   "label": "Specification"
+  },
+  {
+   "fieldname": "insp_procedure",
+   "fieldtype": "Data",
+   "label": "Insp. Procedure"
+  },
+  {
+   "fieldname": "test_pack_no",
+   "fieldtype": "Data",
+   "label": "Test Pack No."
+  },
+  {
+   "fieldname": "column_break_8",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "report_no",
+   "fieldtype": "Data",
+   "label": "Report No."
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "powo_no",
+   "fieldtype": "Data",
+   "label": "PO/WO No."
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Data",
+   "label": "Location"
+  },
+  {
+   "fieldname": "material",
+   "fieldtype": "Data",
+   "label": "Material"
+  },
+  {
+   "fieldname": "system",
+   "fieldtype": "Data",
+   "label": "System"
+  },
+  {
+   "fieldname": "drwg_no__line_no",
+   "fieldtype": "Small Text",
+   "label": "DRWG No. / LINE No."
+  },
+  {
+   "fieldname": "section_break_16",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "items",
+   "fieldtype": "Small Text",
+   "label": "Items"
+  },
+  {
+   "fieldname": "test",
+   "fieldtype": "Select",
+   "label": "Test Conducted",
+   "options": "Inside\nOutside"
+  },
+  {
+   "fieldname": "leak__hydro_test_pack_ref",
+   "fieldtype": "Data",
+   "label": "Leak / Hydro Test Pack Ref."
+  },
+  {
+   "fieldname": "test_medium",
+   "fieldtype": "Data",
+   "label": "Test Medium"
+  },
+  {
+   "fieldname": "required_test_duration",
+   "fieldtype": "Data",
+   "label": "Required Test Duration Of Stable Pressure"
+  },
+  {
+   "fieldname": "test_pressure_per_iso__drawings",
+   "fieldtype": "Data",
+   "label": "Test Pressure per ISO / Drawings"
+  },
+  {
+   "fieldname": "test_pressure_at_start",
+   "fieldtype": "Data",
+   "label": "Test Pressure at Start"
+  },
+  {
+   "fieldname": "test_pressure_at_finish",
+   "fieldtype": "Data",
+   "label": "Test Pressure at Finish"
+  },
+  {
+   "fieldname": "column_break_25",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "outside_weather",
+   "fieldtype": "Select",
+   "label": "Outside Weather",
+   "options": "Dry Overcast\nDry Hot"
+  },
+  {
+   "fieldname": "ambient_temp",
+   "fieldtype": "Data",
+   "label": "Ambient Temp."
+  },
+  {
+   "fieldname": "corrosion_inhibitor_added",
+   "fieldtype": "Data",
+   "label": "Corrosion inhibitor Added "
+  },
+  {
+   "fieldname": "actual_test_duration",
+   "fieldtype": "Data",
+   "label": "Actual Test Duration"
+  },
+  {
+   "fieldname": "test_pressure_as_per_line_list",
+   "fieldtype": "Data",
+   "label": "Test Pressure as per Line List"
+  },
+  {
+   "fieldname": "test_temp_at_start",
+   "fieldtype": "Data",
+   "label": "Test Temp. at Start"
+  },
+  {
+   "fieldname": "test_temp_at_finish",
+   "fieldtype": "Data",
+   "label": "Test Temp. at Finish"
+  },
+  {
+   "fieldname": "section_break_33",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "table_34",
+   "fieldtype": "Table",
+   "options": "Pressure Test2 Table"
+  },
+  {
+   "fieldname": "comments",
+   "fieldtype": "Small Text",
+   "label": "Comments(state any test failures):"
+  },
+  {
+   "fieldname": "section_break_18",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_37",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "acceptance",
+   "fieldtype": "Data",
+   "label": "Acceptance"
+  },
+  {
+   "fieldname": "as_built_test_pressureshow_only_if_different_to_line_list_tp",
+   "fieldtype": "Data",
+   "label": "\"AS BUILT\" Test Pressure(show only if different to line list T.P.)"
+  },
+  {
+   "fieldname": "column_break_39",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_41",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "table_42",
+   "fieldtype": "Table",
+   "options": "Pressure Certificate2 Table2"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-02-14 19:11:30.901021",
+ "modified_by": "Administrator",
+ "module": "Qa Qc",
+ "name": "Pressure Test Certificate 2",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

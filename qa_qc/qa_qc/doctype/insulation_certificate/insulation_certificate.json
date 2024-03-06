@@ -1,0 +1,284 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "Insulation certificate.####",
+ "creation": "2023-12-26 19:24:37.134401",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "report_no",
+  "test_pack_no",
+  "rev_no",
+  "project_no",
+  "sheet",
+  "of",
+  "column_break_7",
+  "client",
+  "project",
+  "section_break_10",
+  "dateprepared_by",
+  "sigantureprepared_by",
+  "image_13",
+  "position_prepared_by",
+  "name_prepared_by",
+  "company_prepared_by",
+  "column_break_16",
+  "date_checked_by",
+  "signature_checked_by",
+  "image_20",
+  "position_checked_by",
+  "name_checked_by",
+  "company_checked_by",
+  "column_break_22",
+  "date_approved_by",
+  "signature_approved_by",
+  "image_27",
+  "position_approved_by",
+  "name_approved_by",
+  "company_approved_by",
+  "section_break_28",
+  "p_and_id_no",
+  "drawing_no",
+  "elevation",
+  "grid_reference",
+  "column_break_33",
+  "structural_specs",
+  "piping_specs",
+  "piping_class",
+  "system",
+  "section_break_38",
+  "table_39"
+ ],
+ "fields": [
+  {
+   "fieldname": "report_no",
+   "fieldtype": "Data",
+   "label": "Report No"
+  },
+  {
+   "fieldname": "test_pack_no",
+   "fieldtype": "Data",
+   "label": "Test Pack No"
+  },
+  {
+   "fieldname": "rev_no",
+   "fieldtype": "Data",
+   "label": "Rev No"
+  },
+  {
+   "fieldname": "project_no",
+   "fieldtype": "Data",
+   "label": "Project No"
+  },
+  {
+   "fieldname": "sheet",
+   "fieldtype": "Data",
+   "label": "Sheet "
+  },
+  {
+   "fieldname": "of",
+   "fieldtype": "Data",
+   "label": "Of"
+  },
+  {
+   "fieldname": "column_break_7",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "client",
+   "fieldtype": "Data",
+   "label": "Client"
+  },
+  {
+   "fieldname": "project",
+   "fieldtype": "Data",
+   "label": "Project"
+  },
+  {
+   "fieldname": "section_break_10",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "dateprepared_by",
+   "fieldtype": "Date",
+   "label": "Date(Prepared By)"
+  },
+  {
+   "fieldname": "sigantureprepared_by",
+   "fieldtype": "Attach",
+   "label": "Siganture(prepared By)"
+  },
+  {
+   "fieldname": "position_prepared_by",
+   "fieldtype": "Data",
+   "label": "Position (Prepared By)"
+  },
+  {
+   "fieldname": "name_prepared_by",
+   "fieldtype": "Data",
+   "label": "Name (prepared By)"
+  },
+  {
+   "fieldname": "company_prepared_by",
+   "fieldtype": "Data",
+   "label": "Company (Prepared by)"
+  },
+  {
+   "fieldname": "column_break_16",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "date_checked_by",
+   "fieldtype": "Date",
+   "label": "Date (Checked By)"
+  },
+  {
+   "fieldname": "signature_checked_by",
+   "fieldtype": "Attach",
+   "label": "Signature (Checked By)"
+  },
+  {
+   "fieldname": "position_checked_by",
+   "fieldtype": "Data",
+   "label": "Position (Checked By)"
+  },
+  {
+   "fieldname": "name_checked_by",
+   "fieldtype": "Data",
+   "label": "Name (Checked By)"
+  },
+  {
+   "fieldname": "company_checked_by",
+   "fieldtype": "Data",
+   "label": "Company (Checked By)"
+  },
+  {
+   "fieldname": "column_break_22",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "date_approved_by",
+   "fieldtype": "Date",
+   "label": "Date (Approved By)"
+  },
+  {
+   "fieldname": "signature_approved_by",
+   "fieldtype": "Attach",
+   "label": "Signature (Approved By)"
+  },
+  {
+   "fieldname": "position_approved_by",
+   "fieldtype": "Data",
+   "label": "position (Approved By)"
+  },
+  {
+   "fieldname": "name_approved_by",
+   "fieldtype": "Data",
+   "label": "Name (Checked By)"
+  },
+  {
+   "fieldname": "company_approved_by",
+   "fieldtype": "Data",
+   "label": "Company (Approved By)"
+  },
+  {
+   "fieldname": "section_break_28",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "p_and_id_no",
+   "fieldtype": "Data",
+   "label": "P and ID No"
+  },
+  {
+   "fieldname": "drawing_no",
+   "fieldtype": "Data",
+   "label": "Drawing No"
+  },
+  {
+   "fieldname": "elevation",
+   "fieldtype": "Data",
+   "label": "Elevation "
+  },
+  {
+   "fieldname": "grid_reference",
+   "fieldtype": "Data",
+   "label": "Grid Reference"
+  },
+  {
+   "fieldname": "column_break_33",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "structural_specs",
+   "fieldtype": "Data",
+   "label": "Structural Specs"
+  },
+  {
+   "fieldname": "piping_specs",
+   "fieldtype": "Data",
+   "label": "Piping specs"
+  },
+  {
+   "fieldname": "piping_class",
+   "fieldtype": "Data",
+   "label": "Piping Class"
+  },
+  {
+   "fieldname": "system",
+   "fieldtype": "Data",
+   "label": "System"
+  },
+  {
+   "fieldname": "section_break_38",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "table_39",
+   "fieldtype": "Table",
+   "options": "Insulation Certificate Child table"
+  },
+  {
+   "depends_on": "eval:doc.sigantureprepared_by",
+   "fieldname": "image_13",
+   "fieldtype": "Image",
+   "options": "sigantureprepared_by"
+  },
+  {
+   "depends_on": "eval:doc.signature_checked_by",
+   "fieldname": "image_20",
+   "fieldtype": "Image",
+   "options": "signature_checked_by"
+  },
+  {
+   "depends_on": "eval:doc.signature_approved_by",
+   "fieldname": "image_27",
+   "fieldtype": "Image",
+   "options": "signature_approved_by"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-01-03 21:58:34.772762",
+ "modified_by": "Administrator",
+ "module": "Qa Qc",
+ "name": "Insulation certificate",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

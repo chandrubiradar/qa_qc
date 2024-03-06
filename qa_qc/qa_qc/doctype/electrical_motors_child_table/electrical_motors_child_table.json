@@ -1,0 +1,43 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-01-03 19:54:39.760955",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "items_to_be_checked",
+  "ok",
+  "na"
+ ],
+ "fields": [
+  {
+   "fieldname": "items_to_be_checked",
+   "fieldtype": "Data",
+   "label": "Items to be Checked"
+  },
+  {
+   "default": "0",
+   "fieldname": "ok",
+   "fieldtype": "Check",
+   "label": "OK"
+  },
+  {
+   "default": "0",
+   "fieldname": "na",
+   "fieldtype": "Check",
+   "label": "N/A"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-01-03 19:54:39.760955",
+ "modified_by": "Administrator",
+ "module": "Qa Qc",
+ "name": "Electrical Motors child table",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

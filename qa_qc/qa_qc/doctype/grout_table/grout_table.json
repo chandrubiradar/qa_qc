@@ -1,0 +1,54 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-12-28 21:10:57.359350",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "the_above_equipmentstructure_is_released_for_grouting",
+  "signature",
+  "img",
+  "name1",
+  "date"
+ ],
+ "fields": [
+  {
+   "fieldname": "signature",
+   "fieldtype": "Attach",
+   "label": "Signature"
+  },
+  {
+   "fieldname": "img",
+   "fieldtype": "Image",
+   "label": "Img",
+   "options": "signature"
+  },
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "the_above_equipmentstructure_is_released_for_grouting",
+   "fieldtype": "Data",
+   "label": "1. The above equipment/structure is released for grouting."
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-12-28 21:19:47.657443",
+ "modified_by": "Administrator",
+ "module": "Qa Qc",
+ "name": "GROUT Table",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

@@ -1,0 +1,54 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-12-05 16:52:21.309466",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "description",
+  "action_by_completion_signatures",
+  "image",
+  "mgcsb_completion_signatures",
+  "clientcompletion_signatures"
+ ],
+ "fields": [
+  {
+   "fieldname": "description",
+   "fieldtype": "Data",
+   "label": "Description"
+  },
+  {
+   "fieldname": "action_by_completion_signatures",
+   "fieldtype": "Attach",
+   "label": "Action By (Completion Signatures)"
+  },
+  {
+   "fieldname": "mgcsb_completion_signatures",
+   "fieldtype": "Attach",
+   "label": "MGCSB (Completion Signatures)"
+  },
+  {
+   "fieldname": "clientcompletion_signatures",
+   "fieldtype": "Attach",
+   "label": "CLIENT(Completion Signatures)"
+  },
+  {
+   "fieldname": "image",
+   "fieldtype": "Image",
+   "label": "Image ",
+   "options": "action_by_completion_signatures"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-12-05 22:42:54.639890",
+ "modified_by": "Administrator",
+ "module": "Qa Qc",
+ "name": "Punch list Table",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

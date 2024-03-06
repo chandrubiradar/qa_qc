@@ -1,0 +1,129 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-11-07 20:41:10.175275",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "drawing_number__sht_number",
+  "line_class",
+  "spool_num",
+  "weld_no",
+  "joint_type",
+  "material_1",
+  "material_2",
+  "heat_num1",
+  "heat_num2",
+  "column_break_6",
+  "diameter__size",
+  "thick",
+  "wps_no",
+  "welding_process",
+  "welding_idrhfc",
+  "fitupdate",
+  "weld_visual_result",
+  "remarks"
+ ],
+ "fields": [
+  {
+   "fieldname": "drawing_number__sht_number",
+   "fieldtype": "Data",
+   "label": "Drawing Number / Sht Number"
+  },
+  {
+   "fieldname": "line_class",
+   "fieldtype": "Data",
+   "label": "Line Class"
+  },
+  {
+   "fieldname": "spool_num",
+   "fieldtype": "Data",
+   "label": "Spool Num"
+  },
+  {
+   "fieldname": "weld_no",
+   "fieldtype": "Data",
+   "label": "Weld No"
+  },
+  {
+   "fieldname": "joint_type",
+   "fieldtype": "Data",
+   "label": "Joint Type"
+  },
+  {
+   "fieldname": "material_1",
+   "fieldtype": "Data",
+   "label": "Material 1"
+  },
+  {
+   "fieldname": "material_2",
+   "fieldtype": "Data",
+   "label": "Material 2"
+  },
+  {
+   "fieldname": "diameter__size",
+   "fieldtype": "Data",
+   "label": "Diameter / size"
+  },
+  {
+   "fieldname": "thick",
+   "fieldtype": "Data",
+   "label": "Thick"
+  },
+  {
+   "fieldname": "wps_no",
+   "fieldtype": "Data",
+   "label": "WPS No"
+  },
+  {
+   "fieldname": "welding_process",
+   "fieldtype": "Data",
+   "label": "Welding Process"
+  },
+  {
+   "fieldname": "welding_idrhfc",
+   "fieldtype": "Data",
+   "label": "Welding ID(R/H/F/C)"
+  },
+  {
+   "fieldname": "fitupdate",
+   "fieldtype": "Data",
+   "label": "FitupDate"
+  },
+  {
+   "fieldname": "weld_visual_result",
+   "fieldtype": "Data",
+   "label": "Weld Visual Result"
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Small Text",
+   "label": "Remarks"
+  },
+  {
+   "fieldname": "heat_num1",
+   "fieldtype": "Data",
+   "label": "Heat Num1"
+  },
+  {
+   "fieldname": "heat_num2",
+   "fieldtype": "Data",
+   "label": "Heat Num2"
+  },
+  {
+   "fieldname": "column_break_6",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-11-07 21:58:43.478109",
+ "modified_by": "Administrator",
+ "module": "Qa Qc",
+ "name": "Welding Inspection report Table",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

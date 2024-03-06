@@ -1,0 +1,288 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:RCW-{system_no}0{####}",
+ "creation": "2024-01-01 18:01:38.664861",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "system_no",
+  "mgcsb_contract_no",
+  "test_pack_no",
+  "column_break_6",
+  "drawing_no",
+  "rev",
+  "location",
+  "description",
+  "section_break_11",
+  "section_break_74",
+  "reinforced_concrete_template",
+  "table_76",
+  "section_break_64",
+  "type_of_testresults",
+  "section_break_66",
+  "curing_requirements",
+  "section_break_68",
+  "type_of_test__results",
+  "section_break_80",
+  "sub_contractor_column",
+  "company",
+  "s85",
+  "image_86",
+  "id87",
+  "name1",
+  "date89",
+  "main_contractor_column",
+  "comapny91",
+  "s92",
+  "image_93",
+  "id94",
+  "n95",
+  "date96",
+  "bsp_qcs_engineer_civil_column",
+  "c98",
+  "s99",
+  "image_100",
+  "id101",
+  "n102",
+  "date"
+ ],
+ "fields": [
+  {
+   "fieldname": "system_no",
+   "fieldtype": "Data",
+   "label": "System No"
+  },
+  {
+   "fieldname": "mgcsb_contract_no",
+   "fieldtype": "Data",
+   "label": "MGCSB Contract No"
+  },
+  {
+   "fieldname": "test_pack_no",
+   "fieldtype": "Data",
+   "label": "Test Pack No"
+  },
+  {
+   "fieldname": "column_break_6",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "drawing_no",
+   "fieldtype": "Data",
+   "label": "Drawing No"
+  },
+  {
+   "fieldname": "rev",
+   "fieldtype": "Data",
+   "label": "Rev"
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Link",
+   "label": "Location",
+   "options": "Mashhor Area"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Data",
+   "label": "Description"
+  },
+  {
+   "fieldname": "section_break_11",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_64",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "type_of_testresults",
+   "fieldtype": "Small Text",
+   "label": "Built in terms (details)"
+  },
+  {
+   "fieldname": "section_break_66",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_68",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "curing_requirements",
+   "fieldtype": "Small Text",
+   "label": "Curing requirements"
+  },
+  {
+   "fieldname": "type_of_test__results",
+   "fieldtype": "Small Text",
+   "label": "Type of test / results"
+  },
+  {
+   "fieldname": "section_break_80",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "sub_contractor_column",
+   "fieldtype": "Column Break",
+   "label": "Sub Contractor"
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "Company"
+  },
+  {
+   "fieldname": "s85",
+   "fieldtype": "Attach",
+   "label": "Signature"
+  },
+  {
+   "depends_on": "eval:doc.id85",
+   "fieldname": "image_86",
+   "fieldtype": "Image",
+   "options": "s85"
+  },
+  {
+   "fieldname": "id87",
+   "fieldtype": "Link",
+   "label": "ID",
+   "options": "Employee"
+  },
+  {
+   "depends_on": "eval:doc.id87",
+   "fetch_from": "id87.employee_name",
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "main_contractor_column",
+   "fieldtype": "Column Break",
+   "label": "Main Contractor"
+  },
+  {
+   "fieldname": "s92",
+   "fieldtype": "Attach",
+   "label": "Signature"
+  },
+  {
+   "depends_on": "eval:doc.id92",
+   "fieldname": "image_93",
+   "fieldtype": "Image",
+   "options": "s92"
+  },
+  {
+   "fieldname": "date89",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "comapny91",
+   "fieldtype": "Link",
+   "label": "Comapny",
+   "options": "Company"
+  },
+  {
+   "fieldname": "id94",
+   "fieldtype": "Link",
+   "label": "ID",
+   "options": "Employee"
+  },
+  {
+   "depends_on": "eval:doc.id94",
+   "fetch_from": "id94.employee_name",
+   "fieldname": "n95",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "date96",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "bsp_qcs_engineer_civil_column",
+   "fieldtype": "Column Break",
+   "label": "BSP QCS Engineer Civil"
+  },
+  {
+   "fieldname": "c98",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "Company"
+  },
+  {
+   "fieldname": "s99",
+   "fieldtype": "Attach",
+   "label": "Signature"
+  },
+  {
+   "depends_on": "eval:doc.s99",
+   "fieldname": "image_100",
+   "fieldtype": "Image",
+   "options": "s99"
+  },
+  {
+   "fieldname": "id101",
+   "fieldtype": "Link",
+   "label": "ID",
+   "options": "Employee"
+  },
+  {
+   "depends_on": "eval:doc.id101",
+   "fetch_from": "id101.employee_name",
+   "fieldname": "n102",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "section_break_74",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "d3af75a649",
+   "fieldname": "reinforced_concrete_template",
+   "fieldtype": "Link",
+   "hidden": 1,
+   "label": "ReinForced Concrete template",
+   "options": "ReinForced Concrete template"
+  },
+  {
+   "fieldname": "table_76",
+   "fieldtype": "Table",
+   "options": "Reinforced concrete Child table"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-01-04 13:10:36.390299",
+ "modified_by": "Administrator",
+ "module": "Qa Qc",
+ "name": "REINFORCED CONCRETE WORKS",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

@@ -1,0 +1,730 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "SSRF-.####",
+ "creation": "2024-01-01 16:31:36.499654",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "system_no",
+  "test_pack_no",
+  "mgcsb_contract_no",
+  "drawing_no",
+  "rev",
+  "location",
+  "section_break_7",
+  "html_8",
+  "html_9",
+  "html_10",
+  "html_11",
+  "html_12",
+  "html_13",
+  "html_14",
+  "html_15",
+  "html_16",
+  "html_17",
+  "html_18",
+  "html_19",
+  "html_20",
+  "html_21",
+  "html_22",
+  "html_23",
+  "html_24",
+  "html_25",
+  "html_26",
+  "html_27",
+  "html_28",
+  "html_29",
+  "html_30",
+  "yes_column",
+  "check_32",
+  "check_33",
+  "check_34",
+  "check_35",
+  "check_36",
+  "check_37",
+  "check_38",
+  "check_39",
+  "check_40",
+  "check_41",
+  "check_42",
+  "check_43",
+  "check_44",
+  "check_45",
+  "check_46",
+  "check_47",
+  "check_48",
+  "check_49",
+  "check_50",
+  "check_51",
+  "na_column",
+  "check_53",
+  "check_54",
+  "check_55",
+  "check_56",
+  "check_57",
+  "check_58",
+  "check_59",
+  "check_60",
+  "check_61",
+  "check_62",
+  "check_63",
+  "check_64",
+  "check_65",
+  "check_66",
+  "check_67",
+  "check_68",
+  "check_69",
+  "check_70",
+  "check_71",
+  "check_72",
+  "no_column",
+  "check_74",
+  "check_75",
+  "check_76",
+  "check_77",
+  "check_78",
+  "check_79",
+  "check_80",
+  "check_81",
+  "check_82",
+  "check_83",
+  "check_84",
+  "check_85",
+  "check_86",
+  "check_87",
+  "check_88",
+  "check_89",
+  "check_90",
+  "check_91",
+  "check_92",
+  "check_93",
+  "section_break_94",
+  "remarks__no_remarks_delete_as_applicable",
+  "section_break_96",
+  "mgcsb_construction_column",
+  "id98",
+  "name1",
+  "s99",
+  "image_100",
+  "date",
+  "mgcsb_qaqc_column",
+  "id104",
+  "n103",
+  "s104",
+  "image_105",
+  "d106",
+  "bsp_qcs_civil_column",
+  "id110",
+  "n108",
+  "s109",
+  "image_110",
+  "d111"
+ ],
+ "fields": [
+  {
+   "fieldname": "system_no",
+   "fieldtype": "Data",
+   "label": "System No"
+  },
+  {
+   "fieldname": "test_pack_no",
+   "fieldtype": "Data",
+   "label": "Test Pack No"
+  },
+  {
+   "fieldname": "mgcsb_contract_no",
+   "fieldtype": "Data",
+   "label": "MGCSB Contract No"
+  },
+  {
+   "fieldname": "drawing_no",
+   "fieldtype": "Data",
+   "label": "Drawing No"
+  },
+  {
+   "fieldname": "rev",
+   "fieldtype": "Data",
+   "label": "Rev"
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Link",
+   "label": "Location",
+   "options": "Mashhor Area"
+  },
+  {
+   "fieldname": "section_break_7",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "html_8",
+   "fieldtype": "HTML",
+   "options": "The following items have been inspected and verified:"
+  },
+  {
+   "fieldname": "html_9",
+   "fieldtype": "HTML",
+   "options": " Steel Structural Installation "
+  },
+  {
+   "fieldname": "html_10",
+   "fieldtype": "HTML",
+   "options": " Structural frame dimension"
+  },
+  {
+   "fieldname": "html_11",
+   "fieldtype": "HTML",
+   "options": "Horizontal and vertical alignment"
+  },
+  {
+   "fieldname": "html_12",
+   "fieldtype": "HTML",
+   "options": "Bracing/Tie rods"
+  },
+  {
+   "fieldname": "html_13",
+   "fieldtype": "HTML",
+   "options": "Final elevation of the steel member"
+  },
+  {
+   "fieldname": "html_14",
+   "fieldtype": "HTML",
+   "options": " Bolting &Torquing"
+  },
+  {
+   "fieldname": "html_15",
+   "fieldtype": "HTML",
+   "options": " Grating size & orientation"
+  },
+  {
+   "fieldname": "html_16",
+   "fieldtype": "HTML",
+   "options": "Earthing boss"
+  },
+  {
+   "fieldname": "html_17",
+   "fieldtype": "HTML",
+   "options": "Fencing Installation"
+  },
+  {
+   "fieldname": "html_18",
+   "fieldtype": "HTML",
+   "options": "Fence posts installed Horizontal,Vertical alignment,Spacing & Height"
+  },
+  {
+   "fieldname": "html_19",
+   "fieldtype": "HTML",
+   "options": " End/ Corner/pull post firmly anchored & supported"
+  },
+  {
+   "fieldname": "html_20",
+   "fieldtype": "HTML",
+   "options": " All fittings/caps/tension bars/hinges/hardware installed properly"
+  },
+  {
+   "fieldname": "html_21",
+   "fieldtype": "HTML",
+   "options": "Gate open/closing condition fitted complete with handles,locks,keys crash bars"
+  },
+  {
+   "fieldname": "html_22",
+   "fieldtype": "HTML",
+   "options": "5 All warning & safety signs/ labels fitted"
+  },
+  {
+   "fieldname": "html_23",
+   "fieldtype": "HTML",
+   "options": "Barbbed wire"
+  },
+  {
+   "fieldname": "html_24",
+   "fieldtype": "HTML",
+   "options": " 3 Roofing"
+  },
+  {
+   "fieldname": "html_25",
+   "fieldtype": "HTML",
+   "options": ". Roofsheet/Colour approval"
+  },
+  {
+   "fieldname": "html_26",
+   "fieldtype": "HTML",
+   "options": "Roofing/insulation material receiving"
+  },
+  {
+   "fieldname": "html_27",
+   "fieldtype": "HTML",
+   "options": "Purlin and rafter dimension and orientation"
+  },
+  {
+   "fieldname": "html_28",
+   "fieldtype": "HTML",
+   "options": "Cladding "
+  },
+  {
+   "fieldname": "html_29",
+   "fieldtype": "HTML",
+   "options": "Ridge cap/Falshing"
+  },
+  {
+   "fieldname": "html_30",
+   "fieldtype": "HTML",
+   "options": "Drain gutters and Downspout pipe"
+  },
+  {
+   "fieldname": "yes_column",
+   "fieldtype": "Column Break",
+   "label": "YES"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_32",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_33",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_34",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_35",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_36",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_37",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_38",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_39",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_40",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_41",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_42",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_43",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_44",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_45",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_46",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_47",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_48",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_49",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_50",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_51",
+   "fieldtype": "Check"
+  },
+  {
+   "fieldname": "na_column",
+   "fieldtype": "Column Break",
+   "label": "N/A"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_53",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_54",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_55",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_56",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_57",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_58",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_59",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_60",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_61",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_62",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_63",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_64",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_65",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_66",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_67",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_68",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_69",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_70",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_71",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_72",
+   "fieldtype": "Check"
+  },
+  {
+   "fieldname": "no_column",
+   "fieldtype": "Column Break",
+   "label": "NO"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_74",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_75",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_76",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_77",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_78",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_79",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_80",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_81",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_82",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_83",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_84",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_85",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_86",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_87",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_88",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_89",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_90",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_91",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_92",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_93",
+   "fieldtype": "Check"
+  },
+  {
+   "fieldname": "section_break_94",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "remarks__no_remarks_delete_as_applicable",
+   "fieldtype": "Small Text",
+   "label": "Remarks / No Remarks (Delete as applicable)"
+  },
+  {
+   "fieldname": "section_break_96",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "mgcsb_construction_column",
+   "fieldtype": "Column Break",
+   "label": "MGCSB Construction"
+  },
+  {
+   "depends_on": "eval:doc.id98",
+   "fetch_from": "id98.employee_name",
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "s99",
+   "fieldtype": "Attach",
+   "label": "Signature"
+  },
+  {
+   "depends_on": "eval:doc.s99",
+   "fieldname": "image_100",
+   "fieldtype": "Image",
+   "options": "s99"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "mgcsb_qaqc_column",
+   "fieldtype": "Column Break",
+   "label": "MGCSB QA/QC"
+  },
+  {
+   "depends_on": "eval:doc.id104",
+   "fetch_from": "id104.employee_name",
+   "fieldname": "n103",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "s104",
+   "fieldtype": "Attach",
+   "label": "Signature"
+  },
+  {
+   "depends_on": "eval:doc.s104",
+   "fieldname": "image_105",
+   "fieldtype": "Image",
+   "options": "s104"
+  },
+  {
+   "fieldname": "d106",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "bsp_qcs_civil_column",
+   "fieldtype": "Column Break",
+   "label": "BSP QCS Civil"
+  },
+  {
+   "depends_on": "eval:doc.id110",
+   "fetch_from": "id110.employee_name",
+   "fieldname": "n108",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "s109",
+   "fieldtype": "Attach",
+   "label": "Signature"
+  },
+  {
+   "depends_on": "eval:doc.s109",
+   "fieldname": "image_110",
+   "fieldtype": "Image",
+   "options": "s109"
+  },
+  {
+   "fieldname": "d111",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "id98",
+   "fieldtype": "Link",
+   "label": "ID",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "id104",
+   "fieldtype": "Link",
+   "label": "ID",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "id110",
+   "fieldtype": "Link",
+   "label": "ID",
+   "options": "Employee"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-01-02 21:55:50.558255",
+ "modified_by": "Administrator",
+ "module": "Qa Qc",
+ "name": "Structural support Roofing and Fencing",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

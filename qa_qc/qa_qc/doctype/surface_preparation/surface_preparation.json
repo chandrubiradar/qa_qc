@@ -1,0 +1,47 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-11-08 16:18:00.562214",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "solvent_clean",
+  "power_brush",
+  "powerhand_tools",
+  "grit_blast_dry"
+ ],
+ "fields": [
+  {
+   "fieldname": "solvent_clean",
+   "fieldtype": "Data",
+   "label": "Solvent Clean"
+  },
+  {
+   "fieldname": "power_brush",
+   "fieldtype": "Data",
+   "label": "Power Brush"
+  },
+  {
+   "fieldname": "powerhand_tools",
+   "fieldtype": "Data",
+   "label": "Power/Hand Tools"
+  },
+  {
+   "fieldname": "grit_blast_dry",
+   "fieldtype": "Data",
+   "label": "Grit Blast (Dry)"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-11-08 16:18:00.562214",
+ "modified_by": "Administrator",
+ "module": "Qa Qc",
+ "name": "Surface Preparation",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

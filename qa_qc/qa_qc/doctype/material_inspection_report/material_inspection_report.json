@@ -1,0 +1,245 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "MIR-.####",
+ "creation": "2023-12-29 18:02:24.906959",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "project_title",
+  "project_no",
+  "column_break_3",
+  "date_of_inspection",
+  "location",
+  "section_break_5",
+  "material_inspection_table",
+  "notes",
+  "section_break_7",
+  "qc_representative",
+  "company",
+  "signature",
+  "image_13",
+  "id3",
+  "name1",
+  "date",
+  "column_break_13",
+  "site_representative",
+  "company1",
+  "sign1",
+  "image_20",
+  "id",
+  "name2",
+  "date1",
+  "column_break_19",
+  "company_representative",
+  "company2",
+  "sign2",
+  "image_27",
+  "id1",
+  "name3",
+  "date2"
+ ],
+ "fields": [
+  {
+   "fieldname": "project_title",
+   "fieldtype": "Link",
+   "label": "Project Title",
+   "options": "Contract"
+  },
+  {
+   "fieldname": "project_no",
+   "fieldtype": "Link",
+   "label": "Project No",
+   "options": "Project"
+  },
+  {
+   "fieldname": "date_of_inspection",
+   "fieldtype": "Date",
+   "label": "Date of Inspection"
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Link",
+   "label": "Location",
+   "options": "Mashhor Area"
+  },
+  {
+   "fieldname": "section_break_5",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "notes",
+   "fieldtype": "Text",
+   "label": "Notes"
+  },
+  {
+   "fieldname": "section_break_7",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "qc_representative",
+   "fieldtype": "HTML",
+   "label": "CONTRACTOR QC REPRESENTATIVE",
+   "options": "CONTRACTOR QC REPRESENTATIVE"
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "Company"
+  },
+  {
+   "fieldname": "signature",
+   "fieldtype": "Attach",
+   "label": "Signature"
+  },
+  {
+   "depends_on": "eval:doc.id3",
+   "fetch_from": "id3.employee_name",
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "column_break_13",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "site_representative",
+   "fieldtype": "HTML",
+   "label": "CONTRACTOR - SITE REPRESENTATIVE",
+   "options": "CONTRACTOR - SITE REPRESENTATIVE"
+  },
+  {
+   "fieldname": "company1",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "Company"
+  },
+  {
+   "fieldname": "sign1",
+   "fieldtype": "Attach",
+   "label": "Signature"
+  },
+  {
+   "depends_on": "eval:doc.id",
+   "fetch_from": "id.employee_name",
+   "fieldname": "name2",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "date1",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "column_break_19",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "company_representative",
+   "fieldtype": "HTML",
+   "label": "COMPANY REPRESENTATIVE",
+   "options": "COMPANY REPRESENTATIVE"
+  },
+  {
+   "fieldname": "company2",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "Company"
+  },
+  {
+   "fieldname": "sign2",
+   "fieldtype": "Attach",
+   "label": "Signature"
+  },
+  {
+   "depends_on": "eval:doc.id1",
+   "fetch_from": "id1.employee_name",
+   "fieldname": "name3",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "date2",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "material_inspection_table",
+   "fieldtype": "Table",
+   "label": "Material Inspection Table",
+   "options": "MIR Table"
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "depends_on": "eval:doc.signature",
+   "fieldname": "image_13",
+   "fieldtype": "Image",
+   "options": "signature"
+  },
+  {
+   "depends_on": "eval:doc.sign1",
+   "fieldname": "image_20",
+   "fieldtype": "Image",
+   "options": "sign1"
+  },
+  {
+   "depends_on": "eval:doc.sign2",
+   "fieldname": "image_27",
+   "fieldtype": "Image",
+   "options": "sign2"
+  },
+  {
+   "fieldname": "id",
+   "fieldtype": "Link",
+   "label": "ID",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "id1",
+   "fieldtype": "Link",
+   "label": "ID",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "id3",
+   "fieldtype": "Link",
+   "label": "ID",
+   "options": "Employee"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-01-02 15:29:43.901692",
+ "modified_by": "Administrator",
+ "module": "Qa Qc",
+ "name": "MATERIAL INSPECTION REPORT",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

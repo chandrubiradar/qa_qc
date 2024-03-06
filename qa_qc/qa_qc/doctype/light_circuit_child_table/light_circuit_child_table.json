@@ -1,0 +1,47 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-12-29 15:36:14.844733",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "light_fitting_no",
+  "results",
+  "initial__signature",
+  "punch_list_y_n"
+ ],
+ "fields": [
+  {
+   "fieldname": "light_fitting_no",
+   "fieldtype": "Data",
+   "label": "Light Fitting No"
+  },
+  {
+   "fieldname": "results",
+   "fieldtype": "Data",
+   "label": "Results "
+  },
+  {
+   "fieldname": "initial__signature",
+   "fieldtype": "Data",
+   "label": "Initial / Signature"
+  },
+  {
+   "fieldname": "punch_list_y_n",
+   "fieldtype": "Data",
+   "label": "Punch List (Y/ N)"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-12-29 15:36:14.844733",
+ "modified_by": "Administrator",
+ "module": "Qa Qc",
+ "name": "Light Circuit Child table",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

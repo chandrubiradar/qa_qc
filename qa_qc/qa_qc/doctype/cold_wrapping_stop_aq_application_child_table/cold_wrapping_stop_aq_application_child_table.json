@@ -1,0 +1,54 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-12-26 19:57:20.457154",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "description",
+  "time_1",
+  "time_2",
+  "time_3",
+  "time_4"
+ ],
+ "fields": [
+  {
+   "fieldname": "description",
+   "fieldtype": "Select",
+   "label": "Description",
+   "options": "Ambient Temperature\nSurface Temperature\nDew Point\nRelative Humidity %"
+  },
+  {
+   "fieldname": "time_1",
+   "fieldtype": "Data",
+   "label": "Time (1)"
+  },
+  {
+   "fieldname": "time_2",
+   "fieldtype": "Data",
+   "label": "Time (2)"
+  },
+  {
+   "fieldname": "time_3",
+   "fieldtype": "Data",
+   "label": "Time (3)"
+  },
+  {
+   "fieldname": "time_4",
+   "fieldtype": "Data",
+   "label": "Time (4)"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-12-26 20:05:02.101972",
+ "modified_by": "Administrator",
+ "module": "Qa Qc",
+ "name": "Cold Wrapping Stop AQ Application Child Table",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

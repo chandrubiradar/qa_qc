@@ -1,0 +1,531 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "Earth Works-.####",
+ "creation": "2024-01-01 16:59:26.601955",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "system_no",
+  "mgcsb_contract_no",
+  "test_pack_no",
+  "drawing_no",
+  "rev",
+  "section_break_6",
+  "description",
+  "section_break_8",
+  "locationchainage",
+  "section_break_10",
+  "html_10",
+  "html_11",
+  "html_12",
+  "html_13",
+  "html_14",
+  "html_15",
+  "html_16",
+  "html_56",
+  "html_19",
+  "html_20",
+  "html_21",
+  "yes_column",
+  "check_22",
+  "check_23",
+  "check_24",
+  "check_25",
+  "check_26",
+  "check_27",
+  "check_29",
+  "check_30",
+  "check_31",
+  "check_32",
+  "na_column",
+  "check_33",
+  "check_34",
+  "check_35",
+  "check_36",
+  "check_37",
+  "check_38",
+  "check_39",
+  "check_40",
+  "check_41",
+  "check_42",
+  "no_column",
+  "check_44",
+  "check_45",
+  "check_46",
+  "check_47",
+  "check_48",
+  "check_49",
+  "check_51",
+  "check_52",
+  "check_53",
+  "check_54",
+  "column_break_55",
+  "section_break_54",
+  "type_of_testresults",
+  "section_break_56",
+  "remarks_no_remarks",
+  "section_break_58",
+  "sub_contractor_column",
+  "c62",
+  "s63",
+  "image_64",
+  "id65",
+  "n65",
+  "d66",
+  "main_contractor_column",
+  "c68",
+  "s69",
+  "image_70",
+  "id72",
+  "name1",
+  "s71",
+  "bsp_qcs_engineer_civil_column",
+  "d73",
+  "s74",
+  "image_75",
+  "id79",
+  "name77",
+  "date"
+ ],
+ "fields": [
+  {
+   "fieldname": "system_no",
+   "fieldtype": "Data",
+   "label": "System No"
+  },
+  {
+   "fieldname": "mgcsb_contract_no",
+   "fieldtype": "Data",
+   "label": "MGCSB Contract No"
+  },
+  {
+   "fieldname": "test_pack_no",
+   "fieldtype": "Data",
+   "label": "Test Pack No"
+  },
+  {
+   "fieldname": "drawing_no",
+   "fieldtype": "Data",
+   "label": "Drawing no"
+  },
+  {
+   "fieldname": "rev",
+   "fieldtype": "Data",
+   "label": "Rev"
+  },
+  {
+   "fieldname": "section_break_6",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Small Text",
+   "label": "Description"
+  },
+  {
+   "fieldname": "section_break_8",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "locationchainage",
+   "fieldtype": "Link",
+   "label": "Location/Chainage",
+   "options": "Mashhor Area"
+  },
+  {
+   "fieldname": "html_10",
+   "fieldtype": "HTML",
+   "options": "The following items have been inspected and checked:"
+  },
+  {
+   "fieldname": "html_11",
+   "fieldtype": "HTML",
+   "options": " Set-out/grid ref./bench marks "
+  },
+  {
+   "fieldname": "html_12",
+   "fieldtype": "HTML",
+   "options": "Excavation/formation leve"
+  },
+  {
+   "fieldname": "html_13",
+   "fieldtype": "HTML",
+   "options": "Fill/formationlevel/suitable soil test"
+  },
+  {
+   "fieldname": "html_14",
+   "fieldtype": "HTML",
+   "options": " Impermeable membrane/mirafi pet"
+  },
+  {
+   "fieldname": "html_15",
+   "fieldtype": "HTML",
+   "options": "Sub-base/graded fill"
+  },
+  {
+   "fieldname": "html_16",
+   "fieldtype": "HTML",
+   "options": " Asphalt/macadam"
+  },
+  {
+   "fieldname": "yes_column",
+   "fieldtype": "Column Break",
+   "label": "YES"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_22",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_23",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_24",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_25",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_26",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_27",
+   "fieldtype": "Check"
+  },
+  {
+   "fieldname": "na_column",
+   "fieldtype": "Column Break",
+   "label": "N/A"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_33",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_34",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_35",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_36",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_37",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_38",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_39",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_40",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_41",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_42",
+   "fieldtype": "Check"
+  },
+  {
+   "fieldname": "no_column",
+   "fieldtype": "Column Break",
+   "label": "NO"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_44",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_45",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_46",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_47",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_48",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_49",
+   "fieldtype": "Check"
+  },
+  {
+   "fieldname": "section_break_54",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "type_of_testresults",
+   "fieldtype": "Small Text",
+   "label": "Type of test/results"
+  },
+  {
+   "fieldname": "section_break_56",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "remarks_no_remarks",
+   "fieldtype": "Small Text",
+   "label": "Remarks/ No Remarks"
+  },
+  {
+   "fieldname": "section_break_58",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_10",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_55",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "html_56",
+   "fieldtype": "HTML",
+   "options": "Testing (See Item 11)"
+  },
+  {
+   "fieldname": "html_19",
+   "fieldtype": "HTML",
+   "options": "Kerbing\n"
+  },
+  {
+   "fieldname": "html_20",
+   "fieldtype": "HTML",
+   "options": " Finish level\n"
+  },
+  {
+   "fieldname": "html_21",
+   "fieldtype": "HTML",
+   "options": " Landscaping"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_29",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_30",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_31",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_32",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_51",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_52",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_53",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_54",
+   "fieldtype": "Check"
+  },
+  {
+   "fieldname": "sub_contractor_column",
+   "fieldtype": "Column Break",
+   "label": "Sub Contractor"
+  },
+  {
+   "fieldname": "c62",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "Company"
+  },
+  {
+   "fieldname": "s63",
+   "fieldtype": "Attach",
+   "label": "Signature"
+  },
+  {
+   "depends_on": "eval:doc.s63",
+   "fieldname": "image_64",
+   "fieldtype": "Image",
+   "options": "s63"
+  },
+  {
+   "depends_on": "eval:doc.id65",
+   "fetch_from": "id65.employee_name",
+   "fieldname": "n65",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "d66",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "main_contractor_column",
+   "fieldtype": "Column Break",
+   "label": "Main Contractor"
+  },
+  {
+   "fieldname": "c68",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "Company"
+  },
+  {
+   "fieldname": "s69",
+   "fieldtype": "Attach",
+   "label": "Signature"
+  },
+  {
+   "depends_on": "eval:doc.s69",
+   "fieldname": "image_70",
+   "fieldtype": "Image",
+   "options": "s69"
+  },
+  {
+   "fieldname": "s71",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "bsp_qcs_engineer_civil_column",
+   "fieldtype": "Column Break",
+   "label": "BSP QCS Engineer civil"
+  },
+  {
+   "fieldname": "d73",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "Company"
+  },
+  {
+   "fieldname": "s74",
+   "fieldtype": "Attach",
+   "label": "Signature"
+  },
+  {
+   "depends_on": "eval:doc.s74",
+   "fieldname": "image_75",
+   "fieldtype": "Image",
+   "options": "s74"
+  },
+  {
+   "depends_on": "eval:doc.id72",
+   "fetch_from": "id72.employee_name",
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "depends_on": "eval:doc.id79",
+   "fetch_from": "id79.employee_name",
+   "fieldname": "name77",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "id65",
+   "fieldtype": "Link",
+   "label": "ID",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "id72",
+   "fieldtype": "Link",
+   "label": "ID",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "id79",
+   "fieldtype": "Link",
+   "label": "ID",
+   "options": "Employee"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-01-02 21:57:24.575524",
+ "modified_by": "Administrator",
+ "module": "Qa Qc",
+ "name": "Earth Works Roadworks",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

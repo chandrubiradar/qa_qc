@@ -1,0 +1,83 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-11-08 14:34:57.011887",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "date",
+  "paint_coatings",
+  "manufacturer",
+  "product_name",
+  "method_of_application",
+  "required_dft",
+  "actual_dft",
+  "base_batch_number",
+  "cure_batch_number",
+  "remarks"
+ ],
+ "fields": [
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "paint_coatings",
+   "fieldtype": "Data",
+   "label": "Paint Coatings"
+  },
+  {
+   "fieldname": "manufacturer",
+   "fieldtype": "Data",
+   "label": "Manufacturer"
+  },
+  {
+   "fieldname": "product_name",
+   "fieldtype": "Data",
+   "label": "Product Name"
+  },
+  {
+   "fieldname": "method_of_application",
+   "fieldtype": "Data",
+   "label": "Method Of Application"
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Small Text",
+   "label": "Remarks"
+  },
+  {
+   "fieldname": "required_dft",
+   "fieldtype": "Float",
+   "label": "Required DFT "
+  },
+  {
+   "fieldname": "actual_dft",
+   "fieldtype": "Float",
+   "label": "Actual DFT"
+  },
+  {
+   "fieldname": "base_batch_number",
+   "fieldtype": "Data",
+   "label": "Base Batch Number"
+  },
+  {
+   "fieldname": "cure_batch_number",
+   "fieldtype": "Data",
+   "label": "Cure Batch Number"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-11-08 22:00:18.639993",
+ "modified_by": "Administrator",
+ "module": "Qa Qc",
+ "name": "Paint Coating Table",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

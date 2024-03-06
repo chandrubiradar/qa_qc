@@ -1,0 +1,376 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "Concrete Pour Release Record-.####",
+ "creation": "2023-12-29 18:17:11.189502",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "system_no",
+  "mgcsb_contract_no",
+  "test_pack_no",
+  "drawing_no",
+  "rev",
+  "concrete_base__stamp_ref",
+  "section_break_7",
+  "specification",
+  "concrete_grade",
+  "admixtures",
+  "method_of_placement",
+  "quantity_m3",
+  "design_mix_code__cement_type",
+  "column_break_12",
+  "maximum_size_of_aggregates",
+  "access__platform",
+  "vibrations__tools",
+  "section_break_18",
+  "inspection",
+  "centrelines",
+  "formwork",
+  "reinforcement",
+  "built__cast_in_place_items",
+  "date",
+  "contractors_signature",
+  "image_26",
+  "column_break_26",
+  "blinding",
+  "cleanliness",
+  "curing_facilities",
+  "time",
+  "section_break_31",
+  "remarks__no_remarks_delete_as_applicable",
+  "section_break_33",
+  "sub_contractor_by_column",
+  "c36",
+  "s37",
+  "image_38",
+  "id39",
+  "n39",
+  "d40",
+  "main_contractor_column",
+  "c42",
+  "s43",
+  "image_44",
+  "id46",
+  "n45",
+  "d45",
+  "bsp_qcs_civil_column",
+  "c47",
+  "s48",
+  "image_49",
+  "id53",
+  "name1",
+  "d51"
+ ],
+ "fields": [
+  {
+   "fieldname": "system_no",
+   "fieldtype": "Data",
+   "label": "System No"
+  },
+  {
+   "fieldname": "mgcsb_contract_no",
+   "fieldtype": "Data",
+   "label": "MGCSB Contract No"
+  },
+  {
+   "fieldname": "test_pack_no",
+   "fieldtype": "Data",
+   "label": "Test Pack No"
+  },
+  {
+   "fieldname": "drawing_no",
+   "fieldtype": "Data",
+   "label": "Drawing No"
+  },
+  {
+   "fieldname": "rev",
+   "fieldtype": "Data",
+   "label": "Rev"
+  },
+  {
+   "fieldname": "concrete_base__stamp_ref",
+   "fieldtype": "Data",
+   "label": "Concrete Base / Stamp Ref"
+  },
+  {
+   "fieldname": "section_break_7",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "specification",
+   "fieldtype": "Heading",
+   "label": "1. Specification"
+  },
+  {
+   "fieldname": "concrete_grade",
+   "fieldtype": "Data",
+   "label": "Concrete grade"
+  },
+  {
+   "fieldname": "admixtures",
+   "fieldtype": "Data",
+   "label": "Admixtures"
+  },
+  {
+   "fieldname": "method_of_placement",
+   "fieldtype": "Data",
+   "label": "Method Of Placement"
+  },
+  {
+   "fieldname": "column_break_12",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "maximum_size_of_aggregates",
+   "fieldtype": "Data",
+   "label": "Maximum size of aggregates"
+  },
+  {
+   "fieldname": "access__platform",
+   "fieldtype": "Data",
+   "label": "Access / platform"
+  },
+  {
+   "fieldname": "vibrations__tools",
+   "fieldtype": "Data",
+   "label": "Vibrations / Tools"
+  },
+  {
+   "fieldname": "quantity_m3",
+   "fieldtype": "Data",
+   "label": "Quantity (M3)"
+  },
+  {
+   "fieldname": "design_mix_code__cement_type",
+   "fieldtype": "Data",
+   "label": "Design mix code / Cement Type"
+  },
+  {
+   "fieldname": "section_break_18",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "inspection",
+   "fieldtype": "Heading",
+   "label": "2 . Inspection"
+  },
+  {
+   "fieldname": "centrelines",
+   "fieldtype": "Data",
+   "label": "Centrelines"
+  },
+  {
+   "fieldname": "formwork",
+   "fieldtype": "Data",
+   "label": "FormWork"
+  },
+  {
+   "fieldname": "reinforcement",
+   "fieldtype": "Data",
+   "label": "Reinforcement"
+  },
+  {
+   "fieldname": "built__cast_in_place_items",
+   "fieldtype": "Data",
+   "label": "Built  cast in place items"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "contractors_signature",
+   "fieldtype": "Attach",
+   "label": "Contractor's signature"
+  },
+  {
+   "fieldname": "column_break_26",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "blinding",
+   "fieldtype": "Data",
+   "label": "Blinding"
+  },
+  {
+   "fieldname": "cleanliness",
+   "fieldtype": "Data",
+   "label": "Cleanliness"
+  },
+  {
+   "fieldname": "curing_facilities",
+   "fieldtype": "Data",
+   "label": "Curing Facilities"
+  },
+  {
+   "fieldname": "time",
+   "fieldtype": "Time",
+   "label": "Time"
+  },
+  {
+   "fieldname": "section_break_31",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "remarks__no_remarks_delete_as_applicable",
+   "fieldtype": "Small Text",
+   "label": "Remarks / No Remarks (Delete as applicable)"
+  },
+  {
+   "fieldname": "section_break_33",
+   "fieldtype": "Section Break"
+  },
+  {
+   "depends_on": "eval:doc.contractors_signature",
+   "fieldname": "image_26",
+   "fieldtype": "Image",
+   "options": "contractors_signature"
+  },
+  {
+   "fieldname": "sub_contractor_by_column",
+   "fieldtype": "Column Break",
+   "label": "Sub Contractor by"
+  },
+  {
+   "fieldname": "c36",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "Company"
+  },
+  {
+   "fieldname": "s37",
+   "fieldtype": "Attach",
+   "label": "Signature"
+  },
+  {
+   "depends_on": "eval:doc.s37",
+   "fieldname": "image_38",
+   "fieldtype": "Image",
+   "options": "s37"
+  },
+  {
+   "depends_on": "eval:doc.id39",
+   "fetch_from": "id39.employee_name",
+   "fieldname": "n39",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "d40",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "main_contractor_column",
+   "fieldtype": "Column Break",
+   "label": "Main Contractor"
+  },
+  {
+   "fieldname": "c42",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "Company"
+  },
+  {
+   "fieldname": "s43",
+   "fieldtype": "Attach",
+   "label": "Signature"
+  },
+  {
+   "depends_on": "eval:doc.s43",
+   "fieldname": "image_44",
+   "fieldtype": "Image",
+   "options": "s43"
+  },
+  {
+   "fieldname": "d45",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "bsp_qcs_civil_column",
+   "fieldtype": "Column Break",
+   "label": "BSP-QCS Civil"
+  },
+  {
+   "fieldname": "c47",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "Company"
+  },
+  {
+   "fieldname": "s48",
+   "fieldtype": "Attach",
+   "label": "Signature"
+  },
+  {
+   "depends_on": "eval:doc.s48",
+   "fieldname": "image_49",
+   "fieldtype": "Image",
+   "options": "s48"
+  },
+  {
+   "depends_on": "eval:doc.id53",
+   "fetch_from": "id53.employee_name",
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "d51",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "depends_on": "eval:doc.id46",
+   "fetch_from": "id46.employee_name",
+   "fieldname": "n45",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "id39",
+   "fieldtype": "Link",
+   "label": "ID",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "id46",
+   "fieldtype": "Link",
+   "label": "ID",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "id53",
+   "fieldtype": "Link",
+   "label": "ID",
+   "options": "Employee"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-01-02 21:41:10.723967",
+ "modified_by": "Administrator",
+ "module": "Qa Qc",
+ "name": "Concrete Pour Release Record",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

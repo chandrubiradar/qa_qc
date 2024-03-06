@@ -1,0 +1,278 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "EPT-.####",
+ "creation": "2023-12-29 22:16:22.721458",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "system_no",
+  "test_pack_no",
+  "from",
+  "drawing_no",
+  "rev",
+  "column_break_6",
+  "mgcsb_contract_no",
+  "area",
+  "to",
+  "section_break_10",
+  "excavations_template",
+  "table_12",
+  "section_break_13",
+  "html_15",
+  "html_16",
+  "small_text_17",
+  "section_break_17",
+  "sub_contractor_column",
+  "c20",
+  "s21",
+  "image_22",
+  "id23",
+  "n23",
+  "d24",
+  "main_contractor_column",
+  "c26",
+  "s27",
+  "image_28",
+  "id30",
+  "n30",
+  "d30",
+  "company_representative_column",
+  "company",
+  "s33",
+  "image_34",
+  "id37",
+  "name1",
+  "date"
+ ],
+ "fields": [
+  {
+   "fieldname": "system_no",
+   "fieldtype": "Data",
+   "label": "System No"
+  },
+  {
+   "fieldname": "test_pack_no",
+   "fieldtype": "Data",
+   "label": "Test Pack No"
+  },
+  {
+   "fieldname": "from",
+   "fieldtype": "Data",
+   "label": "From"
+  },
+  {
+   "fieldname": "drawing_no",
+   "fieldtype": "Data",
+   "label": "Drawing No"
+  },
+  {
+   "fieldname": "rev",
+   "fieldtype": "Data",
+   "label": "Rev"
+  },
+  {
+   "fieldname": "column_break_6",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "mgcsb_contract_no",
+   "fieldtype": "Data",
+   "label": "MGCSB Contract No"
+  },
+  {
+   "fieldname": "area",
+   "fieldtype": "Data",
+   "label": "Area"
+  },
+  {
+   "fieldname": "to",
+   "fieldtype": "Data",
+   "label": "To"
+  },
+  {
+   "fieldname": "section_break_10",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "table_12",
+   "fieldtype": "Table",
+   "options": "Excavations Child Table"
+  },
+  {
+   "default": "09f6f14513",
+   "fieldname": "excavations_template",
+   "fieldtype": "Link",
+   "hidden": 1,
+   "label": "Excavations Template",
+   "options": "Excavations Template"
+  },
+  {
+   "fieldname": "section_break_13",
+   "fieldtype": "Section Break",
+   "label": "Remarks / No Remarks  (Delete as applicable)"
+  },
+  {
+   "fieldname": "html_15",
+   "fieldtype": "HTML",
+   "options": "\n\n1. All types of work was executed as per drawing details was succesfully followed, even if its civil, mechanicaland \nelectrical/instrumentation.\n\n"
+  },
+  {
+   "fieldname": "html_16",
+   "fieldtype": "HTML",
+   "options": "2. Excavation and trenches support is properly executed, backfilling the ground and to compacted the soft area avoiding any  potential sinked to the newly pipesupport reinforced concrete"
+  },
+  {
+   "fieldname": "section_break_17",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "small_text_17",
+   "fieldtype": "Small Text"
+  },
+  {
+   "fieldname": "sub_contractor_column",
+   "fieldtype": "Column Break",
+   "label": "Sub Contractor"
+  },
+  {
+   "fieldname": "c20",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "Company"
+  },
+  {
+   "fieldname": "s21",
+   "fieldtype": "Attach",
+   "label": "Signature"
+  },
+  {
+   "depends_on": "eval:doc.s22",
+   "fieldname": "image_22",
+   "fieldtype": "Image",
+   "options": "s22"
+  },
+  {
+   "depends_on": "eval:doc.id23",
+   "fetch_from": "id23.employee_name",
+   "fieldname": "n23",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "d24",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "main_contractor_column",
+   "fieldtype": "Column Break",
+   "label": "Main Contractor"
+  },
+  {
+   "fieldname": "c26",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "Company"
+  },
+  {
+   "fieldname": "s27",
+   "fieldtype": "Attach",
+   "label": "Signature"
+  },
+  {
+   "depends_on": "eval:doc.s27",
+   "fieldname": "image_28",
+   "fieldtype": "Image",
+   "options": "s27"
+  },
+  {
+   "fieldname": "d30",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "company_representative_column",
+   "fieldtype": "Column Break",
+   "label": "Company Representative"
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "Company"
+  },
+  {
+   "fieldname": "s33",
+   "fieldtype": "Attach",
+   "label": "Signature"
+  },
+  {
+   "depends_on": "eval:doc.s33",
+   "fieldname": "image_34",
+   "fieldtype": "Image",
+   "options": "s33"
+  },
+  {
+   "depends_on": "eval:doc.id37",
+   "fetch_from": "id37.employee_name",
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "id23",
+   "fieldtype": "Link",
+   "label": "ID",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "id30",
+   "fieldtype": "Link",
+   "label": "ID",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "id37",
+   "fieldtype": "Link",
+   "label": "ID",
+   "options": "Employee"
+  },
+  {
+   "depends_on": "eval:doc.id30",
+   "fetch_from": "id30.employee_name",
+   "fieldname": "n30",
+   "fieldtype": "Data",
+   "label": "Name"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-01-02 21:52:24.571128",
+ "modified_by": "Administrator",
+ "module": "Qa Qc",
+ "name": "Excavations and pipeline Trenches",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

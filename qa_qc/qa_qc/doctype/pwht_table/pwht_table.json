@@ -1,0 +1,29 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-09-22 23:56:31.307461",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "spool_item_identification"
+ ],
+ "fields": [
+  {
+   "fieldname": "spool_item_identification",
+   "fieldtype": "Data",
+   "label": "Spool / Item Identification"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-09-22 23:58:03.573211",
+ "modified_by": "Administrator",
+ "module": "Qa Qc",
+ "name": "PWHT Table",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

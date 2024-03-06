@@ -1,0 +1,410 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{client}-{specification}-{##}",
+ "creation": "2023-02-10 15:42:11.060608",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "client",
+  "won_no",
+  "specification",
+  "drawing_numbers",
+  "test_location",
+  "date",
+  "column_break_5",
+  "project",
+  "acceptance_criteria",
+  "line_numbers",
+  "outside_weather_condition",
+  "location",
+  "column_break_10",
+  "contract_no",
+  "test_procedure",
+  "test_medium",
+  "ambient_temp",
+  "column_break_15",
+  "report_no",
+  "job_no",
+  "system",
+  "corrosion_inhibitor",
+  "test_duration_of_stable_pressure_section",
+  "procedure",
+  "column_break_22",
+  "actual",
+  "description_section",
+  "to_include_equipment_no_and_in_line_piping_items",
+  "test_data_section",
+  "table_27",
+  "section_break_28",
+  "test_pressure_per_iso_drawings",
+  "test_pressure_per_line_list",
+  "as_built_test_pressureif_different_to_line_list_tp",
+  "comments",
+  "column_break_32",
+  "table_33",
+  "test_result",
+  "section_break_36",
+  "column_break_38",
+  "performed_by_column",
+  "name1",
+  "signature1",
+  "image_43",
+  "date1",
+  "column_break_43",
+  "inspected_by_column",
+  "name2",
+  "signature2",
+  "image_49",
+  "date2",
+  "column_break_48",
+  "witness_column",
+  "name3",
+  "signature3",
+  "image_55",
+  "date3",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "client",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Client",
+   "options": "Contract",
+   "reqd": 1
+  },
+  {
+   "fieldname": "specification",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Specification",
+   "reqd": 1
+  },
+  {
+   "fieldname": "drawing_numbers",
+   "fieldtype": "Data",
+   "label": "Drawing Numbers"
+  },
+  {
+   "fieldname": "test_location",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Test Location",
+   "options": "Mashhor Area",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "project",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Project ",
+   "options": "Contract",
+   "reqd": 1
+  },
+  {
+   "fieldname": "acceptance_criteria",
+   "fieldtype": "Data",
+   "label": "Acceptance Criteria"
+  },
+  {
+   "fieldname": "line_numbers",
+   "fieldtype": "Data",
+   "label": "Line numbers"
+  },
+  {
+   "fieldname": "outside_weather_condition",
+   "fieldtype": "Data",
+   "label": "Outside Weather Condition"
+  },
+  {
+   "fieldname": "column_break_10",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "contract_no",
+   "fieldtype": "Data",
+   "label": "Contract No."
+  },
+  {
+   "fieldname": "test_procedure",
+   "fieldtype": "Data",
+   "label": "Test Procedure"
+  },
+  {
+   "fieldname": "test_medium",
+   "fieldtype": "Data",
+   "label": "Test Medium"
+  },
+  {
+   "fieldname": "ambient_temp",
+   "fieldtype": "Data",
+   "label": "Ambient Temp"
+  },
+  {
+   "fieldname": "column_break_15",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "report_no",
+   "fieldtype": "Data",
+   "label": "Report No."
+  },
+  {
+   "fieldname": "job_no",
+   "fieldtype": "Data",
+   "label": "Job No."
+  },
+  {
+   "fieldname": "system",
+   "fieldtype": "Data",
+   "label": "System"
+  },
+  {
+   "fieldname": "corrosion_inhibitor",
+   "fieldtype": "Data",
+   "label": "Corrosion Inhibitor"
+  },
+  {
+   "fieldname": "test_duration_of_stable_pressure_section",
+   "fieldtype": "Section Break",
+   "label": "Test Duration Of Stable Pressure"
+  },
+  {
+   "fieldname": "procedure",
+   "fieldtype": "Data",
+   "label": "Procedure"
+  },
+  {
+   "fieldname": "column_break_22",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "actual",
+   "fieldtype": "Data",
+   "label": "Actual"
+  },
+  {
+   "fieldname": "description_section",
+   "fieldtype": "Section Break",
+   "label": "Description"
+  },
+  {
+   "fieldname": "to_include_equipment_no_and_in_line_piping_items",
+   "fieldtype": "Text",
+   "label": "To include Equipment Numbers and In-Line Piping Items"
+  },
+  {
+   "fieldname": "test_data_section",
+   "fieldtype": "Section Break",
+   "label": "Test Data"
+  },
+  {
+   "fieldname": "table_27",
+   "fieldtype": "Table",
+   "options": "Leak Test Table"
+  },
+  {
+   "fieldname": "test_pressure_per_iso_drawings",
+   "fieldtype": "Data",
+   "label": "Test Pressure Per ISO Drawings"
+  },
+  {
+   "fieldname": "test_pressure_per_line_list",
+   "fieldtype": "Data",
+   "label": "Test Pressure Per Line List"
+  },
+  {
+   "fieldname": "as_built_test_pressureif_different_to_line_list_tp",
+   "fieldtype": "Data",
+   "label": "As-Built Test pressure(if different to Line List T.P.)"
+  },
+  {
+   "fieldname": "comments",
+   "fieldtype": "Small Text",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "column_break_32",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "table_33",
+   "fieldtype": "Table",
+   "label": "Pressure And Temperature",
+   "options": "Test Data"
+  },
+  {
+   "fieldname": "test_result",
+   "fieldtype": "Small Text",
+   "label": "Test Result"
+  },
+  {
+   "fieldname": "section_break_28",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_36",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "performed_by_column",
+   "fieldtype": "Link",
+   "label": "Performed By:",
+   "options": "Employee"
+  },
+  {
+   "depends_on": "eval:doc.performed_by_column",
+   "fetch_from": "performed_by_column.employee_name",
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "inspected_by_column",
+   "fieldtype": "Link",
+   "label": "Inspected By:",
+   "options": "Employee"
+  },
+  {
+   "depends_on": "eval:doc.inspected_by_column",
+   "fetch_from": "inspected_by_column.employee_name",
+   "fieldname": "name2",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "witness_column",
+   "fieldtype": "Link",
+   "label": "Witnessed/Reviewed By:",
+   "options": "Employee"
+  },
+  {
+   "depends_on": "eval:doc.witness_column",
+   "fetch_from": "witness_column.employee_name",
+   "fieldname": "name3",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "signature1",
+   "fieldtype": "Attach",
+   "label": "Signature"
+  },
+  {
+   "default": "Today",
+   "fieldname": "date1",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "signature2",
+   "fieldtype": "Attach",
+   "label": "Signature"
+  },
+  {
+   "default": "Today",
+   "fieldname": "date2",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "signature3",
+   "fieldtype": "Attach",
+   "label": "Signature"
+  },
+  {
+   "default": "Today",
+   "fieldname": "date3",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "default": "Today",
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "column_break_38",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_43",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_48",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Link",
+   "label": "Location",
+   "options": "Mashhor Area",
+   "reqd": 1
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Leak Test Certificate",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "depends_on": "eval:doc.signature1",
+   "fieldname": "image_43",
+   "fieldtype": "Image",
+   "options": "signature1"
+  },
+  {
+   "depends_on": "eval:doc.signature2",
+   "fieldname": "image_49",
+   "fieldtype": "Image",
+   "options": "signature2"
+  },
+  {
+   "depends_on": "eval:doc.signature3",
+   "fieldname": "image_55",
+   "fieldtype": "Image",
+   "options": "signature3"
+  },
+  {
+   "fieldname": "won_no",
+   "fieldtype": "Link",
+   "label": "Won No",
+   "options": "Project"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2023-11-28 15:22:13.128211",
+ "modified_by": "Administrator",
+ "module": "Qa Qc",
+ "name": "Leak Test Certificate",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

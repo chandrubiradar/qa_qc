@@ -1,0 +1,77 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-02-13 20:41:52.056714",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "item_no",
+  "description",
+  "tag_no",
+  "cat_a_or_b",
+  "clearance_body",
+  "target_completion_date",
+  "accepted_byname",
+  "accepted_bysignature",
+  "accepted__cleared_date"
+ ],
+ "fields": [
+  {
+   "fieldname": "item_no",
+   "fieldtype": "Data",
+   "label": "Item No."
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Data",
+   "label": "Description"
+  },
+  {
+   "fieldname": "tag_no",
+   "fieldtype": "Data",
+   "label": "Tag No"
+  },
+  {
+   "fieldname": "cat_a_or_b",
+   "fieldtype": "Data",
+   "label": "Category 'A or B'"
+  },
+  {
+   "fieldname": "clearance_body",
+   "fieldtype": "Data",
+   "label": "Clearance Body"
+  },
+  {
+   "fieldname": "target_completion_date",
+   "fieldtype": "Date",
+   "label": "Target Completion Date"
+  },
+  {
+   "fieldname": "accepted_byname",
+   "fieldtype": "Data",
+   "label": "Accepted / Cleared By(Name)"
+  },
+  {
+   "fieldname": "accepted_bysignature",
+   "fieldtype": "Attach",
+   "label": "Accepted / Cleared By(Signature)"
+  },
+  {
+   "fieldname": "accepted__cleared_date",
+   "fieldtype": "Date",
+   "label": "Accepted / Cleared Date"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-02-13 20:50:56.116446",
+ "modified_by": "Administrator",
+ "module": "Qa Qc",
+ "name": "Punch List Table2",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

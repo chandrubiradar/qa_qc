@@ -1,0 +1,47 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-12-29 19:40:48.355615",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "description_of_items",
+  "status",
+  "corrective_action",
+  "remarks"
+ ],
+ "fields": [
+  {
+   "fieldname": "description_of_items",
+   "fieldtype": "Small Text",
+   "label": "Description of Items"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Data",
+   "label": "Status"
+  },
+  {
+   "fieldname": "corrective_action",
+   "fieldtype": "Data",
+   "label": "Corrective Action"
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Small Text",
+   "label": "Remarks"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-01-02 15:51:36.315939",
+ "modified_by": "Administrator",
+ "module": "Qa Qc",
+ "name": "Formworks Table",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

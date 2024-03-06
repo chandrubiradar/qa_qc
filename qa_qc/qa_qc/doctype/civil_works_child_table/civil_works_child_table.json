@@ -1,0 +1,47 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-01-01 16:09:40.084802",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "completed_by",
+  "sub_contractor",
+  "main_contractor",
+  "company_representative"
+ ],
+ "fields": [
+  {
+   "fieldname": "completed_by",
+   "fieldtype": "Data",
+   "label": "Completed By"
+  },
+  {
+   "fieldname": "sub_contractor",
+   "fieldtype": "Data",
+   "label": "Sub Contractor"
+  },
+  {
+   "fieldname": "main_contractor",
+   "fieldtype": "Data",
+   "label": "Main Contractor"
+  },
+  {
+   "fieldname": "company_representative",
+   "fieldtype": "Data",
+   "label": "Company Representative"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-01-01 16:09:40.084802",
+ "modified_by": "Administrator",
+ "module": "Qa Qc",
+ "name": "Civil works Child table",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

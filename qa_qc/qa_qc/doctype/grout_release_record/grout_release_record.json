@@ -1,0 +1,434 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-12-28 20:42:47.616044",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "page",
+  "system_no",
+  "mgcsb_contract_no",
+  "testpack_no",
+  "column_break_5",
+  "drawing_no",
+  "rev",
+  "equipment_no",
+  "location",
+  "section_break_10",
+  "name2",
+  "table_10",
+  "section_break_12",
+  "formwork_removed",
+  "html_14",
+  "html_15",
+  "html_16",
+  "html_17",
+  "html_18",
+  "html_19",
+  "html_20",
+  "yes_column",
+  "check_14",
+  "check_26",
+  "check_27",
+  "check_28",
+  "check_29",
+  "check_30",
+  "check_31",
+  "check_32",
+  "na_column",
+  "check_16",
+  "check_38",
+  "check_39",
+  "check_40",
+  "check_41",
+  "check_42",
+  "check_43",
+  "check_44",
+  "no_column",
+  "check_18",
+  "check_50",
+  "check_51",
+  "check_52",
+  "check_53",
+  "check_54",
+  "check_55",
+  "check_56",
+  "section_break_60",
+  "type_1_____cementsand",
+  "type_2_non_shrink",
+  "html_52",
+  "ultimate_strength",
+  "column_break_54",
+  "type_3_dry_pack",
+  "proposed_date_for_grouting",
+  "section_break_57",
+  "name3",
+  "table_61",
+  "html_60",
+  "section_break_61",
+  "3_remarks_no_remarks",
+  "section_break_64",
+  "name1",
+  "table_65"
+ ],
+ "fields": [
+  {
+   "fieldname": "page",
+   "fieldtype": "Data",
+   "label": "Page"
+  },
+  {
+   "fieldname": "system_no",
+   "fieldtype": "Data",
+   "label": "System No"
+  },
+  {
+   "fieldname": "mgcsb_contract_no",
+   "fieldtype": "Data",
+   "label": "MGCSB Contract No"
+  },
+  {
+   "fieldname": "testpack_no",
+   "fieldtype": "Data",
+   "label": "Testpack No"
+  },
+  {
+   "fieldname": "column_break_5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "drawing_no",
+   "fieldtype": "Data",
+   "label": "Drawing No"
+  },
+  {
+   "fieldname": "rev",
+   "fieldtype": "Data",
+   "label": "Rev"
+  },
+  {
+   "fieldname": "equipment_no",
+   "fieldtype": "Data",
+   "label": "Equipment No"
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Link",
+   "label": "Location",
+   "options": "Mashhor Area"
+  },
+  {
+   "fieldname": "section_break_12",
+   "fieldtype": "Section Break",
+   "label": "2. The following items have been checked:"
+  },
+  {
+   "fieldname": "formwork_removed",
+   "fieldtype": "HTML",
+   "options": "2.1 Surface is prepared for grout"
+  },
+  {
+   "fieldname": "html_14",
+   "fieldtype": "HTML",
+   "options": "2.2 Sleeves are clean and clear"
+  },
+  {
+   "fieldname": "html_15",
+   "fieldtype": "HTML",
+   "options": "2.3 Displaced air can be vented"
+  },
+  {
+   "fieldname": "html_16",
+   "fieldtype": "HTML",
+   "options": "2.4 Formwork is properly fitted"
+  },
+  {
+   "fieldname": "html_17",
+   "fieldtype": "HTML",
+   "options": "2.5 Curing facilities"
+  },
+  {
+   "fieldname": "html_18",
+   "fieldtype": "HTML",
+   "options": "2.6 Facilities for airing are available"
+  },
+  {
+   "fieldname": "html_19",
+   "fieldtype": "HTML",
+   "options": "2.7 Equipment has been aligned and levelled"
+  },
+  {
+   "fieldname": "html_20",
+   "fieldtype": "HTML",
+   "options": "2.8 Concrete surfce is soaked/Saturated as per TDS"
+  },
+  {
+   "fieldname": "yes_column",
+   "fieldtype": "Column Break",
+   "label": "YES"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_14",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_26",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_27",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_28",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_29",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_30",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_31",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_32",
+   "fieldtype": "Check"
+  },
+  {
+   "fieldname": "na_column",
+   "fieldtype": "Column Break",
+   "label": "N/A"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_16",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_38",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_39",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_40",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_41",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_42",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_43",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_44",
+   "fieldtype": "Check"
+  },
+  {
+   "fieldname": "no_column",
+   "fieldtype": "Column Break",
+   "label": "NO"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_18",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_50",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_51",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_52",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_53",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_54",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_55",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_56",
+   "fieldtype": "Check"
+  },
+  {
+   "fieldname": "section_break_60",
+   "fieldtype": "Section Break",
+   "label": "3. Design of Mix"
+  },
+  {
+   "fieldname": "table_61",
+   "fieldtype": "Table",
+   "options": "GROUT Table1"
+  },
+  {
+   "fieldname": "3_remarks_no_remarks",
+   "fieldtype": "Text",
+   "in_list_view": 1,
+   "label": "4. Remarks/ No Remarks",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_64",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "8fd35be311",
+   "fieldname": "name1",
+   "fieldtype": "Link",
+   "hidden": 1,
+   "label": "Name1",
+   "options": "LAND RELIABILITY Template"
+  },
+  {
+   "fieldname": "table_65",
+   "fieldtype": "Table",
+   "options": "LAND RELIABILITY Table1"
+  },
+  {
+   "fieldname": "table_10",
+   "fieldtype": "Table",
+   "options": "GROUT Table"
+  },
+  {
+   "default": "3b91395b56",
+   "fieldname": "name2",
+   "fieldtype": "Link",
+   "hidden": 1,
+   "label": "Name2",
+   "options": "GROUT Table template"
+  },
+  {
+   "fieldname": "section_break_10",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "type_1_____cementsand",
+   "fieldtype": "Check",
+   "label": "Type 1 . . . . Cement/Sand"
+  },
+  {
+   "default": "0",
+   "fieldname": "type_2_non_shrink",
+   "fieldtype": "Check",
+   "label": "Type 2 Non Shrink"
+  },
+  {
+   "fieldname": "html_52",
+   "fieldtype": "HTML",
+   "options": "N.B. Indicate type used"
+  },
+  {
+   "fieldname": "ultimate_strength",
+   "fieldtype": "Data",
+   "label": "Ultimate Strength"
+  },
+  {
+   "fieldname": "column_break_54",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "type_3_dry_pack",
+   "fieldtype": "Check",
+   "label": "Type 3 Dry Pack"
+  },
+  {
+   "fieldname": "proposed_date_for_grouting",
+   "fieldtype": "Data",
+   "label": "Proposed date for grouting"
+  },
+  {
+   "fieldname": "section_break_57",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "36f07990a0",
+   "fieldname": "name3",
+   "fieldtype": "Link",
+   "hidden": 1,
+   "label": "Name3",
+   "options": "GROUT Table1 Template"
+  },
+  {
+   "fieldname": "html_60",
+   "fieldtype": "HTML",
+   "options": "3.2 Grouting is complete and inspected with formwork removed"
+  },
+  {
+   "fieldname": "section_break_61",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-01-01 21:08:33.519710",
+ "modified_by": "Administrator",
+ "module": "Qa Qc",
+ "name": "GROUT RELEASE RECORD",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

@@ -1,0 +1,571 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{project_won} - {###}",
+ "creation": "2023-11-08 16:00:46.989376",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "project_title",
+  "from",
+  "from_name",
+  "signature",
+  "img",
+  "column_break_3",
+  "project_won",
+  "from_location",
+  "date",
+  "to",
+  "to_location",
+  "section_break_12",
+  "scope_of_work",
+  "section_break_14",
+  "welding_code",
+  "details",
+  "column_break_17",
+  "welding_procedures_column",
+  "section_break_19",
+  "r19",
+  "yes",
+  "no",
+  "column_break_23",
+  "a24",
+  "n25",
+  "n26",
+  "column_break_27",
+  "pwht",
+  "y29",
+  "n30",
+  "column_break_21",
+  "html_22",
+  "rt",
+  "mt",
+  "ut",
+  "pt",
+  "schedule_section",
+  "scedule_attached",
+  "y39",
+  "n40",
+  "relevant_documentationattached",
+  "attached",
+  "y43",
+  "n44",
+  "column_break_31",
+  "forwarded_separately",
+  "y47",
+  "n48",
+  "date_required",
+  "materials_section",
+  "to_be_supplied_by",
+  "details_2",
+  "certification_required",
+  "y54",
+  "n55",
+  "traceability_section",
+  "materials",
+  "y58",
+  "n59",
+  "d40",
+  "column_break_41",
+  "process",
+  "y63",
+  "n64",
+  "identification__marking_section",
+  "r66",
+  "y67",
+  "n68",
+  "d45",
+  "surface_treatment_section",
+  "r71",
+  "y72",
+  "y73",
+  "d48",
+  "packaging_section",
+  "r76",
+  "y77",
+  "n78",
+  "d51",
+  "section_break_52",
+  "delivery__transport__forwarding_instructions"
+ ],
+ "fields": [
+  {
+   "fieldname": "project_title",
+   "fieldtype": "Link",
+   "label": "Project ",
+   "options": "Contract"
+  },
+  {
+   "fieldname": "project_won",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Project/WON",
+   "options": "Project",
+   "reqd": 1
+  },
+  {
+   "fieldname": "from",
+   "fieldtype": "Link",
+   "label": "From(Originator)",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "depends_on": "eval:doc.from",
+   "fetch_from": "from.employee_name",
+   "fieldname": "from_name",
+   "fieldtype": "Data",
+   "label": "Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "signature",
+   "fieldtype": "Attach",
+   "label": "Signature"
+  },
+  {
+   "depends_on": "eval:doc.signature",
+   "fieldname": "img",
+   "fieldtype": "Image",
+   "options": "signature",
+   "width": "100"
+  },
+  {
+   "fieldname": "from_location",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Location",
+   "options": "Mashhor Area",
+   "reqd": 1
+  },
+  {
+   "default": "Today",
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "to",
+   "fieldtype": "Data",
+   "label": "To"
+  },
+  {
+   "fieldname": "to_location",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Location",
+   "options": "Mashhor Area",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_12",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "scope_of_work",
+   "fieldtype": "Small Text",
+   "label": "<b>Scope Of Work</b>"
+  },
+  {
+   "fieldname": "section_break_14",
+   "fieldtype": "Section Break",
+   "label": "Welding"
+  },
+  {
+   "fieldname": "welding_code",
+   "fieldtype": "Data",
+   "label": "Welding Code"
+  },
+  {
+   "fieldname": "details",
+   "fieldtype": "Small Text",
+   "label": "Details"
+  },
+  {
+   "fieldname": "welding_procedures_column",
+   "fieldtype": "HTML",
+   "options": "<b>Welding Procedures:</b>"
+  },
+  {
+   "fieldname": "pwht",
+   "fieldtype": "HTML",
+   "label": "PWHT",
+   "options": "PWHT"
+  },
+  {
+   "default": "0",
+   "fieldname": "rt",
+   "fieldtype": "Check",
+   "label": "RT"
+  },
+  {
+   "default": "0",
+   "fieldname": "mt",
+   "fieldtype": "Check",
+   "label": "MT"
+  },
+  {
+   "default": "0",
+   "fieldname": "ut",
+   "fieldtype": "Check",
+   "label": "UT"
+  },
+  {
+   "default": "0",
+   "fieldname": "pt",
+   "fieldtype": "Check",
+   "label": "PT"
+  },
+  {
+   "fieldname": "column_break_21",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "html_22",
+   "fieldtype": "HTML",
+   "options": "<b>NDT Requirements:</b>"
+  },
+  {
+   "fieldname": "column_break_17",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "schedule_section",
+   "fieldtype": "Section Break",
+   "label": "Schedule"
+  },
+  {
+   "fieldname": "relevant_documentationattached",
+   "fieldtype": "Select",
+   "label": "Relevant Documentation(Attached)",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "forwarded_separately",
+   "fieldtype": "HTML",
+   "label": "Forwarded Separately",
+   "options": "Forwarded Separately"
+  },
+  {
+   "fieldname": "column_break_31",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "materials_section",
+   "fieldtype": "Section Break",
+   "label": "Materials"
+  },
+  {
+   "fieldname": "to_be_supplied_by",
+   "fieldtype": "Data",
+   "label": "To be Supplied By"
+  },
+  {
+   "fieldname": "details_2",
+   "fieldtype": "Small Text",
+   "label": "Details"
+  },
+  {
+   "fieldname": "certification_required",
+   "fieldtype": "HTML",
+   "label": "Certification Required",
+   "options": "Certification Required"
+  },
+  {
+   "fieldname": "traceability_section",
+   "fieldtype": "Section Break",
+   "label": "Traceability"
+  },
+  {
+   "fieldname": "materials",
+   "fieldtype": "HTML",
+   "label": "Materials",
+   "options": "Materials"
+  },
+  {
+   "fieldname": "d40",
+   "fieldtype": "Small Text",
+   "label": "details"
+  },
+  {
+   "fieldname": "column_break_41",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "identification__marking_section",
+   "fieldtype": "Section Break",
+   "label": "Identification / Marking"
+  },
+  {
+   "fieldname": "d45",
+   "fieldtype": "Small Text",
+   "label": "Details"
+  },
+  {
+   "fieldname": "surface_treatment_section",
+   "fieldtype": "Section Break",
+   "label": "Surface Treatment"
+  },
+  {
+   "fieldname": "d48",
+   "fieldtype": "Small Text",
+   "label": "Details"
+  },
+  {
+   "fieldname": "packaging_section",
+   "fieldtype": "Section Break",
+   "label": "Packaging"
+  },
+  {
+   "fieldname": "d51",
+   "fieldtype": "Small Text",
+   "label": "Details",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "section_break_52",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "delivery__transport__forwarding_instructions",
+   "fieldtype": "Long Text",
+   "label": "Delivery / Transport / Forwarding instructions"
+  },
+  {
+   "default": "0",
+   "fieldname": "yes",
+   "fieldtype": "Check",
+   "label": "yes"
+  },
+  {
+   "default": "0",
+   "fieldname": "no",
+   "fieldtype": "Check",
+   "label": "No"
+  },
+  {
+   "fieldname": "r19",
+   "fieldtype": "HTML",
+   "label": "REQUIRED",
+   "options": "<b>REQUIRED</b>"
+  },
+  {
+   "fieldname": "section_break_19",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_23",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "a24",
+   "fieldtype": "HTML",
+   "label": "ATTACHED",
+   "options": "Attached"
+  },
+  {
+   "default": "0",
+   "fieldname": "n25",
+   "fieldtype": "Check",
+   "label": "Yes"
+  },
+  {
+   "default": "0",
+   "fieldname": "n26",
+   "fieldtype": "Check",
+   "label": "No"
+  },
+  {
+   "fieldname": "column_break_27",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "y29",
+   "fieldtype": "Check",
+   "label": "Yes"
+  },
+  {
+   "default": "0",
+   "fieldname": "n30",
+   "fieldtype": "Check",
+   "label": "No"
+  },
+  {
+   "fieldname": "scedule_attached",
+   "fieldtype": "HTML",
+   "label": "Scedule Attached",
+   "options": "Scedule Attached"
+  },
+  {
+   "default": "0",
+   "fieldname": "y39",
+   "fieldtype": "Check",
+   "label": "Yes"
+  },
+  {
+   "default": "0",
+   "fieldname": "n40",
+   "fieldtype": "Check",
+   "label": "No"
+  },
+  {
+   "fieldname": "attached",
+   "fieldtype": "HTML",
+   "label": "Attached ",
+   "options": "Attached"
+  },
+  {
+   "default": "0",
+   "fieldname": "y43",
+   "fieldtype": "Check",
+   "label": "Yes"
+  },
+  {
+   "default": "0",
+   "fieldname": "n44",
+   "fieldtype": "Check",
+   "label": "No"
+  },
+  {
+   "default": "0",
+   "fieldname": "y47",
+   "fieldtype": "Check",
+   "label": "Yes"
+  },
+  {
+   "default": "0",
+   "fieldname": "n48",
+   "fieldtype": "Check",
+   "label": "No"
+  },
+  {
+   "fieldname": "date_required",
+   "fieldtype": "Date",
+   "label": "Date Required"
+  },
+  {
+   "default": "0",
+   "fieldname": "y54",
+   "fieldtype": "Check",
+   "label": "Yes"
+  },
+  {
+   "default": "0",
+   "fieldname": "n55",
+   "fieldtype": "Check",
+   "label": "No"
+  },
+  {
+   "default": "0",
+   "fieldname": "y58",
+   "fieldtype": "Check",
+   "label": "Yes"
+  },
+  {
+   "default": "0",
+   "fieldname": "n59",
+   "fieldtype": "Check",
+   "label": "No"
+  },
+  {
+   "fieldname": "process",
+   "fieldtype": "HTML",
+   "label": "Process",
+   "options": "Process"
+  },
+  {
+   "default": "0",
+   "fieldname": "y63",
+   "fieldtype": "Check",
+   "label": "Yes"
+  },
+  {
+   "default": "0",
+   "fieldname": "n64",
+   "fieldtype": "Check",
+   "label": "No"
+  },
+  {
+   "fieldname": "r66",
+   "fieldtype": "HTML",
+   "label": "Required",
+   "options": "Required"
+  },
+  {
+   "default": "0",
+   "fieldname": "y67",
+   "fieldtype": "Check",
+   "label": "Yes"
+  },
+  {
+   "default": "0",
+   "fieldname": "n68",
+   "fieldtype": "Check",
+   "label": "No"
+  },
+  {
+   "fieldname": "r71",
+   "fieldtype": "HTML",
+   "label": "Required",
+   "options": "Required"
+  },
+  {
+   "default": "0",
+   "fieldname": "y72",
+   "fieldtype": "Check",
+   "label": "Yes"
+  },
+  {
+   "default": "0",
+   "fieldname": "y73",
+   "fieldtype": "Check",
+   "label": "No"
+  },
+  {
+   "fieldname": "r76",
+   "fieldtype": "HTML",
+   "label": "Required",
+   "options": "Required"
+  },
+  {
+   "default": "0",
+   "fieldname": "y77",
+   "fieldtype": "Check",
+   "label": "yes"
+  },
+  {
+   "default": "0",
+   "fieldname": "n78",
+   "fieldtype": "Check",
+   "label": "No"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-11-30 19:01:11.357866",
+ "modified_by": "Administrator",
+ "module": "Qa Qc",
+ "name": "Fabrication Request",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

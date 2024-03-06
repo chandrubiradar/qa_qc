@@ -1,0 +1,71 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-09-25 18:05:54.406111",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "layer_number_s",
+  "class_filter_metal",
+  "diammfilter_metal",
+  "polarity_current",
+  "amprange_current",
+  "voltage_range",
+  "travel_speed_mmmin",
+  "heat_input_kjmm"
+ ],
+ "fields": [
+  {
+   "fieldname": "layer_number_s",
+   "fieldtype": "Data",
+   "label": "Layer Number (s)"
+  },
+  {
+   "fieldname": "class_filter_metal",
+   "fieldtype": "Data",
+   "label": "Class (Filter Metal)"
+  },
+  {
+   "fieldname": "diammfilter_metal",
+   "fieldtype": "Data",
+   "label": "Dia.(mm)(Filter Metal)"
+  },
+  {
+   "fieldname": "polarity_current",
+   "fieldtype": "Data",
+   "label": "Polarity (Current)"
+  },
+  {
+   "fieldname": "amprange_current",
+   "fieldtype": "Data",
+   "label": "Amp.Range (Current)"
+  },
+  {
+   "fieldname": "voltage_range",
+   "fieldtype": "Data",
+   "label": "Voltage Range"
+  },
+  {
+   "fieldname": "travel_speed_mmmin",
+   "fieldtype": "Data",
+   "label": "Travel Speed 'mm/min'"
+  },
+  {
+   "fieldname": "heat_input_kjmm",
+   "fieldtype": "Data",
+   "label": "Heat Input KJ/mm"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-09-25 18:12:43.341443",
+ "modified_by": "Administrator",
+ "module": "Qa Qc",
+ "name": "Welding Tablee",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

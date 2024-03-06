@@ -1,0 +1,141 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-02-13 17:17:04.850211",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "document_no",
+  "project",
+  "contract_no",
+  "section_break_4",
+  "table_5",
+  "section_break_6",
+  "prepared_bymgcsb_column",
+  "name1",
+  "signature1",
+  "date1",
+  "inspected_bymgcsb_inspector_column",
+  "name2",
+  "signature2",
+  "date2",
+  "reviewed_by__qa_qc_coordinator_column",
+  "name3",
+  "signature3",
+  "date3"
+ ],
+ "fields": [
+  {
+   "fieldname": "document_no",
+   "fieldtype": "Data",
+   "label": "Document No."
+  },
+  {
+   "fieldname": "project",
+   "fieldtype": "Data",
+   "label": "Project"
+  },
+  {
+   "fieldname": "contract_no",
+   "fieldtype": "Data",
+   "label": "Contract No."
+  },
+  {
+   "fieldname": "section_break_4",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "table_5",
+   "fieldtype": "Table",
+   "options": "Calibration Register Table"
+  },
+  {
+   "fieldname": "section_break_6",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "prepared_bymgcsb_column",
+   "fieldtype": "Column Break",
+   "label": "Prepared By:(MGCSB)"
+  },
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "signature1",
+   "fieldtype": "Attach",
+   "label": "Signature"
+  },
+  {
+   "fieldname": "date1",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "inspected_bymgcsb_inspector_column",
+   "fieldtype": "Column Break",
+   "label": "Inspected By:(MGCSB)-Inspector"
+  },
+  {
+   "fieldname": "name2",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "signature2",
+   "fieldtype": "Attach",
+   "label": "Signature"
+  },
+  {
+   "fieldname": "date2",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "reviewed_by__qa_qc_coordinator_column",
+   "fieldtype": "Column Break",
+   "label": "Reviewed By: QA-QC Coordinator"
+  },
+  {
+   "fieldname": "name3",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "signature3",
+   "fieldtype": "Attach",
+   "label": "Signature"
+  },
+  {
+   "fieldname": "date3",
+   "fieldtype": "Date",
+   "label": "Date"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-02-13 17:25:57.474595",
+ "modified_by": "Administrator",
+ "module": "Qa Qc",
+ "name": "Calibration Register",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

@@ -1,0 +1,257 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "Punchlist.####",
+ "creation": "2023-12-05 16:41:53.793726",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "test_pack_no",
+  "project_no",
+  "project",
+  "item_punchlisted",
+  "contractpo_no",
+  "scope_of_work_punchlisted",
+  "reference_documents",
+  "column_break_4",
+  "location",
+  "punch_list_no",
+  "sheet",
+  "of",
+  "date",
+  "section_break_14",
+  "punchlisttable",
+  "html_16",
+  "section_break_17",
+  "mgcsb_construction",
+  "id19",
+  "name1",
+  "signature",
+  "image_22",
+  "d23",
+  "mgcsb_qc_column",
+  "id24",
+  "name25",
+  "s27",
+  "image28",
+  "d29",
+  "bsp_column",
+  "id31",
+  "name32",
+  "sig33",
+  "img34",
+  "d35"
+ ],
+ "fields": [
+  {
+   "fieldname": "test_pack_no",
+   "fieldtype": "Data",
+   "label": "Test Pack No"
+  },
+  {
+   "fieldname": "project_no",
+   "fieldtype": "Data",
+   "label": "Project No"
+  },
+  {
+   "fieldname": "project",
+   "fieldtype": "Link",
+   "label": "project",
+   "options": "Project"
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Link",
+   "label": "Location",
+   "options": "Location"
+  },
+  {
+   "fieldname": "item_punchlisted",
+   "fieldtype": "Data",
+   "label": "Item Punchlisted "
+  },
+  {
+   "fieldname": "punch_list_no",
+   "fieldtype": "Data",
+   "label": "Punch List No"
+  },
+  {
+   "fieldname": "contractpo_no",
+   "fieldtype": "Data",
+   "label": "Contract/P.O No"
+  },
+  {
+   "fieldname": "sheet",
+   "fieldtype": "Data",
+   "label": "SHEET"
+  },
+  {
+   "fieldname": "of",
+   "fieldtype": "Data",
+   "label": "OF"
+  },
+  {
+   "fieldname": "scope_of_work_punchlisted",
+   "fieldtype": "Data",
+   "label": "Scope Of Work Punchlisted "
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "reference_documents",
+   "fieldtype": "Attach",
+   "label": "Reference documents"
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "punchlisttable",
+   "fieldtype": "Table",
+   "options": "Punch list Table"
+  },
+  {
+   "fieldname": "section_break_14",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "html_16",
+   "fieldtype": "HTML",
+   "options": "SIGNATURES ON COMPLETION OF ALL ITEMS"
+  },
+  {
+   "fieldname": "section_break_17",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "mgcsb_construction",
+   "fieldtype": "Column Break",
+   "label": "MGCSB Construction"
+  },
+  {
+   "fieldname": "id19",
+   "fieldtype": "Link",
+   "label": "ID",
+   "options": "Employee"
+  },
+  {
+   "depends_on": "eval:doc.id19",
+   "fetch_from": "id19.employee_name",
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "signature",
+   "fieldtype": "Attach",
+   "label": "Signature"
+  },
+  {
+   "depends_on": "eval:doc.signature",
+   "fieldname": "image_22",
+   "fieldtype": "Image",
+   "options": "signature"
+  },
+  {
+   "fieldname": "d23",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "mgcsb_qc_column",
+   "fieldtype": "Column Break",
+   "label": "MGCSB QC"
+  },
+  {
+   "fieldname": "id24",
+   "fieldtype": "Link",
+   "label": "ID",
+   "options": "Employee"
+  },
+  {
+   "depends_on": "eval:doc.id24",
+   "fetch_from": "id24.employee_name",
+   "fieldname": "name25",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "s27",
+   "fieldtype": "Attach",
+   "label": "Signature"
+  },
+  {
+   "depends_on": "eval:doc.s27",
+   "fieldname": "image28",
+   "fieldtype": "Image",
+   "options": "s27"
+  },
+  {
+   "fieldname": "d29",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "bsp_column",
+   "fieldtype": "Column Break",
+   "label": "BSP"
+  },
+  {
+   "fieldname": "id31",
+   "fieldtype": "Link",
+   "label": "ID",
+   "options": "Employee"
+  },
+  {
+   "depends_on": "eval:doc.id31",
+   "fetch_from": "id31.employee_name",
+   "fieldname": "name32",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "sig33",
+   "fieldtype": "Attach",
+   "label": "Signature"
+  },
+  {
+   "depends_on": "eval:doc.sig33",
+   "fieldname": "img34",
+   "fieldtype": "Image",
+   "options": "sig33"
+  },
+  {
+   "fieldname": "d35",
+   "fieldtype": "Date",
+   "label": "Date"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-12-06 13:08:36.329391",
+ "modified_by": "Administrator",
+ "module": "Qa Qc",
+ "name": "Punchlist new",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

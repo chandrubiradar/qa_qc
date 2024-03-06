@@ -1,0 +1,200 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-02-13 13:36:22.659379",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "clearance_no",
+  "test_pack_no",
+  "client",
+  "column_break_4",
+  "rev_no",
+  "project_no",
+  "project",
+  "section_break_8",
+  "table_9",
+  "section_break_10",
+  "prepared_by_column",
+  "date",
+  "signature",
+  "position",
+  "name1",
+  "company1",
+  "checked_by_column",
+  "date2",
+  "signature2",
+  "position2",
+  "name2",
+  "company2",
+  "approved_by_column",
+  "date3",
+  "signature3",
+  "position3",
+  "name3",
+  "company3"
+ ],
+ "fields": [
+  {
+   "fieldname": "clearance_no",
+   "fieldtype": "Data",
+   "label": "Clearance No."
+  },
+  {
+   "fieldname": "test_pack_no",
+   "fieldtype": "Data",
+   "label": "Test Pack NO."
+  },
+  {
+   "fieldname": "client",
+   "fieldtype": "Data",
+   "label": "Client"
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "rev_no",
+   "fieldtype": "Data",
+   "label": "Rev. No"
+  },
+  {
+   "fieldname": "project_no",
+   "fieldtype": "Data",
+   "label": "Project No."
+  },
+  {
+   "fieldname": "project",
+   "fieldtype": "Data",
+   "label": "Project"
+  },
+  {
+   "fieldname": "section_break_8",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "table_9",
+   "fieldtype": "Table",
+   "options": "Pressure Test Clearance Table"
+  },
+  {
+   "fieldname": "section_break_10",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "prepared_by_column",
+   "fieldtype": "Column Break",
+   "label": "Prepared By:"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "signature",
+   "fieldtype": "Attach",
+   "label": "Signature"
+  },
+  {
+   "fieldname": "position",
+   "fieldtype": "Data",
+   "label": "Position"
+  },
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "company1",
+   "fieldtype": "Data",
+   "label": "Company"
+  },
+  {
+   "fieldname": "checked_by_column",
+   "fieldtype": "Column Break",
+   "label": "Checked By:"
+  },
+  {
+   "fieldname": "date2",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "signature2",
+   "fieldtype": "Attach",
+   "label": "Signature"
+  },
+  {
+   "fieldname": "position2",
+   "fieldtype": "Data",
+   "label": "Position"
+  },
+  {
+   "fieldname": "name2",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "company2",
+   "fieldtype": "Data",
+   "label": "Company"
+  },
+  {
+   "fieldname": "approved_by_column",
+   "fieldtype": "Column Break",
+   "label": "Approved By:"
+  },
+  {
+   "fieldname": "date3",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "signature3",
+   "fieldtype": "Attach",
+   "label": "Signature"
+  },
+  {
+   "fieldname": "position3",
+   "fieldtype": "Data",
+   "label": "Position"
+  },
+  {
+   "fieldname": "name3",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "company3",
+   "fieldtype": "Data",
+   "label": "Company"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-02-13 13:44:09.774489",
+ "modified_by": "Administrator",
+ "module": "Qa Qc",
+ "name": "Pressure Test Clearance",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

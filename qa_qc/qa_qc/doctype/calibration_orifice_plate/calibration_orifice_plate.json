@@ -1,0 +1,249 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:COP-{tag_no}-{####}",
+ "creation": "2023-12-28 18:40:40.792979",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "tag_no",
+  "loop_no",
+  "equipment_description",
+  "line_number",
+  "column_break_7",
+  "contract_no",
+  "location",
+  "data_sheet",
+  "drawing_reference",
+  "required_data_section",
+  "image",
+  "column_break_12",
+  "image_13",
+  "section_break_20",
+  "calibration_orifice_plate_template",
+  "calibration_orifice_plate_list",
+  "section_break_23",
+  "completed_by",
+  "id",
+  "print_name",
+  "signature",
+  "image_18",
+  "date",
+  "company",
+  "accepted_by_column",
+  "id1",
+  "print_name1",
+  "signature1",
+  "image_24",
+  "date1",
+  "company1",
+  "column_break_30",
+  "comments__remarks"
+ ],
+ "fields": [
+  {
+   "fieldname": "tag_no",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Tag No",
+   "reqd": 1
+  },
+  {
+   "fieldname": "loop_no",
+   "fieldtype": "Data",
+   "label": "Loop No"
+  },
+  {
+   "fieldname": "equipment_description",
+   "fieldtype": "Data",
+   "label": "Equipment Description"
+  },
+  {
+   "fieldname": "line_number",
+   "fieldtype": "Data",
+   "label": "Line Number"
+  },
+  {
+   "fieldname": "column_break_7",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Link",
+   "label": "Location",
+   "options": "Mashhor Area"
+  },
+  {
+   "fieldname": "data_sheet",
+   "fieldtype": "Data",
+   "label": "Data Sheet"
+  },
+  {
+   "fieldname": "drawing_reference",
+   "fieldtype": "Data",
+   "label": "Drawing Reference"
+  },
+  {
+   "fieldname": "required_data_section",
+   "fieldtype": "Section Break",
+   "label": "Required Data"
+  },
+  {
+   "fieldname": "image",
+   "fieldtype": "Attach",
+   "label": "Image"
+  },
+  {
+   "fieldname": "section_break_20",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_23",
+   "fieldtype": "Section Break"
+  },
+  {
+   "bold": 1,
+   "fieldname": "completed_by",
+   "fieldtype": "Column Break",
+   "label": "Completed By"
+  },
+  {
+   "fieldname": "signature",
+   "fieldtype": "Attach",
+   "label": "Signature"
+  },
+  {
+   "depends_on": "eval:doc.id",
+   "fetch_from": "id.employee_name",
+   "fieldname": "print_name",
+   "fieldtype": "Data",
+   "label": "Print Name"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "Company"
+  },
+  {
+   "bold": 1,
+   "fieldname": "accepted_by_column",
+   "fieldtype": "Column Break",
+   "label": "Accepted By"
+  },
+  {
+   "fieldname": "signature1",
+   "fieldtype": "Attach",
+   "label": "Signature"
+  },
+  {
+   "depends_on": "eval:doc.id1",
+   "fetch_from": "id1.employee_name",
+   "fieldname": "print_name1",
+   "fieldtype": "Data",
+   "label": "Print Name"
+  },
+  {
+   "fieldname": "date1",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "company1",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "Company"
+  },
+  {
+   "fieldname": "column_break_30",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "comments__remarks",
+   "fieldtype": "Small Text",
+   "label": "Comments / Remarks"
+  },
+  {
+   "default": "Calibration Orifice Plate List",
+   "fieldname": "calibration_orifice_plate_template",
+   "fieldtype": "Link",
+   "hidden": 1,
+   "label": "Calibration Orifice Plate Template",
+   "options": "Calibration Orifice Plate Template"
+  },
+  {
+   "fieldname": "calibration_orifice_plate_list",
+   "fieldtype": "Table",
+   "label": "Calibration Orifice Plate List",
+   "options": "MCCLT Child Table"
+  },
+  {
+   "fieldname": "contract_no",
+   "fieldtype": "Data",
+   "label": "Contract No"
+  },
+  {
+   "depends_on": "eval:doc.signature",
+   "fieldname": "image_18",
+   "fieldtype": "Image",
+   "options": "signature"
+  },
+  {
+   "depends_on": "eval:doc.signature1",
+   "fieldname": "image_24",
+   "fieldtype": "Image",
+   "options": "signature1"
+  },
+  {
+   "fieldname": "column_break_12",
+   "fieldtype": "Column Break"
+  },
+  {
+   "depends_on": "eval:doc.image",
+   "fieldname": "image_13",
+   "fieldtype": "Image",
+   "options": "image"
+  },
+  {
+   "fieldname": "id",
+   "fieldtype": "Link",
+   "label": "ID",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "id1",
+   "fieldtype": "Link",
+   "label": "ID",
+   "options": "Employee"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-01-02 19:01:18.702800",
+ "modified_by": "Administrator",
+ "module": "Qa Qc",
+ "name": "Calibration Orifice Plate",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

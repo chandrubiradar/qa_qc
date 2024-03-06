@@ -1,0 +1,245 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "MCCLT-.####",
+ "creation": "2023-12-27 21:49:31.951194",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "contract_no",
+  "tag_no",
+  "equipement_description",
+  "location",
+  "data_sheet",
+  "drawing_reference",
+  "column_break_5",
+  "volt",
+  "type",
+  "core",
+  "size",
+  "from",
+  "to",
+  "section_break_11",
+  "mcclt_template",
+  "table_11",
+  "section_break_13",
+  "completed_by_column",
+  "id21",
+  "print_name",
+  "signature",
+  "image_19",
+  "date",
+  "company",
+  "accepted_by_column",
+  "id28",
+  "p20",
+  "s19",
+  "image_24",
+  "d21",
+  "c22",
+  "column_break_23",
+  "comments__remarks"
+ ],
+ "fields": [
+  {
+   "fieldname": "contract_no",
+   "fieldtype": "Data",
+   "label": "Contract No"
+  },
+  {
+   "fieldname": "tag_no",
+   "fieldtype": "Data",
+   "label": "Tag No"
+  },
+  {
+   "fieldname": "equipement_description",
+   "fieldtype": "Data",
+   "label": "Equipment Description"
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Link",
+   "label": "Location",
+   "options": "Mashhor Area"
+  },
+  {
+   "fieldname": "column_break_5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "data_sheet",
+   "fieldtype": "Data",
+   "label": "Data Sheet"
+  },
+  {
+   "fieldname": "drawing_reference",
+   "fieldtype": "Data",
+   "label": "Drawing Reference"
+  },
+  {
+   "fieldname": "volt",
+   "fieldtype": "Data",
+   "label": "Volt"
+  },
+  {
+   "fieldname": "core",
+   "fieldtype": "Data",
+   "label": "Core"
+  },
+  {
+   "fieldname": "size",
+   "fieldtype": "Data",
+   "label": "Size"
+  },
+  {
+   "fieldname": "table_11",
+   "fieldtype": "Table",
+   "label": "MCCLT Table",
+   "options": "MCCLT Child Table"
+  },
+  {
+   "fieldname": "section_break_11",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "completed_by_column",
+   "fieldtype": "Column Break",
+   "label": "Completed By"
+  },
+  {
+   "fieldname": "signature",
+   "fieldtype": "Attach",
+   "label": "Signature"
+  },
+  {
+   "depends_on": "eval:doc.id21",
+   "fetch_from": "id21.employee_name",
+   "fieldname": "print_name",
+   "fieldtype": "Data",
+   "label": "Print Name"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "Company"
+  },
+  {
+   "fieldname": "accepted_by_column",
+   "fieldtype": "Column Break",
+   "label": "Accepted By"
+  },
+  {
+   "fieldname": "s19",
+   "fieldtype": "Attach",
+   "label": "Signature"
+  },
+  {
+   "depends_on": "eval:doc.id28",
+   "fetch_from": "id28.employee_name",
+   "fieldname": "p20",
+   "fieldtype": "Data",
+   "label": "Print Name"
+  },
+  {
+   "fieldname": "d21",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "c22",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "Company"
+  },
+  {
+   "fieldname": "column_break_23",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "comments__remarks",
+   "fieldtype": "Small Text",
+   "label": "Comments / Remarks"
+  },
+  {
+   "fieldname": "section_break_13",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "7571def326",
+   "fieldname": "mcclt_template",
+   "fieldtype": "Link",
+   "hidden": 1,
+   "label": "MCCLT Template",
+   "options": "MCCLT Template"
+  },
+  {
+   "fieldname": "from",
+   "fieldtype": "Data",
+   "label": "From"
+  },
+  {
+   "fieldname": "to",
+   "fieldtype": "Data",
+   "label": "To"
+  },
+  {
+   "depends_on": "eval:doc.s19",
+   "fieldname": "image_24",
+   "fieldtype": "Image",
+   "options": "s19"
+  },
+  {
+   "depends_on": "eval:doc.signature",
+   "fieldname": "image_19",
+   "fieldtype": "Image",
+   "options": "signature"
+  },
+  {
+   "fieldname": "type",
+   "fieldtype": "Data",
+   "label": "Type"
+  },
+  {
+   "fieldname": "id21",
+   "fieldtype": "Link",
+   "label": "ID",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "id28",
+   "fieldtype": "Link",
+   "label": "ID",
+   "options": "Employee"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-01-11 14:59:24.811157",
+ "modified_by": "Administrator",
+ "module": "Qa Qc",
+ "name": "Mechanical Completion Cables Low Voltage",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

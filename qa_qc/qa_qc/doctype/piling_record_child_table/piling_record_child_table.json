@@ -1,0 +1,43 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-01-01 18:52:32.747022",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "data_1",
+  "data_2",
+  "data_3",
+  "data_4"
+ ],
+ "fields": [
+  {
+   "fieldname": "data_2",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_3",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_4",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_1",
+   "fieldtype": "Data"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-01-01 18:57:18.672504",
+ "modified_by": "Administrator",
+ "module": "Qa Qc",
+ "name": "Piling Record child table",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

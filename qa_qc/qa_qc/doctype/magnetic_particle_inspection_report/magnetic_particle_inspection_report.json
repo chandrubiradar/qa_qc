@@ -1,0 +1,271 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-02-14 14:43:12.767080",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "client",
+  "project",
+  "location",
+  "column_break_4",
+  "report_no_column",
+  "date",
+  "job_no",
+  "technical_data_section",
+  "procedure",
+  "equipment",
+  "particle_type",
+  "visual_aid",
+  "de_magnetisation",
+  "material",
+  "surface_prep",
+  "column_break_15",
+  "acc_criteria",
+  "mf_specification",
+  "current",
+  "application",
+  "uv_light_intensity",
+  "heat_treatment",
+  "surface_temp",
+  "section_break_23",
+  "table_24",
+  "comments__recommendations",
+  "section_break_27",
+  "inspected_by_",
+  "name1",
+  "sign1",
+  "qualifiction",
+  "date1",
+  "witness__verified_by",
+  "name2",
+  "sign2",
+  "date2",
+  "data_37",
+  "name3",
+  "sign3",
+  "date3"
+ ],
+ "fields": [
+  {
+   "fieldname": "client",
+   "fieldtype": "Data",
+   "label": "Client"
+  },
+  {
+   "fieldname": "project",
+   "fieldtype": "Data",
+   "label": "Project"
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Data",
+   "label": "Location"
+  },
+  {
+   "fieldname": "report_no_column",
+   "fieldtype": "Data",
+   "label": "Report No."
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "job_no",
+   "fieldtype": "Data",
+   "label": "Job No."
+  },
+  {
+   "fieldname": "technical_data_section",
+   "fieldtype": "Section Break",
+   "label": "Technical Data"
+  },
+  {
+   "fieldname": "procedure",
+   "fieldtype": "Data",
+   "label": "Procedure"
+  },
+  {
+   "fieldname": "equipment",
+   "fieldtype": "Data",
+   "label": "Equipment"
+  },
+  {
+   "fieldname": "particle_type",
+   "fieldtype": "Data",
+   "label": "Particle Type"
+  },
+  {
+   "fieldname": "visual_aid",
+   "fieldtype": "Data",
+   "label": "Visual AID"
+  },
+  {
+   "fieldname": "de_magnetisation",
+   "fieldtype": "Data",
+   "label": "De-Magnetization"
+  },
+  {
+   "fieldname": "material",
+   "fieldtype": "Data",
+   "label": "Material"
+  },
+  {
+   "fieldname": "surface_prep",
+   "fieldtype": "Data",
+   "label": "Surface Prep."
+  },
+  {
+   "fieldname": "column_break_15",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "acc_criteria",
+   "fieldtype": "Data",
+   "label": "Acc. Criteria"
+  },
+  {
+   "fieldname": "mf_specification",
+   "fieldtype": "Data",
+   "label": "MF Specification"
+  },
+  {
+   "fieldname": "current",
+   "fieldtype": "Data",
+   "label": "Current"
+  },
+  {
+   "fieldname": "application",
+   "fieldtype": "Data",
+   "label": "Application"
+  },
+  {
+   "fieldname": "uv_light_intensity",
+   "fieldtype": "Data",
+   "label": "U.V. Light Intensity"
+  },
+  {
+   "fieldname": "heat_treatment",
+   "fieldtype": "Data",
+   "label": "Heat Treatment"
+  },
+  {
+   "fieldname": "surface_temp",
+   "fieldtype": "Data",
+   "label": "Surface Temp."
+  },
+  {
+   "fieldname": "section_break_23",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "table_24",
+   "fieldtype": "Table",
+   "options": "MPI Table"
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "comments__recommendations",
+   "fieldtype": "Small Text",
+   "label": "Comments / Recommendations"
+  },
+  {
+   "fieldname": "section_break_27",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "inspected_by_",
+   "fieldtype": "Column Break",
+   "label": "Inspected By: IRSSB'S INSPECTOR"
+  },
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "sign1",
+   "fieldtype": "Attach",
+   "label": "Signature"
+  },
+  {
+   "fieldname": "qualifiction",
+   "fieldtype": "Data",
+   "label": "Qualification"
+  },
+  {
+   "fieldname": "date1",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "witness__verified_by",
+   "fieldtype": "Column Break",
+   "label": "Witness / Verified By:"
+  },
+  {
+   "fieldname": "data_37",
+   "fieldtype": "Column Break",
+   "label": "Reviewed / ApprovedBy:"
+  },
+  {
+   "fieldname": "date2",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "date3",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "name2",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "sign2",
+   "fieldtype": "Attach",
+   "label": "Signature"
+  },
+  {
+   "fieldname": "name3",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "sign3",
+   "fieldtype": "Attach",
+   "label": "Signature"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-02-14 15:48:27.324218",
+ "modified_by": "Administrator",
+ "module": "Qa Qc",
+ "name": "Magnetic Particle Inspection Report",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

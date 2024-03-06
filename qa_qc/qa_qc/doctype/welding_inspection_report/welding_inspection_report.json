@@ -1,0 +1,306 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{report_no}",
+ "creation": "2023-11-07 20:10:03.404983",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "client1",
+  "contractno1",
+  "client",
+  "specification",
+  "column_break_5",
+  "won_num",
+  "contract_no",
+  "acceptance_standard",
+  "column_break_9",
+  "report_no",
+  "date1",
+  "location",
+  "section_break_13",
+  "structural",
+  "column_break_16",
+  "tankequipments",
+  "column_break_18",
+  "piping",
+  "section_break_17",
+  "welding_inspection_report_table",
+  "section_break_35",
+  "notes",
+  "section_break_37",
+  "mgcsb_construction",
+  "id1",
+  "name1",
+  "signature1",
+  "image_26",
+  "date2",
+  "mgcsb_qaqc",
+  "id2",
+  "name2",
+  "signature",
+  "image_33",
+  "date3",
+  "noted_by",
+  "id3",
+  "name4",
+  "signature2",
+  "image_39",
+  "date"
+ ],
+ "fields": [
+  {
+   "fieldname": "client1",
+   "fieldtype": "Link",
+   "label": "Client",
+   "options": "Contract",
+   "reqd": 1
+  },
+  {
+   "fieldname": "contractno1",
+   "fieldtype": "Data",
+   "label": "Contract No"
+  },
+  {
+   "fieldname": "client",
+   "fieldtype": "Link",
+   "label": "Client ",
+   "options": "Contract",
+   "reqd": 1
+  },
+  {
+   "fieldname": "specification",
+   "fieldtype": "Data",
+   "label": "Specification"
+  },
+  {
+   "fieldname": "column_break_5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "contract_no",
+   "fieldtype": "Data",
+   "label": "Contract No"
+  },
+  {
+   "fieldname": "acceptance_standard",
+   "fieldtype": "Data",
+   "label": "Acceptance Standard"
+  },
+  {
+   "fieldname": "column_break_9",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "report_no",
+   "fieldtype": "Data",
+   "in_filter": 1,
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Report No "
+  },
+  {
+   "default": "Today",
+   "fieldname": "date1",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Link",
+   "label": "Location",
+   "options": "Mashhor Area",
+   "reqd": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "structural",
+   "fieldtype": "Check",
+   "label": "Structural"
+  },
+  {
+   "default": "0",
+   "fieldname": "tankequipments",
+   "fieldtype": "Check",
+   "label": "Tank/Equipments"
+  },
+  {
+   "default": "0",
+   "fieldname": "piping",
+   "fieldtype": "Check",
+   "label": "Piping/Pipeline"
+  },
+  {
+   "fieldname": "section_break_17",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_35",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "notes",
+   "fieldtype": "Small Text",
+   "label": "Notes"
+  },
+  {
+   "fieldname": "section_break_37",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "mgcsb_construction",
+   "fieldtype": "Column Break",
+   "label": "MGCSB Construction:"
+  },
+  {
+   "depends_on": "eval:doc.id1",
+   "fetch_from": "id1.employee_name",
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "signature1",
+   "fieldtype": "Attach",
+   "label": "Signature"
+  },
+  {
+   "fieldname": "date2",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "mgcsb_qaqc",
+   "fieldtype": "Column Break",
+   "label": "MGCSB QA/QC:"
+  },
+  {
+   "depends_on": "eval:doc.id2",
+   "fetch_from": "id2.employee_name",
+   "fieldname": "name2",
+   "fieldtype": "Data",
+   "label": "Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "signature",
+   "fieldtype": "Attach",
+   "label": "Signature"
+  },
+  {
+   "fieldname": "date3",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "noted_by",
+   "fieldtype": "Column Break",
+   "label": "Noted by:"
+  },
+  {
+   "depends_on": "eval:doc.id3",
+   "fetch_from": "id3.employee_name",
+   "fieldname": "name4",
+   "fieldtype": "Data",
+   "label": "Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "signature2",
+   "fieldtype": "Attach",
+   "label": "Signature"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "welding_inspection_report_table",
+   "fieldtype": "Table",
+   "options": "Welding Inspection report Table"
+  },
+  {
+   "fieldname": "section_break_13",
+   "fieldtype": "Section Break",
+   "label": "Type of Equipment Inspected (pls tick)"
+  },
+  {
+   "fieldname": "won_num",
+   "fieldtype": "Link",
+   "label": "Project Num / Won Num",
+   "options": "Project",
+   "reqd": 1
+  },
+  {
+   "depends_on": "eval:doc.signature1",
+   "fieldname": "image_26",
+   "fieldtype": "Image",
+   "options": "signature1"
+  },
+  {
+   "fieldname": "id1",
+   "fieldtype": "Link",
+   "label": "ID",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "id2",
+   "fieldtype": "Link",
+   "label": "ID",
+   "options": "Employee"
+  },
+  {
+   "depends_on": "eval:doc.signature",
+   "fieldname": "image_33",
+   "fieldtype": "Image",
+   "options": "signature"
+  },
+  {
+   "fieldname": "id3",
+   "fieldtype": "Link",
+   "label": "ID",
+   "options": "Employee"
+  },
+  {
+   "depends_on": "eval:doc.signature2",
+   "fieldname": "image_39",
+   "fieldtype": "Image",
+   "options": "signature2"
+  },
+  {
+   "fieldname": "column_break_16",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_18",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-12-05 15:20:33.613923",
+ "modified_by": "Administrator",
+ "module": "Qa Qc",
+ "name": "Welding Inspection report",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

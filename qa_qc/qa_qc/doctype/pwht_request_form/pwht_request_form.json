@@ -1,0 +1,335 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{job_no}-{request_no}",
+ "creation": "2023-09-22 21:47:12.912172",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "to",
+  "date",
+  "job_no",
+  "column_break_4",
+  "client",
+  "project",
+  "section_break_7",
+  "request_no",
+  "test_type",
+  "please_specify_name",
+  "column_break_11",
+  "proposed_tesr_date",
+  "item_description",
+  "please_specify_name1",
+  "drawing_attached",
+  "yes",
+  "no",
+  "section_break_20",
+  "inspection_code",
+  "asme_b313",
+  "asme_sec_viii_div1",
+  "asme_sec_ix",
+  "other",
+  "hold_duration",
+  "30_min",
+  "60_min",
+  "90_min",
+  "other1",
+  "welding_procedure_spec",
+  "not_provided",
+  "provided",
+  "witness_required",
+  "no1",
+  "yes1",
+  "other2",
+  "temperature",
+  "column_break_32",
+  "testing_location",
+  "heating_rate",
+  "cooling_rate",
+  "section_break_40",
+  "table_41",
+  "table_42",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "to",
+   "fieldtype": "Data",
+   "label": "To"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Data",
+   "label": "Date"
+  },
+  {
+   "fieldname": "job_no",
+   "fieldtype": "Data",
+   "label": "Job No",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "client",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Client",
+   "options": "Contract",
+   "reqd": 1
+  },
+  {
+   "fieldname": "project",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Project ",
+   "options": "Contract",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_7",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "request_no",
+   "fieldtype": "Data",
+   "label": "Request No",
+   "reqd": 1
+  },
+  {
+   "fieldname": "test_type",
+   "fieldtype": "Select",
+   "label": "Test Type",
+   "options": "\nPWHT\nStress Relief\nOther"
+  },
+  {
+   "depends_on": "eval:doc.test_type == 'Other'",
+   "fieldname": "please_specify_name",
+   "fieldtype": "Data",
+   "label": "Please Specify Name"
+  },
+  {
+   "fieldname": "column_break_11",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "proposed_tesr_date",
+   "fieldtype": "Date",
+   "label": "Proposed Test Date"
+  },
+  {
+   "fieldname": "item_description",
+   "fieldtype": "Select",
+   "label": "Item Description",
+   "options": "\nSpools\nVessel\nOther"
+  },
+  {
+   "depends_on": "eval:doc.item_description == 'Other'",
+   "fieldname": "please_specify_name1",
+   "fieldtype": "Data",
+   "label": "Please Specify Name"
+  },
+  {
+   "fieldname": "drawing_attached",
+   "fieldtype": "HTML",
+   "label": "Drawing Attached",
+   "options": "Drawing Attached"
+  },
+  {
+   "default": "0",
+   "fieldname": "yes",
+   "fieldtype": "Check",
+   "label": "Yes"
+  },
+  {
+   "default": "0",
+   "fieldname": "no",
+   "fieldtype": "Check",
+   "label": "No"
+  },
+  {
+   "fieldname": "section_break_20",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "testing_location",
+   "fieldtype": "Link",
+   "label": "Testing Location",
+   "options": "Mashhor Area",
+   "reqd": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "inspection_code",
+   "fieldtype": "HTML",
+   "label": "Inspection Code",
+   "options": "Inspection Code"
+  },
+  {
+   "default": "0",
+   "fieldname": "asme_b313",
+   "fieldtype": "Check",
+   "label": "ASME B313"
+  },
+  {
+   "default": "0",
+   "fieldname": "asme_sec_viii_div1",
+   "fieldtype": "Check",
+   "label": "ASME Sec VIII Div.1"
+  },
+  {
+   "default": "0",
+   "fieldname": "asme_sec_ix",
+   "fieldtype": "Check",
+   "label": "ASME Sec IX"
+  },
+  {
+   "default": "0",
+   "fieldname": "other",
+   "fieldtype": "Check",
+   "label": "Other"
+  },
+  {
+   "fieldname": "hold_duration",
+   "fieldtype": "HTML",
+   "label": "Hold Duration",
+   "options": "Hold Duration"
+  },
+  {
+   "default": "0",
+   "fieldname": "30_min",
+   "fieldtype": "Check",
+   "label": "30 min"
+  },
+  {
+   "default": "0",
+   "fieldname": "60_min",
+   "fieldtype": "Check",
+   "label": "60 min"
+  },
+  {
+   "default": "0",
+   "fieldname": "90_min",
+   "fieldtype": "Check",
+   "label": "90 min"
+  },
+  {
+   "default": "0",
+   "fieldname": "other1",
+   "fieldtype": "Check",
+   "label": "Other"
+  },
+  {
+   "fieldname": "column_break_32",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "welding_procedure_spec",
+   "fieldtype": "HTML",
+   "label": "Welding Procedure Spec",
+   "options": "Welding Procedure Spec"
+  },
+  {
+   "default": "0",
+   "fieldname": "not_provided",
+   "fieldtype": "Check",
+   "label": "Not Provided"
+  },
+  {
+   "default": "0",
+   "fieldname": "provided",
+   "fieldtype": "Check",
+   "label": "Provided (email/attached)"
+  },
+  {
+   "default": "0",
+   "fieldname": "heating_rate",
+   "fieldtype": "Data",
+   "label": "Heating Rate"
+  },
+  {
+   "fieldname": "witness_required",
+   "fieldtype": "HTML",
+   "label": "Witness Required",
+   "options": "Witness Required"
+  },
+  {
+   "default": "0",
+   "fieldname": "no1",
+   "fieldtype": "Check",
+   "label": "No"
+  },
+  {
+   "default": "0",
+   "fieldname": "yes1",
+   "fieldtype": "Check",
+   "label": "Yes"
+  },
+  {
+   "default": "0",
+   "fieldname": "other2",
+   "fieldtype": "Check",
+   "label": "Other"
+  },
+  {
+   "fieldname": "cooling_rate",
+   "fieldtype": "Data",
+   "label": "Cooling Rate"
+  },
+  {
+   "fieldname": "section_break_40",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "table_41",
+   "fieldtype": "Table",
+   "options": "PWHT Table"
+  },
+  {
+   "fieldname": "table_42",
+   "fieldtype": "Table",
+   "options": "PWHT Employee Table"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "PWHT Request Form",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "temperature",
+   "fieldtype": "Data",
+   "label": "Temperature"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2023-11-20 19:42:26.621460",
+ "modified_by": "Administrator",
+ "module": "Qa Qc",
+ "name": "PWHT Request Form",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

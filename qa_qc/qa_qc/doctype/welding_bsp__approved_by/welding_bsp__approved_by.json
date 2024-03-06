@@ -1,0 +1,54 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-09-25 19:13:55.313558",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "name1",
+  "designation",
+  "date",
+  "sign",
+  "image_6"
+ ],
+ "fields": [
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "designation",
+   "fieldtype": "Data",
+   "label": "Designation"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Data",
+   "label": "Date"
+  },
+  {
+   "fetch_from": "employee.sign",
+   "fieldname": "sign",
+   "fieldtype": "Data",
+   "label": "Sign"
+  },
+  {
+   "fieldname": "image_6",
+   "fieldtype": "Image",
+   "options": "sign"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-09-25 19:13:55.313558",
+ "modified_by": "Administrator",
+ "module": "Qa Qc",
+ "name": "Welding BSP  APPROVED BY",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

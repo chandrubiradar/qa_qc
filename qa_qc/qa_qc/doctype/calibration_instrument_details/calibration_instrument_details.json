@@ -1,0 +1,47 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-02-13 19:06:35.946457",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "standard_instrument_details",
+  "master_1",
+  "master_2",
+  "master_3"
+ ],
+ "fields": [
+  {
+   "fieldname": "standard_instrument_details",
+   "fieldtype": "Data",
+   "label": "Standard Instrument Details"
+  },
+  {
+   "fieldname": "master_1",
+   "fieldtype": "Data",
+   "label": "Master 1"
+  },
+  {
+   "fieldname": "master_2",
+   "fieldtype": "Data",
+   "label": "Master 2"
+  },
+  {
+   "fieldname": "master_3",
+   "fieldtype": "Data",
+   "label": "Master 3"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-02-13 19:06:35.946457",
+ "modified_by": "Administrator",
+ "module": "Qa Qc",
+ "name": "Calibration Instrument Details",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

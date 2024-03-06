@@ -1,0 +1,765 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "Civil Works Foundation.####",
+ "creation": "2024-01-01 14:38:09.283886",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "system_no",
+  "mgcsb_contract_no",
+  "test_pack_no",
+  "drawing_no",
+  "rev",
+  "description",
+  "section_break_7",
+  "html_8",
+  "html_9",
+  "html_10",
+  "html_11",
+  "html_12",
+  "top_of_foundation_elevation",
+  "html_14",
+  "html_15",
+  "html_16",
+  "html_17",
+  "html_18",
+  "html_19",
+  "html_20",
+  "html_21",
+  "html_22",
+  "html_23",
+  "html_24",
+  "html_25",
+  "html_26",
+  "html_27",
+  "html_28",
+  "html_29",
+  "html_30",
+  "html_31",
+  "html_32",
+  "html_33",
+  "yes_column",
+  "check_12",
+  "check_13",
+  "check",
+  "width",
+  "check_21",
+  "check_24",
+  "check_26",
+  "check_28",
+  "check_43",
+  "check_44",
+  "check_45",
+  "check_46",
+  "check_47",
+  "check_48",
+  "check_49",
+  "check_50",
+  "check_51",
+  "check_52",
+  "check_53",
+  "check_54",
+  "na_column",
+  "check_15",
+  "check_16",
+  "check_20",
+  "length",
+  "check_27",
+  "check_31",
+  "check_34",
+  "check_37",
+  "check_65",
+  "check_66",
+  "check_67",
+  "check_68",
+  "check_69",
+  "check_70",
+  "check_71",
+  "check_72",
+  "check_73",
+  "check_74",
+  "check_75",
+  "check_76",
+  "no_column",
+  "check_18",
+  "check_19",
+  "check_33",
+  "height",
+  "check_355",
+  "check_38",
+  "check_42",
+  "check_469",
+  "check_86",
+  "check_87",
+  "check_88",
+  "check_89",
+  "check_90",
+  "check_91",
+  "check_92",
+  "check_93",
+  "check_94",
+  "check_95",
+  "check_96",
+  "check_97",
+  "section_break_98",
+  "remarks__no_remarks_delete_as_applicable",
+  "section_break_100",
+  "sub_contractor_column",
+  "company",
+  "s102",
+  "image_103",
+  "id104",
+  "name105",
+  "date",
+  "main_contractor_column",
+  "c107",
+  "s106",
+  "image_109",
+  "id111",
+  "name1",
+  "d111",
+  "company_representative_column",
+  "c113",
+  "s114",
+  "image_115",
+  "id118",
+  "n116",
+  "d117"
+ ],
+ "fields": [
+  {
+   "fieldname": "system_no",
+   "fieldtype": "Data",
+   "label": "System No"
+  },
+  {
+   "fieldname": "mgcsb_contract_no",
+   "fieldtype": "Data",
+   "label": "MGCSB Contract No"
+  },
+  {
+   "fieldname": "test_pack_no",
+   "fieldtype": "Data",
+   "label": "Test Pack No"
+  },
+  {
+   "fieldname": "drawing_no",
+   "fieldtype": "Data",
+   "label": "Drawing No"
+  },
+  {
+   "fieldname": "rev",
+   "fieldtype": "Data",
+   "label": "Rev"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Data",
+   "label": "Description"
+  },
+  {
+   "fieldname": "section_break_7",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "html_8",
+   "fieldtype": "HTML",
+   "options": "The following items  have been checked and cleared:-"
+  },
+  {
+   "fieldname": "html_9",
+   "fieldtype": "HTML",
+   "options": "Excavation Record "
+  },
+  {
+   "fieldname": "html_10",
+   "fieldtype": "HTML",
+   "options": "Concrete blinding layer poured"
+  },
+  {
+   "fieldname": "yes_column",
+   "fieldtype": "Column Break",
+   "label": "YES"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_12",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_13",
+   "fieldtype": "Check"
+  },
+  {
+   "fieldname": "na_column",
+   "fieldtype": "Column Break",
+   "label": "N/A"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_15",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_16",
+   "fieldtype": "Check"
+  },
+  {
+   "fieldname": "no_column",
+   "fieldtype": "Column Break",
+   "label": "NO"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_18",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_19",
+   "fieldtype": "Check"
+  },
+  {
+   "fieldname": "html_11",
+   "fieldtype": "HTML",
+   "options": "FormWork"
+  },
+  {
+   "fieldname": "html_12",
+   "fieldtype": "HTML",
+   "options": "Location and orientation is correct"
+  },
+  {
+   "default": "0",
+   "fieldname": "check",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_20",
+   "fieldtype": "Check"
+  },
+  {
+   "fieldname": "top_of_foundation_elevation",
+   "fieldtype": "Data",
+   "label": " Top of foundation elevation"
+  },
+  {
+   "fieldname": "html_14",
+   "fieldtype": "HTML",
+   "options": " Internal sizes: "
+  },
+  {
+   "fieldname": "width",
+   "fieldtype": "Data",
+   "label": "Width"
+  },
+  {
+   "fieldname": "length",
+   "fieldtype": "Data",
+   "label": "Length"
+  },
+  {
+   "fieldname": "height",
+   "fieldtype": "Data",
+   "label": "Height"
+  },
+  {
+   "fieldname": "html_15",
+   "fieldtype": "HTML",
+   "options": "Formwork is clean and releasing agent applied"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_21",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_27",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_33",
+   "fieldtype": "Check"
+  },
+  {
+   "fieldname": "html_16",
+   "fieldtype": "HTML",
+   "options": "Reinforcement"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_355",
+   "fieldtype": "Check"
+  },
+  {
+   "fieldname": "html_17",
+   "fieldtype": "HTML",
+   "options": "Rebar is clean, free of rust, scale, oil or mud"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_24",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_31",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_38",
+   "fieldtype": "Check"
+  },
+  {
+   "fieldname": "html_18",
+   "fieldtype": "HTML",
+   "options": " Location, spacing are correct and secured with wire"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_26",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_34",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_42",
+   "fieldtype": "Check"
+  },
+  {
+   "fieldname": "html_19",
+   "fieldtype": "HTML",
+   "options": "Rebar sizes are correct"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_28",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_37",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_46",
+   "fieldtype": "Check"
+  },
+  {
+   "fieldname": "html_20",
+   "fieldtype": "HTML",
+   "options": "Reinforcement chairs on spacers are located"
+  },
+  {
+   "fieldname": "html_21",
+   "fieldtype": "HTML",
+   "options": "Embedded Items"
+  },
+  {
+   "fieldname": "html_22",
+   "fieldtype": "HTML",
+   "options": "Anchor bolts size and type are correct"
+  },
+  {
+   "fieldname": "html_23",
+   "fieldtype": "HTML",
+   "options": "Centre line locations are correct"
+  },
+  {
+   "fieldname": "html_24",
+   "fieldtype": "HTML",
+   "options": "Protrusion from base is correct"
+  },
+  {
+   "fieldname": "html_25",
+   "fieldtype": "HTML",
+   "options": "Threaded ends are protected"
+  },
+  {
+   "fieldname": "html_26",
+   "fieldtype": "HTML",
+   "options": " Cast in ducts; conduits are installed correctly"
+  },
+  {
+   "fieldname": "html_27",
+   "fieldtype": "HTML",
+   "options": "Ducts or conduits ends are capped"
+  },
+  {
+   "fieldname": "html_28",
+   "fieldtype": "HTML",
+   "options": "Blockouts are installed correctly"
+  },
+  {
+   "fieldname": "html_29",
+   "fieldtype": "HTML",
+   "options": "Blockout sizes are correct"
+  },
+  {
+   "fieldname": "html_30",
+   "fieldtype": "HTML",
+   "options": " Earthing cable is installed"
+  },
+  {
+   "fieldname": "html_31",
+   "fieldtype": "HTML",
+   "options": "Polythen sheet around foundation laid/waterproofing"
+  },
+  {
+   "fieldname": "html_32",
+   "fieldtype": "HTML",
+   "options": "Material Certificate"
+  },
+  {
+   "fieldname": "html_33",
+   "fieldtype": "HTML",
+   "options": "1 Manufacturers material certificates & test results \nreceived/accepted \n(Rebar/H.D.bolts/cement/water/aggregates)"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_43",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_44",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_45",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_47",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_48",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_49",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_50",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_51",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_52",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_53",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_54",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_469",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_65",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_66",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_67",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_68",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_69",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_70",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_71",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_72",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_73",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_74",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_75",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_76",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_86",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_87",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_88",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_89",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_90",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_91",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_92",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_93",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_94",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_95",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_96",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_97",
+   "fieldtype": "Check"
+  },
+  {
+   "fieldname": "section_break_98",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "remarks__no_remarks_delete_as_applicable",
+   "fieldtype": "Small Text",
+   "label": "Remarks / No Remarks (Delete as Applicable)"
+  },
+  {
+   "fieldname": "section_break_100",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "sub_contractor_column",
+   "fieldtype": "Column Break",
+   "label": "Sub Contractor"
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Data",
+   "label": "Company"
+  },
+  {
+   "fieldname": "s102",
+   "fieldtype": "Attach",
+   "label": "Signature"
+  },
+  {
+   "depends_on": "eval:doc.s102",
+   "fieldname": "image_103",
+   "fieldtype": "Image",
+   "options": "s102"
+  },
+  {
+   "depends_on": "eval:doc.id111",
+   "fetch_from": "id111.employee_name",
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "main_contractor_column",
+   "fieldtype": "Column Break",
+   "label": "Main Contractor"
+  },
+  {
+   "fieldname": "c107",
+   "fieldtype": "Data",
+   "label": "Company"
+  },
+  {
+   "fieldname": "s106",
+   "fieldtype": "Attach",
+   "label": "Signature"
+  },
+  {
+   "depends_on": "eval:doc.s106",
+   "fieldname": "image_109",
+   "fieldtype": "Image",
+   "options": "s106"
+  },
+  {
+   "fieldname": "d111",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "company_representative_column",
+   "fieldtype": "Column Break",
+   "label": "Company Representative"
+  },
+  {
+   "fieldname": "c113",
+   "fieldtype": "Data",
+   "label": "Company"
+  },
+  {
+   "fieldname": "s114",
+   "fieldtype": "Attach",
+   "label": "Signature"
+  },
+  {
+   "depends_on": "eval:doc.s114",
+   "fieldname": "image_115",
+   "fieldtype": "Image",
+   "options": "s114"
+  },
+  {
+   "depends_on": "eval:doc.id118",
+   "fetch_from": "id118.employee_name",
+   "fieldname": "n116",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "d117",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "id104",
+   "fieldtype": "Link",
+   "label": "ID",
+   "options": "Employee"
+  },
+  {
+   "depends_on": "eval:doc.id104",
+   "fetch_from": "id104.employee_name",
+   "fieldname": "name105",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "id111",
+   "fieldtype": "Link",
+   "label": "ID",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "id118",
+   "fieldtype": "Link",
+   "label": "ID",
+   "options": "Employee"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-01-02 17:03:11.503283",
+ "modified_by": "Administrator",
+ "module": "Qa Qc",
+ "name": "Civil Works Foundation",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

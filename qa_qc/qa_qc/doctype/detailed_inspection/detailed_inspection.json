@@ -1,0 +1,383 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:DI-{tag_no}-{####}",
+ "creation": "2023-12-29 13:50:22.805250",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "tag_no",
+  "equipment_description",
+  "location",
+  "column_break_7",
+  "contract_no",
+  "data_sheet",
+  "drawing_reference",
+  "record_the_following_section",
+  "serial_no",
+  "manufacturer",
+  "model_number",
+  "year_manufactured",
+  "certification_body",
+  "equipment_certificate_no",
+  "column_break_17",
+  "ip_rating",
+  "gas_group",
+  "equipment_ex_classification",
+  "temp_class",
+  "hazardous_area_classification",
+  "access_ladderscaffold",
+  "section_break_20",
+  "detailed_inspection_template",
+  "detailed_inspection_list",
+  "d_equipment_template",
+  "for_ex_d_equipment",
+  "e_equipment_template",
+  "for_ex_e_equipment",
+  "i_equipment_template",
+  "for_ex_i_equipment",
+  "barrier",
+  "n_equipment_template",
+  "for_ex_n_equipment",
+  "p_checks_template",
+  "for_ex_p_checks",
+  "section_break_23",
+  "completed_by",
+  "id",
+  "print_name",
+  "signature",
+  "image_39",
+  "date",
+  "company",
+  "accepted_by_column",
+  "id1",
+  "print_name1",
+  "signature1",
+  "image_45",
+  "date1",
+  "company1",
+  "column_break_30",
+  "comments__remarks"
+ ],
+ "fields": [
+  {
+   "fieldname": "tag_no",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Tag No",
+   "reqd": 1
+  },
+  {
+   "fieldname": "equipment_description",
+   "fieldtype": "Data",
+   "label": "Equipment Description"
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Link",
+   "label": "Location",
+   "options": "Mashhor Area"
+  },
+  {
+   "fieldname": "column_break_7",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "data_sheet",
+   "fieldtype": "Data",
+   "label": "Data Sheet"
+  },
+  {
+   "fieldname": "drawing_reference",
+   "fieldtype": "Data",
+   "label": "Drawing Reference"
+  },
+  {
+   "fieldname": "record_the_following_section",
+   "fieldtype": "Section Break",
+   "label": "Record the following"
+  },
+  {
+   "fieldname": "serial_no",
+   "fieldtype": "Data",
+   "label": "Serial No"
+  },
+  {
+   "fieldname": "manufacturer",
+   "fieldtype": "Data",
+   "label": "Manufacturer"
+  },
+  {
+   "fieldname": "model_number",
+   "fieldtype": "Data",
+   "label": "Model Number"
+  },
+  {
+   "fieldname": "year_manufactured",
+   "fieldtype": "Data",
+   "label": "Year manufactured"
+  },
+  {
+   "fieldname": "certification_body",
+   "fieldtype": "Data",
+   "label": "Certification Body"
+  },
+  {
+   "fieldname": "equipment_certificate_no",
+   "fieldtype": "Data",
+   "label": "Equipment Certificate No."
+  },
+  {
+   "fieldname": "column_break_17",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "ip_rating",
+   "fieldtype": "Data",
+   "label": "IP Rating"
+  },
+  {
+   "fieldname": "gas_group",
+   "fieldtype": "Data",
+   "label": "Gas Group"
+  },
+  {
+   "fieldname": "equipment_ex_classification",
+   "fieldtype": "Data",
+   "label": "Equipment Ex Classification"
+  },
+  {
+   "fieldname": "temp_class",
+   "fieldtype": "Data",
+   "label": "Temp Class"
+  },
+  {
+   "fieldname": "hazardous_area_classification",
+   "fieldtype": "Data",
+   "label": "Hazardous Area Classification"
+  },
+  {
+   "fieldname": "access_ladderscaffold",
+   "fieldtype": "Data",
+   "label": "Access (Ladder/Scaffold)"
+  },
+  {
+   "fieldname": "section_break_20",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_23",
+   "fieldtype": "Section Break"
+  },
+  {
+   "bold": 1,
+   "fieldname": "completed_by",
+   "fieldtype": "Column Break",
+   "label": "Completed By"
+  },
+  {
+   "fieldname": "signature",
+   "fieldtype": "Attach",
+   "label": "Signature"
+  },
+  {
+   "depends_on": "eval:doc.id",
+   "fetch_from": "id.employee_name",
+   "fieldname": "print_name",
+   "fieldtype": "Data",
+   "label": "Print Name"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "Company"
+  },
+  {
+   "bold": 1,
+   "fieldname": "accepted_by_column",
+   "fieldtype": "Column Break",
+   "label": "Accepted By"
+  },
+  {
+   "fieldname": "signature1",
+   "fieldtype": "Attach",
+   "label": "Signature"
+  },
+  {
+   "depends_on": "eval:doc.id1",
+   "fetch_from": "id1.employee_name",
+   "fieldname": "print_name1",
+   "fieldtype": "Data",
+   "label": "Print Name"
+  },
+  {
+   "fieldname": "date1",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "company1",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "Company"
+  },
+  {
+   "fieldname": "column_break_30",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "comments__remarks",
+   "fieldtype": "Small Text",
+   "label": "Comments / Remarks"
+  },
+  {
+   "default": "Detailed Inspection List",
+   "fieldname": "detailed_inspection_template",
+   "fieldtype": "Link",
+   "hidden": 1,
+   "label": "Detailed Inspection Template",
+   "options": "Detailed Inspection Template"
+  },
+  {
+   "fieldname": "detailed_inspection_list",
+   "fieldtype": "Table",
+   "label": "Detailed Inspection List",
+   "options": "MCCLT Child Table"
+  },
+  {
+   "default": "D Equipment",
+   "fieldname": "d_equipment_template",
+   "fieldtype": "Link",
+   "hidden": 1,
+   "label": "D Equipment Template",
+   "options": "Detailed Inspection Template"
+  },
+  {
+   "fieldname": "for_ex_d_equipment",
+   "fieldtype": "Table",
+   "label": "For Ex D Equipment",
+   "options": "MCCLT Child Table"
+  },
+  {
+   "default": "E Equipment",
+   "fieldname": "e_equipment_template",
+   "fieldtype": "Link",
+   "hidden": 1,
+   "label": "E Equipment Template",
+   "options": "Detailed Inspection Template"
+  },
+  {
+   "fieldname": "for_ex_e_equipment",
+   "fieldtype": "Table",
+   "label": "For Ex E Equipment",
+   "options": "MCCLT Child Table"
+  },
+  {
+   "default": "I Equipment",
+   "fieldname": "i_equipment_template",
+   "fieldtype": "Link",
+   "hidden": 1,
+   "label": "I Equipment Template",
+   "options": "Detailed Inspection Template"
+  },
+  {
+   "fieldname": "for_ex_i_equipment",
+   "fieldtype": "Table",
+   "label": "For Ex I Equipment",
+   "options": "MCCLT Child Table"
+  },
+  {
+   "default": "N Equipment",
+   "fieldname": "n_equipment_template",
+   "fieldtype": "Link",
+   "hidden": 1,
+   "label": "N Equipment Template",
+   "options": "Detailed Inspection Template"
+  },
+  {
+   "fieldname": "for_ex_n_equipment",
+   "fieldtype": "Table",
+   "label": "For Ex N Equipment",
+   "options": "MCCLT Child Table"
+  },
+  {
+   "default": "P Checks",
+   "fieldname": "p_checks_template",
+   "fieldtype": "Link",
+   "hidden": 1,
+   "label": "P Checks Template",
+   "options": "Detailed Inspection Template"
+  },
+  {
+   "fieldname": "for_ex_p_checks",
+   "fieldtype": "Table",
+   "label": "For Ex P Checks",
+   "options": "MCCLT Child Table"
+  },
+  {
+   "fieldname": "barrier",
+   "fieldtype": "Table",
+   "label": "BARRIER",
+   "options": "BARRIER"
+  },
+  {
+   "fieldname": "contract_no",
+   "fieldtype": "Data",
+   "label": "Contract No"
+  },
+  {
+   "depends_on": "eval:doc.signature",
+   "fieldname": "image_39",
+   "fieldtype": "Image",
+   "options": "signature"
+  },
+  {
+   "depends_on": "eval:doc.signature1",
+   "fieldname": "image_45",
+   "fieldtype": "Image",
+   "options": "signature1"
+  },
+  {
+   "fieldname": "id",
+   "fieldtype": "Link",
+   "label": "ID",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "id1",
+   "fieldtype": "Link",
+   "label": "ID",
+   "options": "Employee"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-01-02 18:52:18.630973",
+ "modified_by": "Administrator",
+ "module": "Qa Qc",
+ "name": "Detailed Inspection",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

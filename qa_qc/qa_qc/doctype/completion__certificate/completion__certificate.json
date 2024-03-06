@@ -1,0 +1,245 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{document_no}",
+ "creation": "2023-11-07 18:23:20.839048",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "document_no",
+  "won_no",
+  "contract_no",
+  "column_break_3",
+  "contractor",
+  "project_no",
+  "section_break_4",
+  "long_text_5",
+  "long_text_7",
+  "attachmentif_any",
+  "for_mashhor_general_contractor_sdn_bhd_section",
+  "id",
+  "name1",
+  "position",
+  "column_break_11",
+  "signature",
+  "image",
+  "by_company_section",
+  "html_16",
+  "html_23",
+  "small_text_18",
+  "column_break_19",
+  "refind",
+  "date",
+  "sign_1",
+  "image_1",
+  "company_representative_section",
+  "html_22",
+  "column_break_26",
+  "date_1",
+  "sign",
+  "image_2",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "contract_no",
+   "fieldtype": "Data",
+   "label": "Contract No"
+  },
+  {
+   "default": "Mashhor General Contractor Sdn Bhd",
+   "fieldname": "contractor",
+   "fieldtype": "Data",
+   "label": "Contractor",
+   "reqd": 1
+  },
+  {
+   "fieldname": "project_no",
+   "fieldtype": "Data",
+   "label": "Project No"
+  },
+  {
+   "fieldname": "for_mashhor_general_contractor_sdn_bhd_section",
+   "fieldtype": "Section Break",
+   "label": "For Mashhor General Contractor SDN. BHD."
+  },
+  {
+   "depends_on": "eval:doc.id",
+   "fetch_from": "id.employee_name",
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "signature",
+   "fieldtype": "Attach",
+   "label": "Signature"
+  },
+  {
+   "fetch_from": "id.designation",
+   "fetch_if_empty": 1,
+   "fieldname": "position",
+   "fieldtype": "Data",
+   "label": "Position"
+  },
+  {
+   "fieldname": "by_company_section",
+   "fieldtype": "Section Break",
+   "label": "By Company"
+  },
+  {
+   "fieldname": "refind",
+   "fieldtype": "Data",
+   "label": "REF.IND"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Completion  Certificate",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "company_representative_section",
+   "fieldtype": "Section Break",
+   "label": "COMPANY REPRESENTATIVE"
+  },
+  {
+   "fieldname": "sign",
+   "fieldtype": "Attach",
+   "label": " Signature"
+  },
+  {
+   "fieldname": "date_1",
+   "fieldtype": "Date",
+   "label": " Date"
+  },
+  {
+   "fieldname": "attachmentif_any",
+   "fieldtype": "Attach",
+   "label": "Attachment(if any)"
+  },
+  {
+   "fieldname": "section_break_4",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "long_text_5",
+   "fieldtype": "HTML",
+   "options": "This is to certify that the above project has been completed and accepted as per the following codes and standards."
+  },
+  {
+   "fieldname": "sign_1",
+   "fieldtype": "Attach",
+   "label": "Signature"
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_11",
+   "fieldtype": "Column Break"
+  },
+  {
+   "depends_on": "eval:doc.signature",
+   "fieldname": "image",
+   "fieldtype": "Image",
+   "options": "signature"
+  },
+  {
+   "depends_on": "eval:doc.sign_1",
+   "fieldname": "image_1",
+   "fieldtype": "Image",
+   "options": "sign_1"
+  },
+  {
+   "fieldname": "long_text_7",
+   "fieldtype": "Long Text"
+  },
+  {
+   "fieldname": "html_22",
+   "fieldtype": "HTML",
+   "options": "The CONTRACTOR is advised that acceptance of a Milestone Completion Certificate or payment for the relevant Milestone does not relieve the CONTRACTOR from its obligations in respect of the performance of the WORK.\n\n"
+  },
+  {
+   "fieldname": "html_16",
+   "fieldtype": "HTML",
+   "options": "*The COMPANY accepts that the project has been completed. However the WORK undertaken remains subject to detailed examination - any payment made based upon this acceptance shall not prejudice any COMPANY rights of recourse.\n"
+  },
+  {
+   "fieldname": "html_23",
+   "fieldtype": "HTML",
+   "options": "*The COMPANY does not accept that the project has been completed for the following reasons:"
+  },
+  {
+   "depends_on": "eval:doc.sign",
+   "fieldname": "image_2",
+   "fieldtype": "Image",
+   "options": "sign"
+  },
+  {
+   "fieldname": "document_no",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Document No",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_19",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_26",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "small_text_18",
+   "fieldtype": "Small Text"
+  },
+  {
+   "fieldname": "id",
+   "fieldtype": "Link",
+   "label": "ID",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "won_no",
+   "fieldtype": "Link",
+   "label": "Won No",
+   "options": "Project"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-11-28 15:25:09.550486",
+ "modified_by": "Administrator",
+ "module": "Qa Qc",
+ "name": "Completion  Certificate",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

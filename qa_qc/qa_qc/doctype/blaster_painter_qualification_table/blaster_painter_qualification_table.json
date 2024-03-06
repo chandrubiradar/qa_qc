@@ -1,0 +1,71 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-02-10 20:29:52.883128",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "type_of_paintgeneric_name",
+  "product_name",
+  "manufacturer",
+  "batch_no",
+  "paint_application_procedure_no",
+  "dft_requirement",
+  "test_resultwft",
+  "test_resultdft"
+ ],
+ "fields": [
+  {
+   "fieldname": "type_of_paintgeneric_name",
+   "fieldtype": "Data",
+   "label": "Type of Paint(Generic Name)"
+  },
+  {
+   "fieldname": "product_name",
+   "fieldtype": "Data",
+   "label": "Product Name"
+  },
+  {
+   "fieldname": "manufacturer",
+   "fieldtype": "Data",
+   "label": "Manufacturer"
+  },
+  {
+   "fieldname": "batch_no",
+   "fieldtype": "Data",
+   "label": "Batch no."
+  },
+  {
+   "fieldname": "paint_application_procedure_no",
+   "fieldtype": "Data",
+   "label": "Paint Application Procedure No."
+  },
+  {
+   "fieldname": "dft_requirement",
+   "fieldtype": "Data",
+   "label": "DFT Requirement"
+  },
+  {
+   "fieldname": "test_resultwft",
+   "fieldtype": "Data",
+   "label": "Test Result(WFT)"
+  },
+  {
+   "fieldname": "test_resultdft",
+   "fieldtype": "Data",
+   "label": "Test Result(DFT)"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-02-10 20:29:52.883128",
+ "modified_by": "Administrator",
+ "module": "Qa Qc",
+ "name": "Blaster_Painter Qualification Table",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

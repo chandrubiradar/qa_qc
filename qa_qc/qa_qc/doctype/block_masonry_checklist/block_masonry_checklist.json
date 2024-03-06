@@ -1,0 +1,244 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:BMC-{system_no}-{####}",
+ "creation": "2024-01-01 15:32:10.183033",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "system_no",
+  "teat_pack_no",
+  "description",
+  "column_break_4",
+  "mgcsb_contract_no",
+  "drawing_no",
+  "location",
+  "section_break_9",
+  "block_masonry_template",
+  "table_10",
+  "remarks",
+  "section_break_11",
+  "mgcsb_construction",
+  "id",
+  "name1",
+  "sign",
+  "image_16",
+  "date",
+  "column_break_17",
+  "mgcsb_qaqc",
+  "id1",
+  "name2",
+  "sign1",
+  "image_23",
+  "date1",
+  "column_break_23",
+  "bsp_qcs_civil",
+  "id2",
+  "name3",
+  "sign2",
+  "image_30",
+  "date2"
+ ],
+ "fields": [
+  {
+   "fieldname": "system_no",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "System No",
+   "reqd": 1
+  },
+  {
+   "fieldname": "teat_pack_no",
+   "fieldtype": "Data",
+   "label": "Teat Pack No"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Data",
+   "label": "Description"
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "mgcsb_contract_no",
+   "fieldtype": "Data",
+   "label": "MGCSB Contract No"
+  },
+  {
+   "fieldname": "drawing_no",
+   "fieldtype": "Data",
+   "label": "Drawing No"
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Link",
+   "label": "Location",
+   "options": "Mashhor Area"
+  },
+  {
+   "fieldname": "section_break_9",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "table_10",
+   "fieldtype": "Table",
+   "options": "Block Masonry Table"
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Text",
+   "label": "Remarks"
+  },
+  {
+   "fieldname": "section_break_11",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "sign",
+   "fieldtype": "Attach",
+   "label": "Signature"
+  },
+  {
+   "depends_on": "eval:doc.sign",
+   "fieldname": "image_16",
+   "fieldtype": "Image",
+   "options": "sign"
+  },
+  {
+   "depends_on": "eval:doc.id",
+   "fetch_from": "id.employee_name",
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "column_break_17",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "sign1",
+   "fieldtype": "Attach",
+   "label": "Signature"
+  },
+  {
+   "depends_on": "eval:doc.sign1",
+   "fieldname": "image_23",
+   "fieldtype": "Image",
+   "options": "sign1"
+  },
+  {
+   "depends_on": "eval:doc.id1",
+   "fetch_from": "id1.employee_name",
+   "fieldname": "name2",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "date1",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "column_break_23",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "sign2",
+   "fieldtype": "Attach",
+   "label": "Signature"
+  },
+  {
+   "depends_on": "eval:doc.sign2",
+   "fieldname": "image_30",
+   "fieldtype": "Image",
+   "options": "sign2"
+  },
+  {
+   "depends_on": "eval:doc.id2",
+   "fetch_from": "id2.employee_name",
+   "fieldname": "name3",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "date2",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "mgcsb_construction",
+   "fieldtype": "HTML",
+   "label": "MGCSB Construction",
+   "options": "MGCSB Construction"
+  },
+  {
+   "fieldname": "mgcsb_qaqc",
+   "fieldtype": "HTML",
+   "label": "MGCSB QA/QC",
+   "options": "MGCSB QA/QC"
+  },
+  {
+   "fieldname": "bsp_qcs_civil",
+   "fieldtype": "HTML",
+   "label": "BSP QCS Civil",
+   "options": "BSP QCS Civil"
+  },
+  {
+   "default": "Block Masonry List",
+   "fieldname": "block_masonry_template",
+   "fieldtype": "Link",
+   "hidden": 1,
+   "label": "Block Masonry Template",
+   "options": "Block Masonry Template"
+  },
+  {
+   "fieldname": "id",
+   "fieldtype": "Link",
+   "label": "ID",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "id1",
+   "fieldtype": "Link",
+   "label": "ID",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "id2",
+   "fieldtype": "Link",
+   "label": "ID",
+   "options": "Employee"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-01-02 16:26:02.144446",
+ "modified_by": "Administrator",
+ "module": "Qa Qc",
+ "name": "BLOCK MASONRY CHECKLIST",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

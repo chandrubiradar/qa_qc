@@ -1,0 +1,158 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{punch_list_no}",
+ "creation": "2023-02-13 20:46:11.268061",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "location",
+  "column_break_3",
+  "discipline",
+  "column_break_4",
+  "punch_list_no",
+  "punch_list_raised_by_column",
+  "id",
+  "name1",
+  "company",
+  "date",
+  "column_break_5",
+  "sht",
+  "of",
+  "section_break_11",
+  "table_12",
+  "section_break_13",
+  "table_14",
+  "section_break_18",
+  "notes",
+  "column_break_19",
+  "categories"
+ ],
+ "fields": [
+  {
+   "fetch_from": "id.employee_name",
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Link",
+   "label": "Location",
+   "options": "Location"
+  },
+  {
+   "fieldname": "discipline",
+   "fieldtype": "Data",
+   "label": "Discipline"
+  },
+  {
+   "fieldname": "column_break_5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "punch_list_no",
+   "fieldtype": "Data",
+   "label": "Punch List No."
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Data",
+   "label": "Company"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "sht",
+   "fieldtype": "Data",
+   "label": "SHT"
+  },
+  {
+   "fieldname": "section_break_11",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "table_12",
+   "fieldtype": "Table",
+   "options": "Punch List Table1"
+  },
+  {
+   "fieldname": "section_break_13",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "table_14",
+   "fieldtype": "Table",
+   "options": "Punch List Table2"
+  },
+  {
+   "fieldname": "notes",
+   "fieldtype": "Text",
+   "label": "Notes"
+  },
+  {
+   "fieldname": "punch_list_raised_by_column",
+   "fieldtype": "Section Break",
+   "label": "Punch List Raised By"
+  },
+  {
+   "fieldname": "of",
+   "fieldtype": "Data",
+   "label": "OF"
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "id",
+   "fieldtype": "Link",
+   "label": "ID",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "column_break_19",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "categories",
+   "fieldtype": "Text",
+   "label": "Categories"
+  },
+  {
+   "fieldname": "section_break_18",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-11-29 14:48:59.498495",
+ "modified_by": "Administrator",
+ "module": "Qa Qc",
+ "name": "Punch List",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

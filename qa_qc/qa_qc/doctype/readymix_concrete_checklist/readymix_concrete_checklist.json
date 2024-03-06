@@ -1,0 +1,342 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:RCC-{system_no}-{####}",
+ "creation": "2024-01-01 17:26:29.687393",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "system_no",
+  "teat_pack_no",
+  "column_break_4",
+  "mgcsb_contract_no",
+  "supplier",
+  "section_break_9",
+  "grade_of_concrete",
+  "type_of_cement",
+  "nominal_size_of_coarse_aggregate",
+  "cement_content_kgm3",
+  "water_content_ltrm3",
+  "column_break_12",
+  "analysis_report_on_aggregate",
+  "type_and_dosage_of_admixture_if_any",
+  "agreed_slump",
+  "batching_time",
+  "arrival_time_at_site",
+  "column_break_18",
+  "time_of_pouring",
+  "concrete_volume",
+  "concrete_placing_location",
+  "number_of_samples_collected",
+  "name_of_test_engineer",
+  "section_break_24",
+  "remarks",
+  "section_break_11",
+  "sub_contractor",
+  "company",
+  "id",
+  "name1",
+  "sign",
+  "image_16",
+  "date",
+  "column_break_17",
+  "main_contractor",
+  "company1",
+  "id1",
+  "name2",
+  "sign1",
+  "image_23",
+  "date1",
+  "column_break_23",
+  "company_representative",
+  "company2",
+  "id2",
+  "name3",
+  "sign2",
+  "image_30",
+  "date2"
+ ],
+ "fields": [
+  {
+   "fieldname": "system_no",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "System No",
+   "reqd": 1
+  },
+  {
+   "fieldname": "teat_pack_no",
+   "fieldtype": "Data",
+   "label": "Teat Pack No"
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "mgcsb_contract_no",
+   "fieldtype": "Data",
+   "label": "MGCSB Contract No"
+  },
+  {
+   "fieldname": "supplier",
+   "fieldtype": "Data",
+   "label": "Supplier"
+  },
+  {
+   "fieldname": "section_break_9",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Text",
+   "label": "Remarks"
+  },
+  {
+   "fieldname": "section_break_11",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "sub_contractor",
+   "fieldtype": "HTML",
+   "label": "Sub Contractor",
+   "options": "Sub Contractor"
+  },
+  {
+   "depends_on": "eval:doc.id",
+   "fetch_from": "id.employee_name",
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "sign",
+   "fieldtype": "Attach",
+   "label": "Signature"
+  },
+  {
+   "depends_on": "eval:doc.sign",
+   "fieldname": "image_16",
+   "fieldtype": "Image",
+   "options": "sign"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "column_break_17",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "main_contractor",
+   "fieldtype": "HTML",
+   "label": "Main Contractor",
+   "options": "Main Contractor"
+  },
+  {
+   "depends_on": "eval:doc.id1",
+   "fetch_from": "id1.employee_name",
+   "fieldname": "name2",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "sign1",
+   "fieldtype": "Attach",
+   "label": "Signature"
+  },
+  {
+   "depends_on": "eval:doc.sign1",
+   "fieldname": "image_23",
+   "fieldtype": "Image",
+   "options": "sign1"
+  },
+  {
+   "fieldname": "date1",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "column_break_23",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "company_representative",
+   "fieldtype": "HTML",
+   "label": "Company Representative",
+   "options": "Company Representative"
+  },
+  {
+   "depends_on": "eval:doc.id2",
+   "fetch_from": "id2.employee_name",
+   "fieldname": "name3",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "sign2",
+   "fieldtype": "Attach",
+   "label": "Signature"
+  },
+  {
+   "depends_on": "eval:doc.sign2",
+   "fieldname": "image_30",
+   "fieldtype": "Image",
+   "options": "sign2"
+  },
+  {
+   "fieldname": "date2",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "grade_of_concrete",
+   "fieldtype": "Data",
+   "label": "Grade of concrete"
+  },
+  {
+   "fieldname": "type_of_cement",
+   "fieldtype": "Data",
+   "label": "Type of cement"
+  },
+  {
+   "fieldname": "nominal_size_of_coarse_aggregate",
+   "fieldtype": "Data",
+   "label": "Nominal size of coarse aggregate"
+  },
+  {
+   "fieldname": "cement_content_kgm3",
+   "fieldtype": "Data",
+   "label": "Cement Content Kg/m3"
+  },
+  {
+   "fieldname": "water_content_ltrm3",
+   "fieldtype": "Data",
+   "label": "Water content (Ltr/m3)"
+  },
+  {
+   "fieldname": "column_break_12",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "analysis_report_on_aggregate",
+   "fieldtype": "Data",
+   "label": "Analysis report on aggregate"
+  },
+  {
+   "fieldname": "type_and_dosage_of_admixture_if_any",
+   "fieldtype": "Data",
+   "label": "Type and dosage of admixture (if any)"
+  },
+  {
+   "fieldname": "agreed_slump",
+   "fieldtype": "Data",
+   "label": "Agreed slump"
+  },
+  {
+   "fieldname": "batching_time",
+   "fieldtype": "Time",
+   "label": "Batching time"
+  },
+  {
+   "fieldname": "arrival_time_at_site",
+   "fieldtype": "Time",
+   "label": "Arrival time at site"
+  },
+  {
+   "fieldname": "column_break_18",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "time_of_pouring",
+   "fieldtype": "Time",
+   "label": "Time of pouring"
+  },
+  {
+   "fieldname": "concrete_volume",
+   "fieldtype": "Data",
+   "label": "Concrete volume"
+  },
+  {
+   "fieldname": "concrete_placing_location",
+   "fieldtype": "Data",
+   "label": "Concrete placing location"
+  },
+  {
+   "fieldname": "number_of_samples_collected",
+   "fieldtype": "Data",
+   "label": "Number of samples collected"
+  },
+  {
+   "fieldname": "name_of_test_engineer",
+   "fieldtype": "Data",
+   "label": "Name of test Engineer"
+  },
+  {
+   "fieldname": "section_break_24",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "Company"
+  },
+  {
+   "fieldname": "company1",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "Company"
+  },
+  {
+   "fieldname": "company2",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "Company"
+  },
+  {
+   "fieldname": "id",
+   "fieldtype": "Link",
+   "label": "ID",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "id1",
+   "fieldtype": "Link",
+   "label": "ID",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "id2",
+   "fieldtype": "Link",
+   "label": "ID",
+   "options": "Employee"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-01-02 21:37:43.405556",
+ "modified_by": "Administrator",
+ "module": "Qa Qc",
+ "name": "READYMIX CONCRETE CHECKLIST",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

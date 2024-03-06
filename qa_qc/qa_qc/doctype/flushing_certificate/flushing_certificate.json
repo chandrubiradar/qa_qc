@@ -1,0 +1,280 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "Flushing Certificate-.####",
+ "creation": "2023-12-26 18:14:05.776968",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "report_no",
+  "test_pack_no",
+  "rev_no",
+  "project_no",
+  "sheet",
+  "of",
+  "column_break_7",
+  "client",
+  "project",
+  "location",
+  "section_break_11",
+  "date",
+  "signature",
+  "image_14",
+  "position",
+  "name1",
+  "company",
+  "column_break_16",
+  "date__checked_by",
+  "siganture_checked_by",
+  "image_21",
+  "position_checked_by",
+  "name_checked_by",
+  "company_checked_by",
+  "column_break_22",
+  "date_approved_by",
+  "signature_approved_by",
+  "image_28",
+  "position_approved_by",
+  "name_approved_by",
+  "company__approved_by",
+  "section_break_16",
+  "p_and_id_no",
+  "area",
+  "method_used",
+  "column_break_33",
+  "operational_medium",
+  "flush_medium",
+  "system",
+  "section_break_37",
+  "table_38"
+ ],
+ "fields": [
+  {
+   "fieldname": "report_no",
+   "fieldtype": "Data",
+   "label": "Report No"
+  },
+  {
+   "fieldname": "test_pack_no",
+   "fieldtype": "Data",
+   "label": "Test Pack No"
+  },
+  {
+   "fieldname": "rev_no",
+   "fieldtype": "Data",
+   "label": "Rev No"
+  },
+  {
+   "fieldname": "project_no",
+   "fieldtype": "Data",
+   "label": "Project No"
+  },
+  {
+   "fieldname": "sheet",
+   "fieldtype": "Data",
+   "label": "Sheet"
+  },
+  {
+   "fieldname": "of",
+   "fieldtype": "Data",
+   "label": "Of"
+  },
+  {
+   "fieldname": "column_break_7",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "client",
+   "fieldtype": "Data",
+   "label": "Client"
+  },
+  {
+   "fieldname": "project",
+   "fieldtype": "Link",
+   "label": "Project",
+   "options": "Project"
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Link",
+   "label": "Location",
+   "options": "Mashhor Area"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date (Completed By)"
+  },
+  {
+   "fieldname": "signature",
+   "fieldtype": "Attach",
+   "label": "Signature (Completed By)"
+  },
+  {
+   "fieldname": "position",
+   "fieldtype": "Data",
+   "label": "Position (Completed By)"
+  },
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name (Completed By)"
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Data",
+   "label": "Company (Completed By)"
+  },
+  {
+   "fieldname": "section_break_16",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "p_and_id_no",
+   "fieldtype": "Data",
+   "label": "P and ID No"
+  },
+  {
+   "fieldname": "area",
+   "fieldtype": "Data",
+   "label": "Area"
+  },
+  {
+   "fieldname": "method_used",
+   "fieldtype": "Data",
+   "label": "Method used"
+  },
+  {
+   "fieldname": "operational_medium",
+   "fieldtype": "Data",
+   "label": "Operational Medium"
+  },
+  {
+   "fieldname": "flush_medium",
+   "fieldtype": "Data",
+   "label": "Flush Medium"
+  },
+  {
+   "fieldname": "system",
+   "fieldtype": "Data",
+   "label": "System"
+  },
+  {
+   "fieldname": "column_break_16",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "date__checked_by",
+   "fieldtype": "Date",
+   "label": "Date ( Checked by)"
+  },
+  {
+   "fieldname": "siganture_checked_by",
+   "fieldtype": "Attach",
+   "label": "Siganture (Checked By)"
+  },
+  {
+   "fieldname": "position_checked_by",
+   "fieldtype": "Data",
+   "label": "Position (Checked By)"
+  },
+  {
+   "fieldname": "name_checked_by",
+   "fieldtype": "Data",
+   "label": "Name (Checked By)"
+  },
+  {
+   "fieldname": "company_checked_by",
+   "fieldtype": "Data",
+   "label": "Company (Checked By)"
+  },
+  {
+   "fieldname": "column_break_22",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "date_approved_by",
+   "fieldtype": "Date",
+   "label": "Date (Approved By)"
+  },
+  {
+   "fieldname": "signature_approved_by",
+   "fieldtype": "Attach",
+   "label": "Signature (Approved By)"
+  },
+  {
+   "fieldname": "position_approved_by",
+   "fieldtype": "Data",
+   "label": "Position (Approved By)"
+  },
+  {
+   "fieldname": "name_approved_by",
+   "fieldtype": "Data",
+   "label": "Name (Approved By)"
+  },
+  {
+   "fieldname": "company__approved_by",
+   "fieldtype": "Data",
+   "label": "Company ( Approved By)"
+  },
+  {
+   "fieldname": "section_break_11",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_33",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_37",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "table_38",
+   "fieldtype": "Table",
+   "options": "Flushing certificate Child table"
+  },
+  {
+   "depends_on": "eval:doc.signature",
+   "fieldname": "image_14",
+   "fieldtype": "Image",
+   "options": "signature"
+  },
+  {
+   "depends_on": "eval:doc.siganture_checked_by",
+   "fieldname": "image_21",
+   "fieldtype": "Image",
+   "options": "siganture_checked_by"
+  },
+  {
+   "depends_on": "eval:doc.signature_approved_by",
+   "fieldname": "image_28",
+   "fieldtype": "Image",
+   "options": "signature_approved_by"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-01-03 22:10:46.837473",
+ "modified_by": "Administrator",
+ "module": "Qa Qc",
+ "name": "Flushing Certificate",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

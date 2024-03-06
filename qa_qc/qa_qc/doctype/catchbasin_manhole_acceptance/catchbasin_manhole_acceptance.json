@@ -1,0 +1,271 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:CBMA-{system_no}-{####}",
+ "creation": "2024-01-01 14:31:55.371415",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "system_no",
+  "teat_pack_no",
+  "cb_mh_no",
+  "column_break_4",
+  "mgcsb_contract_no",
+  "drawing_no",
+  "location",
+  "rev",
+  "section_break_9",
+  "man_hole_acceptance_template",
+  "table_10",
+  "remarks",
+  "section_break_11",
+  "sub_contractor",
+  "company",
+  "sign",
+  "image_16",
+  "id",
+  "name1",
+  "date",
+  "column_break_17",
+  "main_contractor",
+  "company1",
+  "sign1",
+  "image_23",
+  "id1",
+  "name2",
+  "date1",
+  "column_break_23",
+  "bsp_qcs",
+  "company2",
+  "sign2",
+  "image_30",
+  "id2",
+  "name3",
+  "date2"
+ ],
+ "fields": [
+  {
+   "fieldname": "system_no",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "System No",
+   "reqd": 1
+  },
+  {
+   "fieldname": "teat_pack_no",
+   "fieldtype": "Data",
+   "label": "Teat Pack No"
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "mgcsb_contract_no",
+   "fieldtype": "Data",
+   "label": "MGCSB Contract No"
+  },
+  {
+   "fieldname": "drawing_no",
+   "fieldtype": "Data",
+   "label": "Drawing No"
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Link",
+   "label": "Location",
+   "options": "Mashhor Area"
+  },
+  {
+   "fieldname": "rev",
+   "fieldtype": "Data",
+   "label": "Rev"
+  },
+  {
+   "fieldname": "section_break_9",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "table_10",
+   "fieldtype": "Table",
+   "options": "Manhole Acceptance Table"
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Text",
+   "label": "Remarks"
+  },
+  {
+   "fieldname": "section_break_11",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "sub_contractor",
+   "fieldtype": "HTML",
+   "label": "Sub Contractor",
+   "options": "Sub Contractor"
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "Company"
+  },
+  {
+   "fieldname": "sign",
+   "fieldtype": "Attach",
+   "label": "Signature"
+  },
+  {
+   "depends_on": "eval:doc.sign",
+   "fieldname": "image_16",
+   "fieldtype": "Image",
+   "options": "sign"
+  },
+  {
+   "depends_on": "eval:doc.id",
+   "fetch_from": "id.employee_name",
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "column_break_17",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "main_contractor",
+   "fieldtype": "HTML",
+   "label": "Main Contractor",
+   "options": "Main Contractor"
+  },
+  {
+   "fieldname": "company1",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "Company"
+  },
+  {
+   "fieldname": "sign1",
+   "fieldtype": "Attach",
+   "label": "Signature"
+  },
+  {
+   "depends_on": "eval:doc.sign1",
+   "fieldname": "image_23",
+   "fieldtype": "Image",
+   "options": "sign1"
+  },
+  {
+   "depends_on": "eval:doc.id1",
+   "fetch_from": "id1.employee_name",
+   "fieldname": "name2",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "date1",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "column_break_23",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "bsp_qcs",
+   "fieldtype": "HTML",
+   "label": "BSP-QCS Engineer Civil",
+   "options": "BSP-QCS Engineer Civil"
+  },
+  {
+   "fieldname": "company2",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "Company"
+  },
+  {
+   "fieldname": "sign2",
+   "fieldtype": "Attach",
+   "label": "Signature"
+  },
+  {
+   "depends_on": "eval:doc.sign2",
+   "fieldname": "image_30",
+   "fieldtype": "Image",
+   "options": "sign2"
+  },
+  {
+   "depends_on": "eval:doc.id2",
+   "fetch_from": "id2.employee_name",
+   "fieldname": "name3",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "date2",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "cb_mh_no",
+   "fieldtype": "Data",
+   "label": "CB/MH No"
+  },
+  {
+   "default": "Man Hole Acceptance List",
+   "fieldname": "man_hole_acceptance_template",
+   "fieldtype": "Link",
+   "hidden": 1,
+   "label": "Man Hole Acceptance Template",
+   "options": "Man Hole Acceptance Template"
+  },
+  {
+   "fieldname": "id",
+   "fieldtype": "Link",
+   "label": "ID",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "id1",
+   "fieldtype": "Link",
+   "label": "ID",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "id2",
+   "fieldtype": "Link",
+   "label": "ID",
+   "options": "Employee"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-01-02 16:06:10.394511",
+ "modified_by": "Administrator",
+ "module": "Qa Qc",
+ "name": "CATCHBASIN MANHOLE ACCEPTANCE",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

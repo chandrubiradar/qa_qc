@@ -1,0 +1,243 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{project_title}-{####}",
+ "creation": "2024-01-30 22:30:16.248397",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "project_title",
+  "project_no",
+  "contractor",
+  "client",
+  "date",
+  "type_of_equipment",
+  "manufacturer",
+  "model",
+  "serial_number",
+  "column_break_qbvp",
+  "won",
+  "dwg_no",
+  "line_no",
+  "joint_no",
+  "wps",
+  "welder_name_id",
+  "equipment_function",
+  "smaw",
+  "gtaw",
+  "preheat_temperature",
+  "section_break_hfdq",
+  "welding_table",
+  "section_break_upfx",
+  "thermometer",
+  "serial_no",
+  "calibration_date",
+  "calibration_due_date",
+  "column_break_lswd",
+  "data_logger_clamp_meter",
+  "serial_no1",
+  "calibration_date1",
+  "calibration_due_date1",
+  "verified_by",
+  "date1"
+ ],
+ "fields": [
+  {
+   "fieldname": "project_title",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Project Title",
+   "options": "Contract",
+   "reqd": 1
+  },
+  {
+   "fieldname": "project_no",
+   "fieldtype": "Data",
+   "label": "Project No."
+  },
+  {
+   "fieldname": "contractor",
+   "fieldtype": "Data",
+   "label": "Contractor "
+  },
+  {
+   "fieldname": "client",
+   "fieldtype": "Link",
+   "label": "Client",
+   "options": "Contract"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "type_of_equipment",
+   "fieldtype": "Data",
+   "label": "Type of Equipment"
+  },
+  {
+   "fieldname": "manufacturer",
+   "fieldtype": "Data",
+   "label": "Manufacturer"
+  },
+  {
+   "fieldname": "model",
+   "fieldtype": "Data",
+   "label": "Model"
+  },
+  {
+   "fieldname": "serial_number",
+   "fieldtype": "Data",
+   "label": "Serial Number"
+  },
+  {
+   "fieldname": "column_break_qbvp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "won",
+   "fieldtype": "Link",
+   "label": "WON",
+   "options": "Project"
+  },
+  {
+   "fieldname": "dwg_no",
+   "fieldtype": "Data",
+   "label": "Dwg No"
+  },
+  {
+   "fieldname": "line_no",
+   "fieldtype": "Data",
+   "label": "Line No"
+  },
+  {
+   "fieldname": "joint_no",
+   "fieldtype": "Data",
+   "label": "Joint No"
+  },
+  {
+   "fieldname": "wps",
+   "fieldtype": "Data",
+   "label": "WPS"
+  },
+  {
+   "fieldname": "welder_name_id",
+   "fieldtype": "Data",
+   "label": "Welder Name/ID"
+  },
+  {
+   "fieldname": "equipment_function",
+   "fieldtype": "Heading",
+   "label": "Equipment Function"
+  },
+  {
+   "default": "0",
+   "fieldname": "smaw",
+   "fieldtype": "Check",
+   "label": "SMAW"
+  },
+  {
+   "default": "0",
+   "fieldname": "gtaw",
+   "fieldtype": "Check",
+   "label": "GTAW"
+  },
+  {
+   "fieldname": "preheat_temperature",
+   "fieldtype": "Data",
+   "label": "Preheat Temperature"
+  },
+  {
+   "fieldname": "section_break_hfdq",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "welding_table",
+   "fieldtype": "Table",
+   "label": "Welding Details",
+   "options": "Welding Details"
+  },
+  {
+   "fieldname": "section_break_upfx",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "thermometer",
+   "fieldtype": "Heading",
+   "label": "Thermometer"
+  },
+  {
+   "fieldname": "serial_no",
+   "fieldtype": "Data",
+   "label": "Serial No"
+  },
+  {
+   "fieldname": "calibration_date",
+   "fieldtype": "Date",
+   "label": "Calibration date"
+  },
+  {
+   "fieldname": "calibration_due_date",
+   "fieldtype": "Date",
+   "label": "Calibration due date"
+  },
+  {
+   "fieldname": "column_break_lswd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "data_logger_clamp_meter",
+   "fieldtype": "Heading",
+   "label": "Data Logger Clamp meter"
+  },
+  {
+   "fieldname": "serial_no1",
+   "fieldtype": "Data",
+   "label": "Serial No"
+  },
+  {
+   "fieldname": "calibration_date1",
+   "fieldtype": "Date",
+   "label": "Calibration date"
+  },
+  {
+   "fieldname": "calibration_due_date1",
+   "fieldtype": "Date",
+   "label": "Calibration due date"
+  },
+  {
+   "fieldname": "verified_by",
+   "fieldtype": "Data",
+   "label": "Verified By"
+  },
+  {
+   "fieldname": "date1",
+   "fieldtype": "Date",
+   "label": "Date"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-01-31 13:21:55.891305",
+ "modified_by": "Administrator",
+ "module": "Qa Qc",
+ "name": "WELDING PARAMETER RECORD FORM",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

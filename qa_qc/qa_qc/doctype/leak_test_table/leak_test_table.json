@@ -1,0 +1,48 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-02-10 15:52:31.013951",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "test_equipment",
+  "model_no",
+  "last_date_of_certification",
+  "certification_no"
+ ],
+ "fields": [
+  {
+   "fieldname": "test_equipment",
+   "fieldtype": "Data",
+   "label": "Test Equipment",
+   "read_only": 1
+  },
+  {
+   "fieldname": "model_no",
+   "fieldtype": "Data",
+   "label": "Model No."
+  },
+  {
+   "fieldname": "last_date_of_certification",
+   "fieldtype": "Date",
+   "label": "Last Date Of Certification"
+  },
+  {
+   "fieldname": "certification_no",
+   "fieldtype": "Data",
+   "label": "Certification No."
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-11-17 17:21:58.158665",
+ "modified_by": "Administrator",
+ "module": "Qa Qc",
+ "name": "Leak Test Table",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

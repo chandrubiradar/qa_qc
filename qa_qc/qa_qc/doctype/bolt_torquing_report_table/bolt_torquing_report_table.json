@@ -1,0 +1,71 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-12-05 16:35:21.966093",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "drawing_no",
+  "flange_id",
+  "flange_size",
+  "flange_rating",
+  "lubricant",
+  "torque_n_m",
+  "torque_method",
+  "remarks"
+ ],
+ "fields": [
+  {
+   "fieldname": "drawing_no",
+   "fieldtype": "Data",
+   "label": "Drawing No"
+  },
+  {
+   "fieldname": "flange_id",
+   "fieldtype": "Data",
+   "label": "Flange ID"
+  },
+  {
+   "fieldname": "flange_size",
+   "fieldtype": "Data",
+   "label": "Flange Size"
+  },
+  {
+   "fieldname": "flange_rating",
+   "fieldtype": "Data",
+   "label": "Flange Rating"
+  },
+  {
+   "fieldname": "lubricant",
+   "fieldtype": "Data",
+   "label": "Lubricant"
+  },
+  {
+   "fieldname": "torque_n_m",
+   "fieldtype": "Data",
+   "label": "Torque(N-m)"
+  },
+  {
+   "fieldname": "torque_method",
+   "fieldtype": "Data",
+   "label": "Torque Method"
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Small Text",
+   "label": "Remarks"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-12-05 16:35:53.180982",
+ "modified_by": "Administrator",
+ "module": "Qa Qc",
+ "name": "Bolt Torquing Report Table",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

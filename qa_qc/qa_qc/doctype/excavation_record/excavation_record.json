@@ -1,0 +1,395 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "EXCAVATION RECORD-.####",
+ "creation": "2023-12-29 15:57:20.087391",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "system_no",
+  "mgcsb_contract_no",
+  "testpack_no",
+  "drawing_no",
+  "rev",
+  "location",
+  "day_and_date_of_excavation",
+  "base_pipetrack_co_ordinates_east_north",
+  "column_break_9",
+  "rock_encountered",
+  "yes",
+  "no",
+  "method_of_excavation",
+  "method",
+  "breaker",
+  "blasting",
+  "soft_spots",
+  "y18",
+  "n19",
+  "section_break_20",
+  "type_of_infill_to_soft_spots_material_excavated",
+  "data_22",
+  "l24",
+  "data_28",
+  "level_reduced_to",
+  "data_26",
+  "l27",
+  "section_break_28",
+  "remarks__no_remarks_delete_as_applicable",
+  "data_30",
+  "shoring_is_required",
+  "ta_recommendation_required",
+  "shoring_type",
+  "satisfication_of_shoring_arrangement",
+  "section_break_35",
+  "section_break_38",
+  "sub_contractor_column",
+  "company",
+  "id41",
+  "name1",
+  "signature",
+  "image_42",
+  "date",
+  "main_contractor_column",
+  "c2",
+  "id48",
+  "n22",
+  "s299",
+  "image_48",
+  "d23",
+  "company_representative_column",
+  "c50",
+  "id55",
+  "n53",
+  "s977",
+  "image_52",
+  "d54"
+ ],
+ "fields": [
+  {
+   "fieldname": "system_no",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "System No",
+   "reqd": 1
+  },
+  {
+   "fieldname": "mgcsb_contract_no",
+   "fieldtype": "Data",
+   "label": "MGCSB CONTRACT NO"
+  },
+  {
+   "fieldname": "testpack_no",
+   "fieldtype": "Data",
+   "label": "TESTPACK NO."
+  },
+  {
+   "fieldname": "drawing_no",
+   "fieldtype": "Data",
+   "label": "DRAWING NO."
+  },
+  {
+   "fieldname": "rev",
+   "fieldtype": "Data",
+   "label": "REV"
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Link",
+   "label": "LOCATION ",
+   "options": "Mashhor Area"
+  },
+  {
+   "fieldname": "day_and_date_of_excavation",
+   "fieldtype": "Date",
+   "label": "Day and Date of Excavation"
+  },
+  {
+   "fieldname": "base_pipetrack_co_ordinates_east_north",
+   "fieldtype": "Data",
+   "label": "Base Pipetrack Co ordinates East North"
+  },
+  {
+   "fieldname": "column_break_9",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "rock_encountered",
+   "fieldtype": "Heading",
+   "label": "Rock Encountered"
+  },
+  {
+   "default": "0",
+   "fieldname": "yes",
+   "fieldtype": "Check",
+   "label": "Yes"
+  },
+  {
+   "default": "0",
+   "fieldname": "no",
+   "fieldtype": "Check",
+   "label": "No"
+  },
+  {
+   "fieldname": "method_of_excavation",
+   "fieldtype": "Heading",
+   "label": "Method of Excavation"
+  },
+  {
+   "default": "0",
+   "fieldname": "method",
+   "fieldtype": "Check",
+   "label": "Method"
+  },
+  {
+   "default": "0",
+   "fieldname": "breaker",
+   "fieldtype": "Check",
+   "label": "Breaker"
+  },
+  {
+   "default": "0",
+   "fieldname": "blasting",
+   "fieldtype": "Check",
+   "label": "Blasting"
+  },
+  {
+   "fieldname": "soft_spots",
+   "fieldtype": "Heading",
+   "label": "Soft Spots"
+  },
+  {
+   "default": "0",
+   "fieldname": "y18",
+   "fieldtype": "Check",
+   "label": "Yes"
+  },
+  {
+   "default": "0",
+   "fieldname": "n19",
+   "fieldtype": "Check",
+   "label": "No"
+  },
+  {
+   "fieldname": "section_break_20",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "type_of_infill_to_soft_spots_material_excavated",
+   "fieldtype": "Heading",
+   "label": "Type of Infill to Soft Spots Material Excavated "
+  },
+  {
+   "fieldname": "data_22",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "l24",
+   "fieldtype": "Data",
+   "label": "Level Reduced to"
+  },
+  {
+   "fieldname": "level_reduced_to",
+   "fieldtype": "Data",
+   "label": "Level Reduced to"
+  },
+  {
+   "fieldname": "data_28",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "data_26",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "l27",
+   "fieldtype": "Data",
+   "label": "Level Reduced to"
+  },
+  {
+   "fieldname": "section_break_28",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "remarks__no_remarks_delete_as_applicable",
+   "fieldtype": "Heading",
+   "label": "Remarks / No Remarks ( Delete as applicable)"
+  },
+  {
+   "fieldname": "data_30",
+   "fieldtype": "Data",
+   "label": "Depth of Foundation"
+  },
+  {
+   "fieldname": "shoring_is_required",
+   "fieldtype": "Data",
+   "label": "Shoring is Required "
+  },
+  {
+   "fieldname": "ta_recommendation_required",
+   "fieldtype": "Data",
+   "label": "TA Recommendation required"
+  },
+  {
+   "fieldname": "shoring_type",
+   "fieldtype": "Data",
+   "label": "Shoring Type"
+  },
+  {
+   "fieldname": "satisfication_of_shoring_arrangement",
+   "fieldtype": "Data",
+   "label": "Satisfication of shoring arrangement "
+  },
+  {
+   "fieldname": "section_break_35",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_38",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "sub_contractor_column",
+   "fieldtype": "Column Break",
+   "label": "Sub Contractor"
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "Company"
+  },
+  {
+   "fieldname": "signature",
+   "fieldtype": "Attach",
+   "label": "Signature"
+  },
+  {
+   "depends_on": "eval:doc.signature",
+   "fieldname": "image_42",
+   "fieldtype": "Image",
+   "options": "signature"
+  },
+  {
+   "depends_on": "eval:doc.id41",
+   "fetch_from": "id41.employee_name",
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "main_contractor_column",
+   "fieldtype": "Column Break",
+   "label": "Main Contractor"
+  },
+  {
+   "fieldname": "c2",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "Company"
+  },
+  {
+   "fieldname": "s299",
+   "fieldtype": "Attach",
+   "label": "Signature"
+  },
+  {
+   "depends_on": "eval:doc.s299",
+   "fieldname": "image_48",
+   "fieldtype": "Image",
+   "options": "s299"
+  },
+  {
+   "depends_on": "eval:doc.id48",
+   "fetch_from": "id48.employee_name",
+   "fieldname": "n22",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "d23",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "company_representative_column",
+   "fieldtype": "Column Break",
+   "label": "Company Representative"
+  },
+  {
+   "fieldname": "c50",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "Company"
+  },
+  {
+   "fieldname": "s977",
+   "fieldtype": "Attach",
+   "label": "Signature"
+  },
+  {
+   "depends_on": "eval:doc.s977",
+   "fieldname": "image_52",
+   "fieldtype": "Image",
+   "options": "s977"
+  },
+  {
+   "depends_on": "eval:doc.id55",
+   "fetch_from": "id55.employee_name",
+   "fieldname": "n53",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "d54",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "id41",
+   "fieldtype": "Link",
+   "label": "ID",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "id48",
+   "fieldtype": "Link",
+   "label": "ID",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "id55",
+   "fieldtype": "Link",
+   "label": "ID",
+   "options": "Employee"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-01-08 18:50:53.232143",
+ "modified_by": "Administrator",
+ "module": "Qa Qc",
+ "name": "EXCAVATION RECORD",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

@@ -1,0 +1,70 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-12-26 18:25:29.602755",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "piping",
+  "pressure_vessel",
+  "tanks",
+  "pipeline",
+  "column_break_5",
+  "structure",
+  "piping_acceoptance",
+  "pipe_line_acceptance"
+ ],
+ "fields": [
+  {
+   "fieldname": "piping",
+   "fieldtype": "Small Text",
+   "label": "Piping"
+  },
+  {
+   "fieldname": "pressure_vessel",
+   "fieldtype": "Small Text",
+   "label": "Pressure Vessel"
+  },
+  {
+   "fieldname": "tanks",
+   "fieldtype": "Small Text",
+   "label": "Tanks"
+  },
+  {
+   "fieldname": "pipeline",
+   "fieldtype": "Small Text",
+   "label": "PipeLine"
+  },
+  {
+   "fieldname": "column_break_5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "structure",
+   "fieldtype": "Small Text",
+   "label": "Structure"
+  },
+  {
+   "fieldname": "piping_acceoptance",
+   "fieldtype": "Small Text",
+   "label": "Piping Acceoptance"
+  },
+  {
+   "fieldname": "pipe_line_acceptance",
+   "fieldtype": "Small Text",
+   "label": "Pipe Line Acceptance"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-12-26 18:25:29.602755",
+ "modified_by": "Administrator",
+ "module": "Qa Qc",
+ "name": "NDT Table",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

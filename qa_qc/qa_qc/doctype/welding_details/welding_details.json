@@ -1,0 +1,83 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-01-30 22:20:26.634108",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "welding_pass",
+  "welding_machine_display_reference_current_a",
+  "welding_machine_display_reference_voltage_v",
+  "data_logger_clamp_meter_reference_current_a",
+  "data_logger_clamp_meter_reference_voltage_v",
+  "interpass_temperaturec",
+  "welded_lengthmm",
+  "arc_timesec",
+  "travel_speed",
+  "heat_input"
+ ],
+ "fields": [
+  {
+   "fieldname": "welding_pass",
+   "fieldtype": "Data",
+   "label": "Welding Pass"
+  },
+  {
+   "fieldname": "welding_machine_display_reference_current_a",
+   "fieldtype": "Data",
+   "label": "Welding Machine Display reference Current (A)"
+  },
+  {
+   "fieldname": "welding_machine_display_reference_voltage_v",
+   "fieldtype": "Data",
+   "label": "Welding Machine Display reference Voltage (V)"
+  },
+  {
+   "fieldname": "data_logger_clamp_meter_reference_current_a",
+   "fieldtype": "Data",
+   "label": "Data Logger/ Clamp Meter Reference Current (A)"
+  },
+  {
+   "fieldname": "data_logger_clamp_meter_reference_voltage_v",
+   "fieldtype": "Data",
+   "label": "Data Logger/ Clamp Meter Reference Voltage (V)"
+  },
+  {
+   "fieldname": "interpass_temperaturec",
+   "fieldtype": "Float",
+   "label": "Interpass Temperature(C)"
+  },
+  {
+   "fieldname": "welded_lengthmm",
+   "fieldtype": "Float",
+   "label": "Welded Length(mm)"
+  },
+  {
+   "fieldname": "arc_timesec",
+   "fieldtype": "Float",
+   "label": "Arc Time(sec)"
+  },
+  {
+   "fieldname": "travel_speed",
+   "fieldtype": "Data",
+   "label": "Travel Speed"
+  },
+  {
+   "fieldname": "heat_input",
+   "fieldtype": "Data",
+   "label": "Heat Input"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-01-30 22:20:51.063600",
+ "modified_by": "Administrator",
+ "module": "Qa Qc",
+ "name": "Welding Details",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

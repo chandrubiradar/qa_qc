@@ -1,0 +1,83 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-09-25 21:24:33.509985",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "wps_no",
+  "supporting_pqr",
+  "welding_process",
+  "filter_metal_type",
+  "nps_inch",
+  "wall_thickness_mm",
+  "material_type_and_grade",
+  "pwht_yn",
+  "impact_test_tempoc",
+  "remarks"
+ ],
+ "fields": [
+  {
+   "fieldname": "wps_no",
+   "fieldtype": "Data",
+   "label": "WPS No"
+  },
+  {
+   "fieldname": "supporting_pqr",
+   "fieldtype": "Data",
+   "label": "Supporting PQR"
+  },
+  {
+   "fieldname": "welding_process",
+   "fieldtype": "Data",
+   "label": "Welding Process"
+  },
+  {
+   "fieldname": "filter_metal_type",
+   "fieldtype": "Data",
+   "label": "Filter Metal Type"
+  },
+  {
+   "fieldname": "nps_inch",
+   "fieldtype": "Data",
+   "label": "NPS (inch)"
+  },
+  {
+   "fieldname": "wall_thickness_mm",
+   "fieldtype": "Data",
+   "label": "Wall Thickness (mm)"
+  },
+  {
+   "fieldname": "material_type_and_grade",
+   "fieldtype": "Data",
+   "label": "Material Type and Grade"
+  },
+  {
+   "fieldname": "pwht_yn",
+   "fieldtype": "Data",
+   "label": "PWHT (Y/N)"
+  },
+  {
+   "fieldname": "impact_test_tempoc",
+   "fieldtype": "Data",
+   "label": "Impact Test Temp.(oC)"
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Text",
+   "label": "Remarks"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-09-25 21:28:39.041625",
+ "modified_by": "Administrator",
+ "module": "Qa Qc",
+ "name": "Welding Procedure Qualification Plan",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

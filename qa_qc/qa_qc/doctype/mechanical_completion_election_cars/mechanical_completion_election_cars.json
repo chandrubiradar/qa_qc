@@ -1,0 +1,202 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "MCEM.####",
+ "creation": "2023-12-28 18:02:13.683641",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "contract_no",
+  "tag_no",
+  "equipment_description",
+  "location",
+  "data_sheet",
+  "drawing_reference",
+  "column_break_7",
+  "testing_equipment",
+  "make",
+  "model",
+  "serial_no",
+  "expiry_date",
+  "section_break_13",
+  "mcdb_template",
+  "table_14",
+  "section_break_15",
+  "completed_by_column",
+  "s17",
+  "p18",
+  "d19",
+  "c20",
+  "accepted_by_column",
+  "signature",
+  "print_name",
+  "date",
+  "company",
+  "column_break_26",
+  "comments__remarks"
+ ],
+ "fields": [
+  {
+   "fieldname": "contract_no",
+   "fieldtype": "Data",
+   "label": "Contract No"
+  },
+  {
+   "fieldname": "tag_no",
+   "fieldtype": "Data",
+   "label": "Tag No"
+  },
+  {
+   "fieldname": "equipment_description",
+   "fieldtype": "Data",
+   "label": "Equipment Description"
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Data",
+   "label": "Location"
+  },
+  {
+   "fieldname": "data_sheet",
+   "fieldtype": "Data",
+   "label": "Data Sheet"
+  },
+  {
+   "fieldname": "drawing_reference",
+   "fieldtype": "Data",
+   "label": "Drawing Reference"
+  },
+  {
+   "fieldname": "column_break_7",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "testing_equipment",
+   "fieldtype": "Heading",
+   "label": "Testing Equipment"
+  },
+  {
+   "fieldname": "make",
+   "fieldtype": "Data",
+   "label": "Make"
+  },
+  {
+   "fieldname": "model",
+   "fieldtype": "Data",
+   "label": "Model"
+  },
+  {
+   "fieldname": "serial_no",
+   "fieldtype": "Data",
+   "label": "Serial No"
+  },
+  {
+   "fieldname": "expiry_date",
+   "fieldtype": "Date",
+   "label": "Expiry Date"
+  },
+  {
+   "fieldname": "section_break_13",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "MCEM",
+   "fieldname": "mcdb_template",
+   "fieldtype": "Link",
+   "label": "MCEM Template",
+   "options": "MCEM LV and HV Template"
+  },
+  {
+   "fieldname": "table_14",
+   "fieldtype": "Table",
+   "options": "MCCLT Child Table"
+  },
+  {
+   "fieldname": "section_break_15",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "completed_by_column",
+   "fieldtype": "Column Break",
+   "label": "Completed By"
+  },
+  {
+   "fieldname": "s17",
+   "fieldtype": "Data",
+   "label": "Signature"
+  },
+  {
+   "fieldname": "p18",
+   "fieldtype": "Data",
+   "label": "Print Name"
+  },
+  {
+   "fieldname": "d19",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "c20",
+   "fieldtype": "Data",
+   "label": "Company"
+  },
+  {
+   "fieldname": "accepted_by_column",
+   "fieldtype": "Column Break",
+   "label": "Accepted By"
+  },
+  {
+   "fieldname": "signature",
+   "fieldtype": "Data",
+   "label": "Signature"
+  },
+  {
+   "fieldname": "print_name",
+   "fieldtype": "Data",
+   "label": "Print Name"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Data",
+   "label": "Date"
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Data",
+   "label": "Company"
+  },
+  {
+   "fieldname": "column_break_26",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "comments__remarks",
+   "fieldtype": "Small Text",
+   "label": "Comments / Remarks"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-12-28 18:02:13.683641",
+ "modified_by": "Administrator",
+ "module": "Qa Qc",
+ "name": "Mechanical Completion Election cars",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

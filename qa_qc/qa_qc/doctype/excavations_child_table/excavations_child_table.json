@@ -1,0 +1,48 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-12-29 22:13:28.221103",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "description_of_check",
+  "s12",
+  "image_3",
+  "comments"
+ ],
+ "fields": [
+  {
+   "fieldname": "description_of_check",
+   "fieldtype": "Data",
+   "label": "Description of Check"
+  },
+  {
+   "fieldname": "s12",
+   "fieldtype": "Attach",
+   "label": "Acceptance Signature"
+  },
+  {
+   "depends_on": "eval:doc.s12",
+   "fieldname": "image_3",
+   "fieldtype": "Image",
+   "options": "s12"
+  },
+  {
+   "fieldname": "comments",
+   "fieldtype": "Data",
+   "label": "Comments"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-12-29 22:13:28.221103",
+ "modified_by": "Administrator",
+ "module": "Qa Qc",
+ "name": "Excavations Child Table",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

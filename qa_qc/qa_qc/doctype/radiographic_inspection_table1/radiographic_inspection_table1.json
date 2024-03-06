@@ -1,0 +1,59 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-02-14 13:55:55.350352",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "fabnspoolpartitem",
+  "weld_no",
+  "dimension",
+  "wldr_no",
+  "interpretation",
+  "result"
+ ],
+ "fields": [
+  {
+   "fieldname": "fabnspoolpartitem",
+   "fieldtype": "Data",
+   "label": "FAB'N/SPOOL/PART/ITEM"
+  },
+  {
+   "fieldname": "weld_no",
+   "fieldtype": "Data",
+   "label": "WELD NO."
+  },
+  {
+   "fieldname": "dimension",
+   "fieldtype": "Data",
+   "label": "DIMENSION"
+  },
+  {
+   "fieldname": "wldr_no",
+   "fieldtype": "Data",
+   "label": "WLDR NO."
+  },
+  {
+   "fieldname": "interpretation",
+   "fieldtype": "Data",
+   "label": "INTERPRETATION"
+  },
+  {
+   "fieldname": "result",
+   "fieldtype": "Data",
+   "label": "RESULT"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-02-14 13:55:55.350352",
+ "modified_by": "Administrator",
+ "module": "Qa Qc",
+ "name": "Radiographic Inspection Table1",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

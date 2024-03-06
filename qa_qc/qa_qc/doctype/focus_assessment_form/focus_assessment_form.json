@@ -1,0 +1,326 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:report_no",
+ "creation": "2024-01-31 13:03:40.569037",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "project",
+  "contract_no",
+  "auditor",
+  "location",
+  "column_break_5",
+  "report_no",
+  "date",
+  "reference_document_no",
+  "discipline_section",
+  "material",
+  "welding",
+  "blasting_painting",
+  "column_break_13",
+  "e_and_i",
+  "civil",
+  "completion",
+  "column_break_17",
+  "documents",
+  "people",
+  "workmanship",
+  "column_break_21",
+  "physical_traceability",
+  "tools_and_equipment",
+  "ncr_health_check",
+  "section_break_25",
+  "table_26",
+  "section_break_27",
+  "findings",
+  "good",
+  "afi",
+  "potential_ncr",
+  "ncr",
+  "column_break_31",
+  "remarks",
+  "section_break_33",
+  "attached_evidences",
+  "column_break_35",
+  "follow_up_required",
+  "section_break_37",
+  "auditee",
+  "designation",
+  "mashhor_general_contractor",
+  "column_break_40",
+  "auditor1",
+  "designation1",
+  "mashhor_general_contractors"
+ ],
+ "fields": [
+  {
+   "fieldname": "project",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Project ",
+   "options": "Contract",
+   "reqd": 1
+  },
+  {
+   "fieldname": "contract_no",
+   "fieldtype": "Data",
+   "label": "Contract No"
+  },
+  {
+   "fieldname": "auditor",
+   "fieldtype": "Data",
+   "label": "Auditor"
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Link",
+   "label": "Location",
+   "options": "Mashhor Area"
+  },
+  {
+   "fieldname": "column_break_5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "report_no",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Report No",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "reference_document_no",
+   "fieldtype": "Data",
+   "label": "Reference Document No"
+  },
+  {
+   "fieldname": "discipline_section",
+   "fieldtype": "Section Break",
+   "label": "Discipline"
+  },
+  {
+   "default": "0",
+   "fieldname": "material",
+   "fieldtype": "Check",
+   "label": "Material"
+  },
+  {
+   "default": "0",
+   "fieldname": "welding",
+   "fieldtype": "Check",
+   "label": "Welding"
+  },
+  {
+   "default": "0",
+   "fieldname": "blasting_painting",
+   "fieldtype": "Check",
+   "label": "Blasting Painting"
+  },
+  {
+   "fieldname": "column_break_13",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "e_and_i",
+   "fieldtype": "Check",
+   "label": "E and I"
+  },
+  {
+   "default": "0",
+   "fieldname": "civil",
+   "fieldtype": "Check",
+   "label": "Civil"
+  },
+  {
+   "default": "0",
+   "fieldname": "completion",
+   "fieldtype": "Check",
+   "label": "Completion"
+  },
+  {
+   "fieldname": "column_break_17",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "documents",
+   "fieldtype": "Check",
+   "label": "Documents"
+  },
+  {
+   "default": "0",
+   "fieldname": "people",
+   "fieldtype": "Check",
+   "label": "People"
+  },
+  {
+   "default": "0",
+   "fieldname": "workmanship",
+   "fieldtype": "Check",
+   "label": "Workmanship "
+  },
+  {
+   "fieldname": "column_break_21",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "physical_traceability",
+   "fieldtype": "Check",
+   "label": "Physical Traceability"
+  },
+  {
+   "default": "0",
+   "fieldname": "tools_and_equipment",
+   "fieldtype": "Check",
+   "label": "Tools and Equipment"
+  },
+  {
+   "default": "0",
+   "fieldname": "ncr_health_check",
+   "fieldtype": "Check",
+   "label": "NCR Health Check"
+  },
+  {
+   "fieldname": "section_break_25",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "findings",
+   "fieldtype": "Data",
+   "label": "Findings"
+  },
+  {
+   "fieldname": "good",
+   "fieldtype": "Data",
+   "label": "Good"
+  },
+  {
+   "fieldname": "afi",
+   "fieldtype": "Data",
+   "label": "AFI"
+  },
+  {
+   "fieldname": "potential_ncr",
+   "fieldtype": "Data",
+   "label": "Potential NCR"
+  },
+  {
+   "fieldname": "ncr",
+   "fieldtype": "Data",
+   "label": "NCR"
+  },
+  {
+   "fieldname": "column_break_31",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Small Text",
+   "label": "Remarks"
+  },
+  {
+   "fieldname": "section_break_33",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "attached_evidences",
+   "fieldtype": "Data",
+   "label": "Attached Evidences"
+  },
+  {
+   "fieldname": "column_break_35",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "follow_up_required",
+   "fieldtype": "Data",
+   "label": "Follow up required"
+  },
+  {
+   "fieldname": "section_break_37",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "auditee",
+   "fieldtype": "HTML",
+   "label": "Auditee",
+   "options": "Auditee"
+  },
+  {
+   "fieldname": "designation",
+   "fieldtype": "Link",
+   "label": "Designation",
+   "options": "Designation"
+  },
+  {
+   "fieldname": "column_break_40",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "auditor1",
+   "fieldtype": "HTML",
+   "label": "Auditor",
+   "options": "Auditor"
+  },
+  {
+   "fieldname": "designation1",
+   "fieldtype": "Link",
+   "label": "Designation",
+   "options": "Designation"
+  },
+  {
+   "fieldname": "table_26",
+   "fieldtype": "Table",
+   "options": "Focus Assessment Table"
+  },
+  {
+   "fieldname": "section_break_27",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "mashhor_general_contractor",
+   "fieldtype": "HTML",
+   "label": "Mashhor General Contractor",
+   "options": "Mashhor General Contractors"
+  },
+  {
+   "fieldname": "mashhor_general_contractors",
+   "fieldtype": "HTML",
+   "label": "Mashhor General Contractors",
+   "options": "Mashhor General Contractors"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-01-31 13:21:28.990615",
+ "modified_by": "Administrator",
+ "module": "Qa Qc",
+ "name": "Focus Assessment Form",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

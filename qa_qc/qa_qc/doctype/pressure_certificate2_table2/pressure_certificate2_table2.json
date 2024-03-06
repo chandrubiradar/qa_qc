@@ -1,0 +1,47 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-02-14 19:09:48.203108",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "discipline",
+  "name__company",
+  "signature",
+  "date"
+ ],
+ "fields": [
+  {
+   "fieldname": "discipline",
+   "fieldtype": "Data",
+   "label": "Discipline"
+  },
+  {
+   "fieldname": "name__company",
+   "fieldtype": "Data",
+   "label": "Name / Company"
+  },
+  {
+   "fieldname": "signature",
+   "fieldtype": "Attach",
+   "label": "Signature"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-02-14 19:09:48.203108",
+ "modified_by": "Administrator",
+ "module": "Qa Qc",
+ "name": "Pressure Certificate2 Table2",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

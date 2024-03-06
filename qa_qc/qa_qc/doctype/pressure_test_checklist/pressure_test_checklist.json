@@ -1,0 +1,176 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-02-14 18:34:47.263453",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "client",
+  "project",
+  "contract_no",
+  "acceptance_criteria",
+  "specification",
+  "insp_procedure",
+  "test_pack_no",
+  "column_break_8",
+  "report_no",
+  "date",
+  "powo_no",
+  "location",
+  "material",
+  "system",
+  "drwg_no__line_no",
+  "section_break_16",
+  "items_pressure_testedspool__item_identification_nos",
+  "table_18",
+  "section_break_19",
+  "comments",
+  "ssb_qc_inspector_column",
+  "name1",
+  "sign",
+  "date1"
+ ],
+ "fields": [
+  {
+   "fieldname": "client",
+   "fieldtype": "Data",
+   "label": "Client"
+  },
+  {
+   "fieldname": "project",
+   "fieldtype": "Data",
+   "label": "Project"
+  },
+  {
+   "fieldname": "contract_no",
+   "fieldtype": "Data",
+   "label": "Contract No."
+  },
+  {
+   "fieldname": "acceptance_criteria",
+   "fieldtype": "Data",
+   "label": "Acceptance Criteria"
+  },
+  {
+   "fieldname": "specification",
+   "fieldtype": "Data",
+   "label": "Specification"
+  },
+  {
+   "fieldname": "insp_procedure",
+   "fieldtype": "Data",
+   "label": "Insp. Procedure"
+  },
+  {
+   "fieldname": "test_pack_no",
+   "fieldtype": "Data",
+   "label": "Test Pack No."
+  },
+  {
+   "fieldname": "column_break_8",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "report_no",
+   "fieldtype": "Data",
+   "label": "Report No."
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "powo_no",
+   "fieldtype": "Data",
+   "label": "PO/WO No."
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Data",
+   "label": "Location"
+  },
+  {
+   "fieldname": "material",
+   "fieldtype": "Data",
+   "label": "Material"
+  },
+  {
+   "fieldname": "system",
+   "fieldtype": "Data",
+   "label": "System"
+  },
+  {
+   "fieldname": "drwg_no__line_no",
+   "fieldtype": "Small Text",
+   "label": "DRWG No. / LINE No."
+  },
+  {
+   "fieldname": "section_break_16",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "items_pressure_testedspool__item_identification_nos",
+   "fieldtype": "Small Text",
+   "label": "Items Pressure Tested(Spool / Item Identification nos.)"
+  },
+  {
+   "fieldname": "table_18",
+   "fieldtype": "Table",
+   "options": "Pressure Test Checklist Table"
+  },
+  {
+   "fieldname": "section_break_19",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "comments",
+   "fieldtype": "Small Text",
+   "label": "Comments"
+  },
+  {
+   "fieldname": "ssb_qc_inspector_column",
+   "fieldtype": "Column Break",
+   "label": "SSB QC INSPECTOR :"
+  },
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "sign",
+   "fieldtype": "Attach",
+   "label": "Sign"
+  },
+  {
+   "fieldname": "date1",
+   "fieldtype": "Date",
+   "label": "Date"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-02-14 18:37:28.255690",
+ "modified_by": "Administrator",
+ "module": "Qa Qc",
+ "name": "Pressure Test Checklist",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

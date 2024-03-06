@@ -1,0 +1,311 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "RIR-.##",
+ "creation": "2023-02-14 14:00:46.350605",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "report_no",
+  "client",
+  "project",
+  "column_break_6",
+  "drgno",
+  "contract_no",
+  "fwowon_or_bi_no",
+  "column_break_8",
+  "inspection_date",
+  "location",
+  "other_details",
+  "section_break_11",
+  "specification",
+  "acceptance_criteria",
+  "insp_procedure",
+  "column_break_16",
+  "material",
+  "iqi_type",
+  "film_type",
+  "section_break_20",
+  "isotope",
+  "source_size",
+  "source_strength",
+  "source_to_film_distance",
+  "column_break_25",
+  "density_type",
+  "sensitivity",
+  "technique",
+  "screens",
+  "section_break_30",
+  "table_31",
+  "total_no_of_welds",
+  "total_no_of_films",
+  "commentsincluding_limitations_if_any",
+  "section_break_35",
+  "interpreter_column",
+  "name1",
+  "sign1",
+  "date1",
+  "radiographer_column",
+  "name2",
+  "sign2",
+  "date2",
+  "inspector_column",
+  "name3",
+  "sign3",
+  "date3"
+ ],
+ "fields": [
+  {
+   "fieldname": "report_no",
+   "fieldtype": "Data",
+   "label": "Report No."
+  },
+  {
+   "fieldname": "client",
+   "fieldtype": "Data",
+   "label": "Client"
+  },
+  {
+   "fieldname": "project",
+   "fieldtype": "Data",
+   "label": "Project"
+  },
+  {
+   "fieldname": "drgno",
+   "fieldtype": "Data",
+   "label": "DRG.NO."
+  },
+  {
+   "fieldname": "contract_no",
+   "fieldtype": "Data",
+   "label": "Contract NO."
+  },
+  {
+   "fieldname": "column_break_6",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "fwowon_or_bi_no",
+   "fieldtype": "Data",
+   "label": "FWO/WON or BI NO."
+  },
+  {
+   "fieldname": "inspection_date",
+   "fieldtype": "Date",
+   "label": "Inspection Date"
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Link",
+   "label": "Location",
+   "options": "Mashhor Area"
+  },
+  {
+   "fieldname": "other_details",
+   "fieldtype": "Data",
+   "label": "Other Details"
+  },
+  {
+   "fieldname": "section_break_11",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "specification",
+   "fieldtype": "Data",
+   "label": "Specification"
+  },
+  {
+   "fieldname": "column_break_8",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "acceptance_criteria",
+   "fieldtype": "Data",
+   "label": "Acceptance Criteria"
+  },
+  {
+   "fieldname": "insp_procedure",
+   "fieldtype": "Data",
+   "label": "Insp. Procedure"
+  },
+  {
+   "fieldname": "column_break_16",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "material",
+   "fieldtype": "Data",
+   "label": "Material"
+  },
+  {
+   "fieldname": "iqi_type",
+   "fieldtype": "Data",
+   "label": "IQI Type"
+  },
+  {
+   "fieldname": "film_type",
+   "fieldtype": "Data",
+   "label": "Film Type"
+  },
+  {
+   "fieldname": "section_break_20",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "isotope",
+   "fieldtype": "Data",
+   "label": "Isotope"
+  },
+  {
+   "fieldname": "source_size",
+   "fieldtype": "Data",
+   "label": "Source Size"
+  },
+  {
+   "fieldname": "source_strength",
+   "fieldtype": "Data",
+   "label": "Source Strength"
+  },
+  {
+   "fieldname": "source_to_film_distance",
+   "fieldtype": "Data",
+   "label": "Source To Film Distance"
+  },
+  {
+   "fieldname": "column_break_25",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "density_type",
+   "fieldtype": "Data",
+   "label": "Density Type"
+  },
+  {
+   "fieldname": "sensitivity",
+   "fieldtype": "Data",
+   "label": "Sensitivity"
+  },
+  {
+   "fieldname": "technique",
+   "fieldtype": "Data",
+   "label": "Technique"
+  },
+  {
+   "fieldname": "screens",
+   "fieldtype": "Data",
+   "label": "Screens"
+  },
+  {
+   "fieldname": "section_break_30",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "table_31",
+   "fieldtype": "Table",
+   "options": "Radiographic Inspection Table1"
+  },
+  {
+   "fieldname": "total_no_of_welds",
+   "fieldtype": "Data",
+   "label": "Total No. Of Welds"
+  },
+  {
+   "fieldname": "total_no_of_films",
+   "fieldtype": "Data",
+   "label": "Total No. Of Films"
+  },
+  {
+   "fieldname": "commentsincluding_limitations_if_any",
+   "fieldtype": "Small Text",
+   "label": "Comments(including limitations if any)"
+  },
+  {
+   "fieldname": "section_break_35",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "interpreter_column",
+   "fieldtype": "Column Break",
+   "label": "Interpreter :"
+  },
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "sign1",
+   "fieldtype": "Attach",
+   "label": "Sign"
+  },
+  {
+   "fieldname": "date1",
+   "fieldtype": "Date",
+   "label": "Issue Date"
+  },
+  {
+   "fieldname": "radiographer_column",
+   "fieldtype": "Column Break",
+   "label": "Radiographer :"
+  },
+  {
+   "fieldname": "name2",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "sign2",
+   "fieldtype": "Attach",
+   "label": "Sign"
+  },
+  {
+   "fieldname": "date2",
+   "fieldtype": "Date",
+   "label": "Issued Date"
+  },
+  {
+   "fieldname": "inspector_column",
+   "fieldtype": "Column Break",
+   "label": "Inspector :"
+  },
+  {
+   "fieldname": "name3",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "sign3",
+   "fieldtype": "Attach",
+   "label": "Sign"
+  },
+  {
+   "fieldname": "date3",
+   "fieldtype": "Date",
+   "label": "Date"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-11-30 14:09:03.764146",
+ "modified_by": "Administrator",
+ "module": "Qa Qc",
+ "name": "Radiographic Inspection Report",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

@@ -1,0 +1,59 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-11-08 17:31:01.507187",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "date",
+  "time",
+  "ambient_temperature",
+  "relative_humidity",
+  "dew_point",
+  "steel_temp"
+ ],
+ "fields": [
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "time",
+   "fieldtype": "Time",
+   "label": "Time"
+  },
+  {
+   "fieldname": "ambient_temperature",
+   "fieldtype": "Float",
+   "label": "Ambient Temperature (\u00b0C)"
+  },
+  {
+   "fieldname": "relative_humidity",
+   "fieldtype": "Float",
+   "label": "Relative Humidity (%)"
+  },
+  {
+   "fieldname": "dew_point",
+   "fieldtype": "Float",
+   "label": "Dew Point (\u00b0C)"
+  },
+  {
+   "fieldname": "steel_temp",
+   "fieldtype": "Float",
+   "label": "Steel Temp (\u00b0C)"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-11-09 13:04:10.241708",
+ "modified_by": "Administrator",
+ "module": "Qa Qc",
+ "name": "Surface Preparation1",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

@@ -1,0 +1,382 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format: Certificate Of Acceptance - {####}",
+ "creation": "2022-12-05 17:28:51.597162",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "cert_no",
+  "client",
+  "project",
+  "location",
+  "qcdp_no",
+  "column_break_5",
+  "area",
+  "date_of_handover",
+  "contract_no",
+  "won_no",
+  "section_break_9",
+  "check1",
+  "check2",
+  "check3",
+  "check4",
+  "check5",
+  "column_break_13",
+  "check6",
+  "check7",
+  "check8",
+  "check9",
+  "check10",
+  "check_other",
+  "section_break_22",
+  "remarks",
+  "_section",
+  "prepared_by",
+  "name1",
+  "employee_name",
+  "signature",
+  "sign",
+  "date",
+  "column_break_29",
+  "reviewed_by",
+  "name4",
+  "employee_name4",
+  "signature4",
+  "sign4",
+  "date4",
+  "column_break_40",
+  "verified_by",
+  "name2",
+  "employee_name1",
+  "signature2",
+  "sign1",
+  "date2",
+  "column_break_34",
+  "accepted_by",
+  "name3",
+  "employee_name2",
+  "signature3",
+  "sign2",
+  "date3"
+ ],
+ "fields": [
+  {
+   "fieldname": "cert_no",
+   "fieldtype": "Data",
+   "label": "CERT No"
+  },
+  {
+   "fieldname": "client",
+   "fieldtype": "Link",
+   "label": "Client",
+   "options": "Customer"
+  },
+  {
+   "fieldname": "project",
+   "fieldtype": "Link",
+   "label": "Project",
+   "options": "Project"
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Link",
+   "label": "Location",
+   "options": "Location"
+  },
+  {
+   "fieldname": "column_break_5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "area",
+   "fieldtype": "Link",
+   "label": "Area",
+   "options": "Mashhor Area"
+  },
+  {
+   "fieldname": "date_of_handover",
+   "fieldtype": "Date",
+   "label": "Date Of HandOver"
+  },
+  {
+   "fieldname": "section_break_9",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_13",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_22",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Text",
+   "label": "SCOPE TITLE"
+  },
+  {
+   "fieldname": "_section",
+   "fieldtype": "Section Break",
+   "label": " "
+  },
+  {
+   "fieldname": "prepared_by",
+   "fieldtype": "Heading",
+   "label": "PREPARED BY"
+  },
+  {
+   "fieldname": "name1",
+   "fieldtype": "Link",
+   "label": "Name",
+   "options": "Employee"
+  },
+  {
+   "fetch_from": "name1.sign",
+   "fieldname": "signature",
+   "fieldtype": "Attach",
+   "label": "Signature"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "column_break_29",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "verified_by",
+   "fieldtype": "Heading",
+   "label": "VERIFIED BY"
+  },
+  {
+   "fieldname": "name2",
+   "fieldtype": "Link",
+   "label": "Name",
+   "options": "Employee"
+  },
+  {
+   "fetch_from": "name2.signature",
+   "fieldname": "signature2",
+   "fieldtype": "Attach",
+   "label": "Signature"
+  },
+  {
+   "fieldname": "date2",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "column_break_34",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "accepted_by",
+   "fieldtype": "Heading",
+   "label": "ACCEPTED BY"
+  },
+  {
+   "fieldname": "name3",
+   "fieldtype": "Link",
+   "label": "Name",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "signature3",
+   "fieldtype": "Attach",
+   "label": "Signature"
+  },
+  {
+   "fieldname": "date3",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "won_no",
+   "fieldtype": "Link",
+   "label": "WON No / PO No",
+   "options": "Project"
+  },
+  {
+   "default": "0",
+   "fieldname": "check1",
+   "fieldtype": "Check",
+   "label": "BSP_12.STD.08.1.0      The Welding of Metals"
+  },
+  {
+   "default": "0",
+   "fieldname": "check2",
+   "fieldtype": "Check",
+   "label": "BSP_12.STD.02.04  Design of onshore civil and structural works"
+  },
+  {
+   "default": "0",
+   "fieldname": "check3",
+   "fieldtype": "Check",
+   "label": "BSP_12.STD.09.1.0  Painting/Coating of Production"
+  },
+  {
+   "default": "0",
+   "fieldname": "check4",
+   "fieldtype": "Check",
+   "label": "BSP_12.STD.01.03  Bolt Torquing"
+  },
+  {
+   "default": "0",
+   "fieldname": "check5",
+   "fieldtype": "Check",
+   "label": "DEP_62.10.08.11_Gen  Inspection n functional Testing "
+  },
+  {
+   "default": "0",
+   "fieldname": "check6",
+   "fieldtype": "Check",
+   "label": "DEP_61.40.20.30_Gen  Welding of Pipelines and Related Facilities  "
+  },
+  {
+   "default": "0",
+   "fieldname": "check7",
+   "fieldtype": "Check",
+   "label": "BSP_12.STD.01.02  Leak Testing"
+  },
+  {
+   "default": "0",
+   "fieldname": "check8",
+   "fieldtype": "Check",
+   "label": "DEP_31.40.40.38_Gen Hydrostatic Testing of New Pipeline"
+  },
+  {
+   "default": "0",
+   "fieldname": "check9",
+   "fieldtype": "Check",
+   "label": "BSP_12.STD.01.04 Pressure Testing of Pipework "
+  },
+  {
+   "default": "0",
+   "fieldname": "check10",
+   "fieldtype": "Check",
+   "label": "DEP_63.10.08.11_Gen  Field Commissioning of Electrical Installation n Equipment for global application"
+  },
+  {
+   "default": "0",
+   "fieldname": "check_other",
+   "fieldtype": "Check",
+   "label": "Other"
+  },
+  {
+   "fetch_from": "name1.employee_name",
+   "fieldname": "employee_name",
+   "fieldtype": "Data",
+   "label": "Employee Name"
+  },
+  {
+   "fetch_from": "name2.employee_name",
+   "fieldname": "employee_name1",
+   "fieldtype": "Data",
+   "label": "Employee Name"
+  },
+  {
+   "fetch_from": "name3.employee_name",
+   "fieldname": "employee_name2",
+   "fieldtype": "Data",
+   "label": "Employee Name"
+  },
+  {
+   "depends_on": "eval:doc.signature",
+   "fieldname": "sign",
+   "fieldtype": "Image",
+   "label": "Sign",
+   "options": "signature",
+   "read_only": 1
+  },
+  {
+   "depends_on": "eval:doc.signature2",
+   "fieldname": "sign1",
+   "fieldtype": "Image",
+   "label": "Sign",
+   "options": "signature2"
+  },
+  {
+   "depends_on": "eval:doc.signature3",
+   "fieldname": "sign2",
+   "fieldtype": "Image",
+   "label": "Sign",
+   "options": "signature3"
+  },
+  {
+   "fieldname": "contract_no",
+   "fieldtype": "Data",
+   "label": "Contract No"
+  },
+  {
+   "fieldname": "qcdp_no",
+   "fieldtype": "Data",
+   "label": "QCDP No"
+  },
+  {
+   "fieldname": "reviewed_by",
+   "fieldtype": "Heading",
+   "label": "REVIEWED BY"
+  },
+  {
+   "fieldname": "name4",
+   "fieldtype": "Link",
+   "label": "Name",
+   "options": "Employee"
+  },
+  {
+   "fetch_from": "name4.employee_name",
+   "fieldname": "employee_name4",
+   "fieldtype": "Data",
+   "label": "Employee Name"
+  },
+  {
+   "fieldname": "signature4",
+   "fieldtype": "Attach",
+   "label": "Signature"
+  },
+  {
+   "depends_on": "eval:doc.signature4",
+   "fieldname": "sign4",
+   "fieldtype": "Image",
+   "label": "Sign",
+   "options": "signature4"
+  },
+  {
+   "fieldname": "date4",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "column_break_40",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-12-05 15:32:03.280297",
+ "modified_by": "Administrator",
+ "module": "Qa Qc",
+ "name": "Certificate Of Acceptance",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

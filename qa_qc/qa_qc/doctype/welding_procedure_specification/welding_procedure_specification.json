@@ -1,0 +1,352 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-09-25 17:01:27.027658",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "contract_title",
+  "contract_no",
+  "main_contractor",
+  "client_owner",
+  "inaccordance_with_code",
+  "welding_process",
+  "column_break_7",
+  "wps_no",
+  "rev_no",
+  "date",
+  "pqr_no",
+  "bsp_specification",
+  "type_s",
+  "section_break_14",
+  "material_specification",
+  "test_specimen",
+  "diameter_range",
+  "thickness_range_mm",
+  "deposited_weld_metal_thickness_pqt",
+  "column_break_20",
+  "data_21",
+  "trade_name",
+  "filler_product",
+  "f_no_a_no",
+  "sfa_no",
+  "section_break_26",
+  "position_of_groove",
+  "weld_progression",
+  "preheat_temp",
+  "pwht_time_range",
+  "post_weld_heat_treatment_temp",
+  "column_break_32",
+  "heatingcooling",
+  "interpass_temp",
+  "gas_composition",
+  "shielding_gas_flow_rate",
+  "tungsten_type",
+  "section_break_38",
+  "table_39",
+  "section_break_40",
+  "method_of_backgouging",
+  "single_or_multipass",
+  "string_or_weave",
+  "method_of_heating",
+  "column_break_45",
+  "alignment_method",
+  "cleaning",
+  "remarks",
+  "section_break_49",
+  "mgcsb_prepared_by",
+  "mgcsb_reviewed_by",
+  "bsp_approved_by",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "contract_title",
+   "fieldtype": "Data",
+   "label": "Contract Title"
+  },
+  {
+   "fieldname": "contract_no",
+   "fieldtype": "Data",
+   "label": "Contract No"
+  },
+  {
+   "fieldname": "main_contractor",
+   "fieldtype": "Data",
+   "label": "Main Contractor"
+  },
+  {
+   "fieldname": "client_owner",
+   "fieldtype": "Data",
+   "label": "Client /Owner"
+  },
+  {
+   "fieldname": "inaccordance_with_code",
+   "fieldtype": "Data",
+   "label": "Inaccordance with Code"
+  },
+  {
+   "fieldname": "welding_process",
+   "fieldtype": "Data",
+   "label": "Welding Process"
+  },
+  {
+   "fieldname": "column_break_7",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "wps_no",
+   "fieldtype": "Data",
+   "label": "WPS No"
+  },
+  {
+   "fieldname": "rev_no",
+   "fieldtype": "Data",
+   "label": "Rev No"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "pqr_no",
+   "fieldtype": "Data",
+   "label": "PQR No"
+  },
+  {
+   "fieldname": "bsp_specification",
+   "fieldtype": "Data",
+   "label": "BSP Specification"
+  },
+  {
+   "fieldname": "type_s",
+   "fieldtype": "Data",
+   "label": "Type (s)"
+  },
+  {
+   "fieldname": "section_break_14",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "material_specification",
+   "fieldtype": "Data",
+   "label": "Material Specification"
+  },
+  {
+   "fieldname": "test_specimen",
+   "fieldtype": "Data",
+   "label": "Test Specimen"
+  },
+  {
+   "fieldname": "diameter_range",
+   "fieldtype": "Data",
+   "label": "Diameter Range"
+  },
+  {
+   "fieldname": "thickness_range_mm",
+   "fieldtype": "Small Text",
+   "label": "Thickness Range (mm)"
+  },
+  {
+   "fieldname": "deposited_weld_metal_thickness_pqt",
+   "fieldtype": "Data",
+   "label": "Deposited weld metal thickness (PQT) "
+  },
+  {
+   "fieldname": "column_break_20",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "data_21",
+   "fieldtype": "Data",
+   "label": "Filler Metal : AWS Classification"
+  },
+  {
+   "fieldname": "trade_name",
+   "fieldtype": "Data",
+   "label": "Trade Name"
+  },
+  {
+   "fieldname": "filler_product",
+   "fieldtype": "Data",
+   "label": "Filler Product"
+  },
+  {
+   "fieldname": "f_no_a_no",
+   "fieldtype": "Data",
+   "label": "F No & A No"
+  },
+  {
+   "fieldname": "sfa_no",
+   "fieldtype": "Data",
+   "label": "SFA No"
+  },
+  {
+   "fieldname": "section_break_26",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "position_of_groove",
+   "fieldtype": "Data",
+   "label": "Position of Groove"
+  },
+  {
+   "fieldname": "weld_progression",
+   "fieldtype": "Data",
+   "label": "Weld Progression"
+  },
+  {
+   "fieldname": "preheat_temp",
+   "fieldtype": "Data",
+   "label": "Preheat Temp"
+  },
+  {
+   "fieldname": "pwht_time_range",
+   "fieldtype": "Data",
+   "label": "PWHT Time Range"
+  },
+  {
+   "fieldname": "post_weld_heat_treatment_temp",
+   "fieldtype": "Data",
+   "label": "Post Weld Heat Treatment Temp."
+  },
+  {
+   "fieldname": "column_break_32",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "heatingcooling",
+   "fieldtype": "Data",
+   "label": "Heating/Cooling"
+  },
+  {
+   "fieldname": "interpass_temp",
+   "fieldtype": "Data",
+   "label": "Interpass Temp"
+  },
+  {
+   "fieldname": "gas_composition",
+   "fieldtype": "Data",
+   "label": "Gas Composition"
+  },
+  {
+   "fieldname": "shielding_gas_flow_rate",
+   "fieldtype": "Data",
+   "label": " Shielding Gas Flow Rate"
+  },
+  {
+   "fieldname": "tungsten_type",
+   "fieldtype": "Data",
+   "label": "Tungsten Type"
+  },
+  {
+   "fieldname": "section_break_38",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "table_39",
+   "fieldtype": "Table",
+   "options": "Welding Tablee"
+  },
+  {
+   "fieldname": "section_break_40",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "method_of_backgouging",
+   "fieldtype": "Data",
+   "label": "Method of Backgouging"
+  },
+  {
+   "fieldname": "single_or_multipass",
+   "fieldtype": "Data",
+   "label": "Single or Multipass"
+  },
+  {
+   "fieldname": "string_or_weave",
+   "fieldtype": "Data",
+   "label": "String or Weave"
+  },
+  {
+   "fieldname": "method_of_heating",
+   "fieldtype": "Data",
+   "label": "Method of Heating"
+  },
+  {
+   "fieldname": "column_break_45",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "alignment_method",
+   "fieldtype": "Data",
+   "label": "Alignment Method"
+  },
+  {
+   "fieldname": "cleaning",
+   "fieldtype": "Data",
+   "label": "Cleaning"
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Small Text",
+   "label": "Remarks"
+  },
+  {
+   "fieldname": "section_break_49",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "mgcsb_prepared_by",
+   "fieldtype": "Table",
+   "label": "MGCSB PREPARED BY",
+   "options": "Welding MGCSB PREPARED BY"
+  },
+  {
+   "fieldname": "mgcsb_reviewed_by",
+   "fieldtype": "Table",
+   "label": "MGCSB REVIEWED BY",
+   "options": "Welding MGCSB REVIEWED BY"
+  },
+  {
+   "fieldname": "bsp_approved_by",
+   "fieldtype": "Table",
+   "label": "BSP APPROVED BY",
+   "options": "Welding BSP  APPROVED BY"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Welding Procedure Specification",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2023-09-25 20:12:26.526598",
+ "modified_by": "Administrator",
+ "module": "Qa Qc",
+ "name": "Welding Procedure Specification",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

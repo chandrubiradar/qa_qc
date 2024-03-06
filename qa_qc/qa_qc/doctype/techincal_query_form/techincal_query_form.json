@@ -1,0 +1,408 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-10-18 16:32:26.736961",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "tq_no",
+  "details_of_technical_query_section",
+  "company_name",
+  "site_location",
+  "column_break_5",
+  "project_title",
+  "contract_no",
+  "affected_discipline_tick_where_applicable_section",
+  "quality",
+  "mechanical",
+  "instrument",
+  "civil",
+  "column_break_13",
+  "structural",
+  "electrical",
+  "piping",
+  "others",
+  "section_break_18",
+  "reference_documents__attachments",
+  "initiated_by",
+  "name1",
+  "column_break_22",
+  "description",
+  "date",
+  "section_break_25",
+  "project_leadership_team_reply_inclusive_of_technical_authority",
+  "section_break_27",
+  "cost_impact",
+  "yes",
+  "no",
+  "design_impact",
+  "dyes",
+  "dno",
+  "scope_impact",
+  "syes",
+  "sno",
+  "column_break_37",
+  "approved",
+  "approved_with_comment",
+  "rejected",
+  "section_break_41",
+  "name2",
+  "employee_name",
+  "column_break_44",
+  "indicator",
+  "date1",
+  "column_break_47",
+  "signature",
+  "img",
+  "section_break_50",
+  "tq_closeout",
+  "section_break_52",
+  "risk_assessment",
+  "communication_to_site_personnel",
+  "all_relevant_docs_updated",
+  "column_break_56",
+  "signedoff_by",
+  "name_4",
+  "date3"
+ ],
+ "fields": [
+  {
+   "fieldname": "tq_no",
+   "fieldtype": "Data",
+   "label": "TQ No"
+  },
+  {
+   "fieldname": "details_of_technical_query_section",
+   "fieldtype": "Section Break",
+   "label": "Details of Technical Query (To be filled by Change Initiator)"
+  },
+  {
+   "fieldname": "company_name",
+   "fieldtype": "Data",
+   "label": "Company Name"
+  },
+  {
+   "fieldname": "site_location",
+   "fieldtype": "Link",
+   "label": "Site Location",
+   "options": "Mashhor Area"
+  },
+  {
+   "fieldname": "column_break_5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "project_title",
+   "fieldtype": "Data",
+   "label": "Project Title"
+  },
+  {
+   "fieldname": "contract_no",
+   "fieldtype": "Data",
+   "label": "Contract No"
+  },
+  {
+   "fieldname": "affected_discipline_tick_where_applicable_section",
+   "fieldtype": "Section Break",
+   "label": "Affected Discipline (Tick where applicable) "
+  },
+  {
+   "default": "0",
+   "fieldname": "quality",
+   "fieldtype": "Check",
+   "label": "Quality"
+  },
+  {
+   "default": "0",
+   "fieldname": "mechanical",
+   "fieldtype": "Check",
+   "label": "Mechanical"
+  },
+  {
+   "default": "0",
+   "fieldname": "instrument",
+   "fieldtype": "Check",
+   "label": "Instrument"
+  },
+  {
+   "default": "0",
+   "fieldname": "civil",
+   "fieldtype": "Check",
+   "label": "Civil"
+  },
+  {
+   "fieldname": "column_break_13",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "structural",
+   "fieldtype": "Check",
+   "label": "Structural"
+  },
+  {
+   "default": "0",
+   "fieldname": "electrical",
+   "fieldtype": "Check",
+   "label": "Electrical"
+  },
+  {
+   "default": "0",
+   "fieldname": "piping",
+   "fieldtype": "Check",
+   "label": "Piping"
+  },
+  {
+   "default": "0",
+   "fieldname": "others",
+   "fieldtype": "Check",
+   "label": "Others"
+  },
+  {
+   "fieldname": "section_break_18",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "reference_documents__attachments",
+   "fieldtype": "Text",
+   "label": "Reference Document(s) / Attachment(s)"
+  },
+  {
+   "fieldname": "initiated_by",
+   "fieldtype": "Link",
+   "label": "Initiated By",
+   "options": "Employee"
+  },
+  {
+   "fetch_from": "initiated_by.employee_name",
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "column_break_22",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Text",
+   "label": "Description"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "section_break_25",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "project_leadership_team_reply_inclusive_of_technical_authority",
+   "fieldtype": "Text",
+   "label": "Project Leadership Team Reply (Inclusive of Technical Authority)"
+  },
+  {
+   "fieldname": "section_break_27",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "cost_impact",
+   "fieldtype": "HTML",
+   "label": "Cost Impact?",
+   "options": "Cost Impact?"
+  },
+  {
+   "default": "0",
+   "fieldname": "yes",
+   "fieldtype": "Check",
+   "label": "Yes"
+  },
+  {
+   "default": "0",
+   "fieldname": "no",
+   "fieldtype": "Check",
+   "label": "No"
+  },
+  {
+   "fieldname": "design_impact",
+   "fieldtype": "HTML",
+   "label": "Design Impact?",
+   "options": "Design Impact?"
+  },
+  {
+   "default": "0",
+   "fieldname": "dyes",
+   "fieldtype": "Check",
+   "label": "Yes"
+  },
+  {
+   "default": "0",
+   "fieldname": "dno",
+   "fieldtype": "Check",
+   "label": "No"
+  },
+  {
+   "fieldname": "scope_impact",
+   "fieldtype": "HTML",
+   "label": "Scope Impact?",
+   "options": "Scope Impact?"
+  },
+  {
+   "default": "0",
+   "fieldname": "syes",
+   "fieldtype": "Check",
+   "label": "Yes"
+  },
+  {
+   "default": "0",
+   "fieldname": "sno",
+   "fieldtype": "Check",
+   "label": "No"
+  },
+  {
+   "fieldname": "column_break_37",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "approved",
+   "fieldtype": "Check",
+   "label": "Approved"
+  },
+  {
+   "default": "0",
+   "fieldname": "approved_with_comment",
+   "fieldtype": "Check",
+   "label": "Approved with comment"
+  },
+  {
+   "default": "0",
+   "fieldname": "rejected",
+   "fieldtype": "Check",
+   "label": "Rejected"
+  },
+  {
+   "fieldname": "section_break_41",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "name2",
+   "fieldtype": "Link",
+   "label": "Name",
+   "options": "Employee"
+  },
+  {
+   "fetch_from": "name2.employee_name",
+   "fieldname": "employee_name",
+   "fieldtype": "Data",
+   "label": "Employee Name"
+  },
+  {
+   "fieldname": "column_break_44",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "name2.designation",
+   "fieldname": "indicator",
+   "fieldtype": "Data",
+   "label": "Indicator"
+  },
+  {
+   "fieldname": "date1",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "column_break_47",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "signature",
+   "fieldtype": "Attach",
+   "label": "Signature"
+  },
+  {
+   "fieldname": "img",
+   "fieldtype": "Image",
+   "label": "img",
+   "options": "signature"
+  },
+  {
+   "fieldname": "section_break_50",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "tq_closeout",
+   "fieldtype": "Text",
+   "label": "TQ Closeout (To be filled by BSP Project Engineer / Construction Engineer)"
+  },
+  {
+   "fieldname": "section_break_52",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "risk_assessment",
+   "fieldtype": "Check",
+   "label": "Risk Assessment"
+  },
+  {
+   "default": "0",
+   "fieldname": "communication_to_site_personnel",
+   "fieldtype": "Check",
+   "label": "Communication to Site Personnel"
+  },
+  {
+   "default": "0",
+   "fieldname": "all_relevant_docs_updated",
+   "fieldtype": "Check",
+   "label": "All Relevant Docs Updated"
+  },
+  {
+   "fieldname": "column_break_56",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "signedoff_by",
+   "fieldtype": "Link",
+   "label": "Signed-Off By",
+   "options": "Employee"
+  },
+  {
+   "fetch_from": "signedoff_by.employee.name",
+   "fieldname": "name_4",
+   "fieldtype": "Data",
+   "label": "Name4"
+  },
+  {
+   "fieldname": "date3",
+   "fieldtype": "Date",
+   "label": "Date"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-10-18 17:44:00.661628",
+ "modified_by": "Administrator",
+ "module": "Qa Qc",
+ "name": "Techincal Query Form",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

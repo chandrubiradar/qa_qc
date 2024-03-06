@@ -1,0 +1,33 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-12-29 22:28:48.673869",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "data_1",
+  "table_2"
+ ],
+ "fields": [
+  {
+   "fieldname": "data_1",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "table_2",
+   "fieldtype": "Table",
+   "options": "Excavations Child Table 1"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-12-29 22:28:48.673869",
+ "modified_by": "Administrator",
+ "module": "Qa Qc",
+ "name": "Trenches Template 1",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

@@ -1,0 +1,327 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:SCC-{system_no}-{####}",
+ "creation": "2024-01-01 18:35:18.872461",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "system_no",
+  "teat_pack_no",
+  "drawing_no",
+  "specification",
+  "description",
+  "column_break_4",
+  "mgcsb_contract_no",
+  "type_of_plant",
+  "rev",
+  "category",
+  "material_type",
+  "section_break_9",
+  "location",
+  "location_id",
+  "compaction_layer_thicknessmm",
+  "no_of_passes",
+  "col_break",
+  "compaction",
+  "formation_level",
+  "final_ground_level",
+  "section_break_24",
+  "remarks",
+  "section_break_11",
+  "sub_contractor",
+  "company",
+  "id",
+  "name1",
+  "sign",
+  "image_16",
+  "date",
+  "column_break_17",
+  "main_contractor",
+  "company1",
+  "id1",
+  "name2",
+  "sign1",
+  "image_23",
+  "date1",
+  "column_break_23",
+  "company_representative",
+  "company2",
+  "id2",
+  "name3",
+  "sign2",
+  "image_30",
+  "date2"
+ ],
+ "fields": [
+  {
+   "fieldname": "system_no",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "System No",
+   "reqd": 1
+  },
+  {
+   "fieldname": "teat_pack_no",
+   "fieldtype": "Data",
+   "label": "Teat Pack No"
+  },
+  {
+   "fieldname": "drawing_no",
+   "fieldtype": "Data",
+   "label": "Drawing No"
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "mgcsb_contract_no",
+   "fieldtype": "Data",
+   "label": "MGCSB Contract No"
+  },
+  {
+   "fieldname": "section_break_9",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_24",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Text",
+   "label": "Remarks"
+  },
+  {
+   "fieldname": "section_break_11",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "sub_contractor",
+   "fieldtype": "HTML",
+   "label": "Sub Contractor",
+   "options": "Sub Contractor"
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "Company"
+  },
+  {
+   "depends_on": "eval:doc.id",
+   "fetch_from": "id.employee_name",
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "sign",
+   "fieldtype": "Attach",
+   "label": "Signature"
+  },
+  {
+   "depends_on": "eval:doc.sign",
+   "fieldname": "image_16",
+   "fieldtype": "Image",
+   "options": "sign"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "column_break_17",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "main_contractor",
+   "fieldtype": "HTML",
+   "label": "Main Contractor",
+   "options": "Main Contractor"
+  },
+  {
+   "fieldname": "company1",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "Company"
+  },
+  {
+   "depends_on": "eval:doc.id1",
+   "fetch_from": "id1.employee_name",
+   "fieldname": "name2",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "sign1",
+   "fieldtype": "Attach",
+   "label": "Signature"
+  },
+  {
+   "depends_on": "eval:doc.sign1",
+   "fieldname": "image_23",
+   "fieldtype": "Image",
+   "options": "sign1"
+  },
+  {
+   "fieldname": "date1",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "column_break_23",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "company_representative",
+   "fieldtype": "HTML",
+   "label": "Company Representative",
+   "options": "Company Representative"
+  },
+  {
+   "fieldname": "company2",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "Company"
+  },
+  {
+   "depends_on": "eval:doc.id2",
+   "fetch_from": "id2.employee_name",
+   "fieldname": "name3",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "sign2",
+   "fieldtype": "Attach",
+   "label": "Signature"
+  },
+  {
+   "depends_on": "eval:doc.sign2",
+   "fieldname": "image_30",
+   "fieldtype": "Image",
+   "options": "sign2"
+  },
+  {
+   "fieldname": "date2",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "specification",
+   "fieldtype": "Data",
+   "label": "Specification"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Data",
+   "label": "Description"
+  },
+  {
+   "fieldname": "type_of_plant",
+   "fieldtype": "Data",
+   "label": "Type Of Plant"
+  },
+  {
+   "fieldname": "rev",
+   "fieldtype": "Data",
+   "label": "Rev"
+  },
+  {
+   "fieldname": "category",
+   "fieldtype": "Data",
+   "label": "Category"
+  },
+  {
+   "fieldname": "material_type",
+   "fieldtype": "Select",
+   "label": "Material Type",
+   "options": "\nCohesive\nWell graded granular and dry cohesive\nUniformly graded"
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Link",
+   "label": "Location",
+   "options": "Mashhor Area"
+  },
+  {
+   "fieldname": "location_id",
+   "fieldtype": "Data",
+   "label": "Location ID"
+  },
+  {
+   "fieldname": "compaction_layer_thicknessmm",
+   "fieldtype": "Data",
+   "label": "Compaction Layer Thickness(mm)"
+  },
+  {
+   "fieldname": "no_of_passes",
+   "fieldtype": "Data",
+   "label": "No. Of Passes"
+  },
+  {
+   "fieldname": "col_break",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "compaction",
+   "fieldtype": "Data",
+   "label": "% Compaction / Kgf/cm2"
+  },
+  {
+   "fieldname": "formation_level",
+   "fieldtype": "Data",
+   "label": "Formation Level"
+  },
+  {
+   "fieldname": "final_ground_level",
+   "fieldtype": "Data",
+   "label": "Final Ground Level"
+  },
+  {
+   "fieldname": "id",
+   "fieldtype": "Link",
+   "label": "ID",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "id1",
+   "fieldtype": "Link",
+   "label": "ID",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "id2",
+   "fieldtype": "Link",
+   "label": "ID",
+   "options": "Employee"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-01-02 16:56:45.274055",
+ "modified_by": "Administrator",
+ "module": "Qa Qc",
+ "name": "SOIL COMPACTION CHECK LIST",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

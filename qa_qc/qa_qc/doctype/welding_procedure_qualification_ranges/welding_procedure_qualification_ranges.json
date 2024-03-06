@@ -1,0 +1,65 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-09-25 21:25:37.579261",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "p_no_gr_no",
+  "data_2",
+  "impact_required_asme_viii",
+  "impact_required_asme_b31",
+  "nps_inch",
+  "pwht_yn",
+  "remarks"
+ ],
+ "fields": [
+  {
+   "fieldname": "p_no_gr_no",
+   "fieldtype": "Data",
+   "label": "P.no & Gr.no"
+  },
+  {
+   "fieldname": "data_2",
+   "fieldtype": "Data",
+   "label": "Non Impact"
+  },
+  {
+   "fieldname": "impact_required_asme_viii",
+   "fieldtype": "Data",
+   "label": "Impact Required (ASME VIII)"
+  },
+  {
+   "fieldname": "impact_required_asme_b31",
+   "fieldtype": "Data",
+   "label": "Impact Required (ASME B31.3)"
+  },
+  {
+   "fieldname": "nps_inch",
+   "fieldtype": "Data",
+   "label": "NPS (inch)"
+  },
+  {
+   "fieldname": "pwht_yn",
+   "fieldtype": "Data",
+   "label": "PWHT (Y/N)"
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Small Text",
+   "label": "Remarks"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-09-25 21:27:51.670039",
+ "modified_by": "Administrator",
+ "module": "Qa Qc",
+ "name": "Welding Procedure Qualification Ranges",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

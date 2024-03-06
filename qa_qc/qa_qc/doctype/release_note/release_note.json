@@ -1,0 +1,239 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:RN-{report_no}",
+ "creation": "2023-11-08 18:55:43.982564",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "report_no",
+  "client",
+  "won_no",
+  "project",
+  "column_break_4",
+  "contract_no",
+  "job_no",
+  "date",
+  "section_break_8",
+  "table_9",
+  "section_break_10",
+  "table_11",
+  "section_break_12",
+  "performed_by",
+  "id",
+  "name1",
+  "date1",
+  "signature",
+  "image1",
+  "inspected_by",
+  "id2",
+  "name2",
+  "date2",
+  "signature2",
+  "image2",
+  "reviewed_by",
+  "id3",
+  "name3",
+  "date3",
+  "signature3",
+  "image3"
+ ],
+ "fields": [
+  {
+   "fieldname": "report_no",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Report No",
+   "reqd": 1
+  },
+  {
+   "fieldname": "client",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Client",
+   "options": "Contract",
+   "reqd": 1
+  },
+  {
+   "fieldname": "contract_no",
+   "fieldtype": "Data",
+   "label": "Contract No"
+  },
+  {
+   "fieldname": "job_no",
+   "fieldtype": "Data",
+   "label": "Job No"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "project",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Project ",
+   "options": "Contract",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_8",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "table_9",
+   "fieldtype": "Table",
+   "options": "Release Note Table1"
+  },
+  {
+   "fieldname": "section_break_10",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "table_11",
+   "fieldtype": "Table",
+   "options": "Release Note Table2"
+  },
+  {
+   "fieldname": "performed_by",
+   "fieldtype": "Column Break",
+   "label": "Performed By : (MGCSB)"
+  },
+  {
+   "fieldname": "id",
+   "fieldtype": "Link",
+   "label": "ID",
+   "options": "Employee"
+  },
+  {
+   "depends_on": "eval:doc.id",
+   "fetch_from": "id.employee_name",
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "date1",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "signature",
+   "fieldtype": "Attach",
+   "label": "Signature"
+  },
+  {
+   "depends_on": "eval:doc.signature",
+   "fieldname": "image1",
+   "fieldtype": "Image",
+   "options": "signature"
+  },
+  {
+   "fieldname": "inspected_by",
+   "fieldtype": "Column Break",
+   "label": "Inspected By : (MGCSB)"
+  },
+  {
+   "depends_on": "eval:doc.id2",
+   "fetch_from": "id2.employee_name",
+   "fieldname": "name2",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "date2",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "signature2",
+   "fieldtype": "Attach",
+   "label": "Signature"
+  },
+  {
+   "depends_on": "eval:doc.signature2",
+   "fieldname": "image2",
+   "fieldtype": "Image",
+   "options": "signature2"
+  },
+  {
+   "fieldname": "reviewed_by",
+   "fieldtype": "Column Break",
+   "label": "Witnessed/Reviewed By :(BSP)"
+  },
+  {
+   "fieldname": "id3",
+   "fieldtype": "Link",
+   "label": "ID",
+   "options": "Employee"
+  },
+  {
+   "depends_on": "eval:doc.id3",
+   "fetch_from": "id3.employee_name",
+   "fieldname": "name3",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "date3",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "signature3",
+   "fieldtype": "Attach",
+   "label": "Signature"
+  },
+  {
+   "depends_on": "eval:doc.signature3",
+   "fieldname": "image3",
+   "fieldtype": "Image",
+   "options": "signature3"
+  },
+  {
+   "fieldname": "section_break_12",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "id2",
+   "fieldtype": "Link",
+   "label": "ID",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "won_no",
+   "fieldtype": "Link",
+   "label": "Won No",
+   "options": "Project"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-11-28 15:24:05.033573",
+ "modified_by": "Administrator",
+ "module": "Qa Qc",
+ "name": "Release Note",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

@@ -1,0 +1,47 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-01-01 16:39:28.554716",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "completed_by",
+  "mgcsb_contsruction",
+  "mgcsb_qa_qc",
+  "bsp_qcs_civil"
+ ],
+ "fields": [
+  {
+   "fieldname": "completed_by",
+   "fieldtype": "Data",
+   "label": "Completed By"
+  },
+  {
+   "fieldname": "mgcsb_contsruction",
+   "fieldtype": "Data",
+   "label": "MGCSB Contsruction"
+  },
+  {
+   "fieldname": "mgcsb_qa_qc",
+   "fieldtype": "Data",
+   "label": "MGCSB QA/QC"
+  },
+  {
+   "fieldname": "bsp_qcs_civil",
+   "fieldtype": "Data",
+   "label": "BSP-QCS Civil"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-01-01 16:39:43.766109",
+ "modified_by": "Administrator",
+ "module": "Qa Qc",
+ "name": "Structural Roofing Child table",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

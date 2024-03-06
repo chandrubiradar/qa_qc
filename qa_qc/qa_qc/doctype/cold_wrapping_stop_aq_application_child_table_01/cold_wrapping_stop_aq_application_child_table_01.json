@@ -1,0 +1,71 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-12-26 20:22:39.731515",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "drawing_no",
+  "joint_no",
+  "surface_preparation_st2st3acc_rej",
+  "over_lapping_inner_wrapping_accrej",
+  "over_lapping_outer_wrapping_acc__rej",
+  "holiday_test_result_acc__rej",
+  "visual_inspectacc__rej",
+  "remarks"
+ ],
+ "fields": [
+  {
+   "fieldname": "drawing_no",
+   "fieldtype": "Data",
+   "label": "Drawing No"
+  },
+  {
+   "fieldname": "joint_no",
+   "fieldtype": "Data",
+   "label": "Joint No"
+  },
+  {
+   "fieldname": "surface_preparation_st2st3acc_rej",
+   "fieldtype": "Data",
+   "label": "Surface preparation (ST2/ST3)Acc /Rej"
+  },
+  {
+   "fieldname": "over_lapping_inner_wrapping_accrej",
+   "fieldtype": "Data",
+   "label": "Over lapping (inner wrapping Acc/Rej)"
+  },
+  {
+   "fieldname": "over_lapping_outer_wrapping_acc__rej",
+   "fieldtype": "Data",
+   "label": "Over lapping (Outer wrapping Acc / Rej"
+  },
+  {
+   "fieldname": "holiday_test_result_acc__rej",
+   "fieldtype": "Data",
+   "label": "Holiday Test Result Acc / Rej"
+  },
+  {
+   "fieldname": "visual_inspectacc__rej",
+   "fieldtype": "Data",
+   "label": "Visual Inspect.Acc / Rej"
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Data",
+   "label": "Remarks"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-12-26 20:22:39.731515",
+ "modified_by": "Administrator",
+ "module": "Qa Qc",
+ "name": "Cold Wrapping stop AQ Application child table 01",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

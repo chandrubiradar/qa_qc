@@ -1,0 +1,43 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "FMR-.####",
+ "creation": "2023-12-05 16:04:11.157458",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "flange_management_register"
+ ],
+ "fields": [
+  {
+   "fieldname": "flange_management_register",
+   "fieldtype": "Table",
+   "label": "Flange Management Register",
+   "options": "Flange Management Table"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-12-05 16:06:21.582926",
+ "modified_by": "Administrator",
+ "module": "Qa Qc",
+ "name": "Flange Management Register",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

@@ -1,0 +1,77 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-12-29 18:09:26.734522",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "description_of_material",
+  "quantity",
+  "lpo_ref_no",
+  "delivery_note_no",
+  "manufacturer_vendor",
+  "material_certificate_no__heat_no",
+  "material_acceptable",
+  "check_list_no",
+  "remarks"
+ ],
+ "fields": [
+  {
+   "fieldname": "description_of_material",
+   "fieldtype": "Data",
+   "label": "Description of Material"
+  },
+  {
+   "fieldname": "quantity",
+   "fieldtype": "Data",
+   "label": "Quantity"
+  },
+  {
+   "fieldname": "lpo_ref_no",
+   "fieldtype": "Data",
+   "label": "LPO Ref No."
+  },
+  {
+   "fieldname": "delivery_note_no",
+   "fieldtype": "Data",
+   "label": "Delivery Note No"
+  },
+  {
+   "fieldname": "manufacturer_vendor",
+   "fieldtype": "Data",
+   "label": "Manufacturer/ Vendor"
+  },
+  {
+   "fieldname": "material_certificate_no__heat_no",
+   "fieldtype": "Data",
+   "label": "Material Certificate No. / Heat No."
+  },
+  {
+   "fieldname": "material_acceptable",
+   "fieldtype": "Data",
+   "label": "Material Acceptable? Yes/ No"
+  },
+  {
+   "fieldname": "check_list_no",
+   "fieldtype": "Data",
+   "label": "Material Inspection Check list No."
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Small Text",
+   "label": "Remarks"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-12-29 18:09:26.734522",
+ "modified_by": "Administrator",
+ "module": "Qa Qc",
+ "name": "MIR Table",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}
